@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: b473fb965b2310c43983d1ac1d453a0d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4187893808519292379
+    second: luke_0
+  - first:
+      213: -2725937531940855447
+    second: luke_dying1
+  - first:
+      213: -817626458859290361
+    second: luke_dying2
+  - first:
+      213: 8441264544947802691
+    second: luke_dying3
+  - first:
+      213: -1824365987913541272
+    second: luke_dying4
+  - first:
+      213: -8774970160634895635
+    second: luke_dying5
+  - first:
+      213: -4716145504323835685
+    second: luke_dying6
+  - first:
+      213: 3317096002197224981
+    second: luke_dying7
+  - first:
+      213: -3903301427311829920
+    second: luke_run2
+  - first:
+      213: 3819579551393824132
+    second: luke_9
+  - first:
+      213: -1255266230351561188
+    second: luke_10
+  - first:
+      213: -6007622741167788147
+    second: luke_11
+  - first:
+      213: -4593299683837255812
+    second: luke_12
+  - first:
+      213: 1514300231857838357
+    second: luke_13
+  - first:
+      213: -2352074623308027859
+    second: luke_14
+  - first:
+      213: -6508420965716750143
+    second: luke_15
+  - first:
+      213: -675572053899707372
+    second: luke_16
+  - first:
+      213: 1752283873539352073
+    second: luke_run1
+  - first:
+      213: -1577824910691614179
+    second: luke_run3
+  - first:
+      213: -1232228810689956520
+    second: luke_run4
+  - first:
+      213: 1728446055098250514
+    second: luke_20
+  - first:
+      213: 1393348328989884086
+    second: luke_21
+  - first:
+      213: -2943690315469874490
+    second: luke_22
+  - first:
+      213: -3602209228572202876
+    second: luke_23
+  - first:
+      213: 4538637031951234071
+    second: luke_attack2
+  - first:
+      213: 425849874773755478
+    second: luke_attack3
+  - first:
+      213: 7098737914139541566
+    second: luke_attack4
+  - first:
+      213: 1009037120460220066
+    second: luke_attack5
+  - first:
+      213: -8508419460016056570
+    second: luke_28
+  - first:
+      213: -8100025308206677899
+    second: luke_29
+  - first:
+      213: 8547961304848168984
+    second: luke_30
+  - first:
+      213: -6883198153368898545
+    second: luke_attack1
+  - first:
+      213: -8907608109440717245
+    second: luke_attack6
+  - first:
+      213: -2844206920602719473
+    second: luke_jumping3
+  - first:
+      213: 5953962404379284222
+    second: luke_34
+  - first:
+      213: -3809890375485704404
+    second: luke_35
+  - first:
+      213: -3736963731200075347
+    second: luke_36
+  - first:
+      213: -5978354702768324216
+    second: luke_37
+  - first:
+      213: 3180812609353976872
+    second: luke_38
+  - first:
+      213: 1303594879523512164
+    second: luke_39
+  - first:
+      213: -2236086459326653677
+    second: luke_jumping1
+  - first:
+      213: 8760246049131136846
+    second: luke_jumping2
+  - first:
+      213: -1453423720935606474
+    second: luke_42
+  - first:
+      213: -7110555643631127290
+    second: luke_43
+  - first:
+      213: 2829332935374950700
+    second: luke_44
+  - first:
+      213: 4920303804638792050
+    second: luke_45
+  - first:
+      213: -4894644140131465277
+    second: luke_46
+  - first:
+      213: -7794626514081988952
+    second: luke_47
+  - first:
+      213: -2570358758421221138
+    second: luke_beingattacked1
+  - first:
+      213: 1406722771560305446
+    second: luke_beingattacked2
+  - first:
+      213: 1628776943979732390
+    second: luke_beingattacked3
+  - first:
+      213: 4369888344397571737
+    second: luke_stand3
+  - first:
+      213: 4488424366373497968
+    second: luke_52
+  - first:
+      213: 4499362791817823150
+    second: luke_53
+  - first:
+      213: 6695742621982752794
+    second: luke_54
+  - first:
+      213: -5731454938868700417
+    second: luke_55
+  - first:
+      213: -6608622767340212399
+    second: luke_stand1
+  - first:
+      213: 483083659714604722
+    second: luke_stand2
+  - first:
+      213: 7532967177911994710
+    second: luke_stand4
+  - first:
+      213: -1040150199250382545
+    second: luke_59
+  - first:
+      213: -2341398943288517323
+    second: luke_jumping4
+  - first:
+      213: -5014657091649470895
+    second: luke_jumping5
+  - first:
+      213: 5827458084454884112
+    second: luke_jumping6
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: luke_dying1
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 335
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961a2c0e1468b2ad0800000000000000
+      internalID: -2725937531940855447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_dying2
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 334
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7014bb0511537a4f0800000000000000
+      internalID: -817626458859290361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_dying3
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 334
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34296b04165652570800000000000000
+      internalID: 8441264544947802691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_dying4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 335
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869db16cccc8ea6e0800000000000000
+      internalID: -1824365987913541272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_dying5
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 335
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de264b4712b093680800000000000000
+      internalID: -8774970160634895635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_dying6
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 338
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8e8b9a6a2ec8eb0800000000000000
+      internalID: -4716145504323835685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_dying7
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 338
+        width: 46
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e75d04d31b80e20800000000000000
+      internalID: 3317096002197224981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_run2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 247
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c9dcd4800b4d9c0800000000000000
+      internalID: -3903301427311829920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_run1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 247
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90665f326ec515810800000000000000
+      internalID: 1752283873539352073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_run3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 248
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12c6787a907a1ae0800000000000000
+      internalID: -1577824910691614179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_run4
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 247
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855b2d0ec6e36eee0800000000000000
+      internalID: -1232228810689956520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_attack1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 152
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0472dd8fb7f970a0800000000000000
+      internalID: -6883198153368898545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_jumping1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 104
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b16c86633d7f0e0800000000000000
+      internalID: -2236086459326653677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_jumping2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 105
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e470b7f2e55a29970800000000000000
+      internalID: 8760246049131136846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_beingattacked1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 56
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee03dfad350445cd0800000000000000
+      internalID: -2570358758421221138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_beingattacked2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 56
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6231e4858eea58310800000000000000
+      internalID: 1406722771560305446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_beingattacked3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 55
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad124c30049a9610800000000000000
+      internalID: 1628776943979732390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_stand1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 11
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fa02a6b947944a0800000000000000
+      internalID: -6608622767340212399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_stand2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 11
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bea51e670244b600800000000000000
+      internalID: 483083659714604722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_stand4
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 11
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6590f18acb97a8860800000000000000
+      internalID: 7532967177911994710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_attack2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 153
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714f2e5755a7cfe30800000000000000
+      internalID: 4538637031951234071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_attack3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 153
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656c881743ce8e500800000000000000
+      internalID: 425849874773755478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_attack4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 153
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3082eda588c38260800000000000000
+      internalID: 7098737914139541566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_attack5
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 153
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6e63a3ae1d00e00800000000000000
+      internalID: 1009037120460220066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_attack6
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 153
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ea5667e91d16480800000000000000
+      internalID: -8907608109440717245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_jumping3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 105
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b64cdffd85788d0800000000000000
+      internalID: -2844206920602719473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_jumping4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 105
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d10dbf01ea18fd0800000000000000
+      internalID: -2341398943288517323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_jumping5
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 105
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ef6d5a1fb586ab0800000000000000
+      internalID: -5014657091649470895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_jumping6
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 105
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013696ba04a4fd050800000000000000
+      internalID: 5827458084454884112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_stand3
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 11
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996efebeb46f4ac30800000000000000
+      internalID: 4369888344397571737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: de7f863b86b6b294ca2e1aeeab5f60ed
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
