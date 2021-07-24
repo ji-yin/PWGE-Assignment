@@ -3,18 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Collectable
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Back
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Player
+  - Obstacle
+  - Enemies
   - 
   - 
   - 
@@ -40,4 +42,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Back
+    uniqueID: 3100254317
+    locked: 0
+  - name: Middle
+    uniqueID: 1234638749
+    locked: 0
+  - name: Entity
+    uniqueID: 2986221731
+    locked: 0
+  - name: Fore
+    uniqueID: 2602748659
+    locked: 0
+  - name: Ground
+    uniqueID: 1604055891
     locked: 0
