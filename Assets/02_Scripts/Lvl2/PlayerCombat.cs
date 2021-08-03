@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerCombat : MonoBehaviour
 {
@@ -14,6 +16,17 @@ public class PlayerCombat : MonoBehaviour
 
     public float attackRate = 2f;
     float nextAttackTime = 0f;
+
+    public int maxHealth = 100;
+    int currentHealth;
+    [SerializeField] private Text healthAmount;
+
+    void Start()
+    {
+        currentHealth = maxHealth;
+        healthAmount.text = currentHealth.ToString();
+
+    }
 
     void Update()
     {
@@ -37,7 +50,7 @@ public class PlayerCombat : MonoBehaviour
 
             foreach(Collider2D enemy in hitEnemies)
             {
-                enemy.GetComponent<BigBoss>().TakeDamage(attackDamage);
+                enemy.GetComponentInParent<BigBoss>().TakeDamage(attackDamage);
             }
         }
     }
@@ -48,5 +61,25 @@ public class PlayerCombat : MonoBehaviour
             return;
         }
         Gizmos.DrawWireSphere(AttackPoint.position, attackRange);
+    }
+
+    public void DamagePlayer(int damage)
+    {
+        currentHealth -= damage;
+        animator.SetInteger("state", 4);
+        if (currentHealth <= 0)
+        {
+            PlayerDie();
+        }
+    }
+
+    void PlayerDie()
+    {
+        Debug.Log("Player Died");
+        animator.SetBool("isDead",true);
+
+        GetComponent<Collider2D>().enabled = false;
+        GetComponent<PlayerControllerDemo>().enabled = false;
+        this.enabled = false;
     }
 }

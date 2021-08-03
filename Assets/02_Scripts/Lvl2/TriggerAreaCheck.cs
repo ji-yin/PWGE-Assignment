@@ -4,22 +4,21 @@ using UnityEngine;
 
 public class TriggerAreaCheck : MonoBehaviour
 {
-    private Enemy_Behaviour enemyParent;
+    private Enemy_behaviour enemyParent;
 
     private void Awake()
     {
-        enemyParent = GetComponentInParent<Enemy_Behaviour>(); 
+        enemyParent = GetComponentInParent<Enemy_behaviour>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collider)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collider.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             gameObject.SetActive(false);
-            enemyParent.target = collider.transform;
+            enemyParent.target = collision.transform;
             enemyParent.inRange = true;
             enemyParent.hotZone.SetActive(true);
         }
     }
-
 }

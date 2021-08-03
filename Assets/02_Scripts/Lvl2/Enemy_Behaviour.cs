@@ -1,8 +1,8 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy_Behaviour : MonoBehaviour
+public class Enemy_behaviour : MonoBehaviour
 {
     #region Public Variables
     public float attackDistance; //Minimum distance for attack
@@ -14,6 +14,13 @@ public class Enemy_Behaviour : MonoBehaviour
     [HideInInspector] public bool inRange; //Check if Player is in range
     public GameObject hotZone;
     public GameObject triggerArea;
+    public GameObject hitBox;
+    public int damage = 1;
+    public float attackRange = 0.5f;
+    public Transform hitBoxTransform;
+    public LayerMask playerLayers;
+    public int maxHealth = 100;
+    int currentHealth;
     #endregion
 
     #region Private Variables
@@ -24,13 +31,19 @@ public class Enemy_Behaviour : MonoBehaviour
     private float intTimer;
     #endregion
 
-    private void Awake()
+    void Start()
+    {
+        currentHealth = maxHealth;
+
+    }
+
+    void Awake()
     {
         SelectTarget();
-        intTimer = timer; //Store the initial value of timer
+        intTimer = timer; //Store the inital value of timer
         anim = GetComponent<Animator>();
     }
- 
+
     void Update()
     {
         if (!attackMode)
@@ -38,29 +51,26 @@ public class Enemy_Behaviour : MonoBehaviour
             Move();
         }
 
-        if (!InsideOfLimits() && !inRange && !anim.GetCurrentAnimatorStateInfo(0).IsName("BigBoss_Attack"))
+        if (!InsideOfLimits() && !inRange && !anim.GetCurrentAnimatorStateInfo(0).IsName("Enemy_attack"))
         {
             SelectTarget();
         }
 
-        if(!inRange)
+        if (inRange)
         {
             EnemyLogic();
         }
- 
     }
-
 
     void EnemyLogic()
     {
         distance = Vector2.Distance(transform.position, target.position);
-         
-        if(distance > attackDistance)
+
+        if (distance > attackDistance)
         {
-            Move();
             StopAttack();
         }
-        else if(attackDistance>=distance && cooling == false)
+        else if (attackDistance >= distance && cooling == false)
         {
             Attack();
         }
@@ -72,35 +82,45 @@ public class Enemy_Behaviour : MonoBehaviour
         }
     }
 
-    private void Move()
+    void Move()
     {
         anim.SetBool("canWalk", true);
 
-        if (!anim.GetCurrentAnimatorStateInfo(0).IsName("BigBoss_Attack"))
+        if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Enemy_attack"))
         {
+            Vector2 targetPosition = new Vector2(target.position.x, transform.position.y);
 
-            Vector3 targetPosition = new Vector3(target.position.x, transform.position.y, 0.0f);
-
-            transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
-            Debug.Log(targetPosition);
+            transform.position = Vector2.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
         }
- 
     }
 
     void Attack()
     {
+        hitBox.SetActive(true);
+        hitBoxTransform = hitBox.transform;
         timer = intTimer; //Reset Timer when Player enter Attack Range
         attackMode = true; //To check if Enemy can still attack or not
 
         anim.SetBool("canWalk", false);
         anim.SetBool("Attack", true);
+
+        //Detect player in range of attack
+        Collider2D[] hitPlayer = Physics2D.OverlapCircleAll(hitBoxTransform.position, attackRange, playerLayers);
+
+        foreach (Collider2D player in hitPlayer)
+        {
+            player.GetComponent<PlayerControllerDemo>().DamagePlayer(damage);
+        }
+
+        hitBox.SetActive(false);
+
     }
 
     void Cooldown()
     {
-        timer = Time.deltaTime;
+        timer -= Time.deltaTime;
 
-        if(timer <=0 && cooling && attackMode)
+        if (timer <= 0 && cooling && attackMode)
         {
             cooling = false;
             timer = intTimer;
@@ -114,7 +134,6 @@ public class Enemy_Behaviour : MonoBehaviour
         anim.SetBool("Attack", false);
     }
 
-
     public void TriggerCooling()
     {
         cooling = true;
@@ -127,18 +146,20 @@ public class Enemy_Behaviour : MonoBehaviour
 
     public void SelectTarget()
     {
-        float distanceToLeft = Vector2.Distance(transform.position, leftLimit.position);
-        float distanceToRight = Vector2.Distance(transform.position, rightLimit.position);
-        
-        if(distanceToLeft > distanceToRight)
+        float distanceToLeft = Vector3.Distance(transform.position, leftLimit.position);
+        float distanceToRight = Vector3.Distance(transform.position, rightLimit.position);
+
+        if (distanceToLeft > distanceToRight)
         {
             target = leftLimit;
         }
-
         else
         {
             target = rightLimit;
         }
+
+        //Ternary Operator
+        //target = distanceToLeft > distanceToRight ? leftLimit : rightLimit;
 
         Flip();
     }
@@ -146,16 +167,40 @@ public class Enemy_Behaviour : MonoBehaviour
     public void Flip()
     {
         Vector3 rotation = transform.eulerAngles;
-        if(transform.position.x > target.position.x)
+        if (transform.position.x > target.position.x) 
         {
-            rotation.y = 180f;
+            rotation.y = 180;
         }
         else
         {
-            rotation.y = 0f;
+            rotation.y = 0;
         }
+
+        //Ternary Operator
+        //rotation.y = (currentTarget.position.x < transform.position.x) ? rotation.y = 180f : rotation.y = 0f;
 
         transform.eulerAngles = rotation;
     }
 
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        anim.SetTrigger("Hurt");
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        Debug.Log("Enemy Died");
+        anim.SetBool("isDead", true);
+
+        GetComponentInChildren<Collider2D>().enabled = false;
+        GetComponent<Enemy_behaviour>().enabled = false;
+        GetComponentInChildren<HotZoneCheck>().enabled = false;
+        this.enabled = false;
+    }
 }

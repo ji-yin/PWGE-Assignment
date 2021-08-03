@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Collectable
+  - PowerUp
   layers:
   - Default
   - TransparentFX
@@ -47,14 +48,17 @@ TagManager:
     uniqueID: 3100254317
     locked: 0
   - name: Middle
-    uniqueID: 1234638749
+    uniqueID: 2602748659
     locked: 0
   - name: Entity
-    uniqueID: 2986221731
+    uniqueID: 1234638749
     locked: 0
   - name: Fore
-    uniqueID: 2602748659
+    uniqueID: 2986221731
     locked: 0
   - name: Ground
     uniqueID: 1604055891
+    locked: 0
+  - name: Camera
+    uniqueID: 2559923801
     locked: 0

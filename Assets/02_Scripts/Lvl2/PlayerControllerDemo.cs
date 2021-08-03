@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayerControllerDemo : MonoBehaviour
 {
@@ -11,39 +13,88 @@ public class PlayerControllerDemo : MonoBehaviour
     private Collider2D coll;
 
     //FSM
-    private enum State {idle, running, jumping, falling, hurt}
+    private enum State {idle, running, jumping, falling, hurt, death, attack, climb}
     private State state = State.idle;
-    
+
+    //Ladder variables
+    [HideInInspector] public bool canClimb = false;
+    [HideInInspector] public bool bottomLadder = false;
+    [HideInInspector] public bool topLadder = false;
+    public Ladder ladder;
+    private float naturalGravity;
+    [SerializeField] float climbSpeed = 3f;
 
     //Inspector varibles
     [SerializeField] private LayerMask ground;
     [SerializeField] private float speed = 0.5f;
     [SerializeField] private float jumpForce = 20f;
     [SerializeField] private int gems = 0;
-    [SerializeField] private Text gemText;
+    [SerializeField] private TextMeshProUGUI gemText;
     [SerializeField] private float hurtForce = 5f;
     [SerializeField] private AudioSource gem;
     [SerializeField] private AudioSource footstep;
     [SerializeField] private AudioSource hurt;
+    [SerializeField] private Animator animator;
+    [SerializeField] private Transform AttackPoint;
+    [SerializeField] private LayerMask enemyLayers;
+    [SerializeField] private float attackRange = 0.5f;
+    [SerializeField] private int attackDamage = 40;
+    [SerializeField] private float attackRate = 2f;
+    [SerializeField] private int maxHealth = 100;
+    [SerializeField] private Text healthAmount;
+    int currentHealth;
+    private float nextAttackTime = 0f;
 
 
     // Start is called before the first frame update
     private void Start()
-    {
+    { 
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         coll = GetComponent<Collider2D>();
+        currentHealth = maxHealth;
+        healthAmount.text = currentHealth.ToString();
+        naturalGravity = rb.gravityScale;
     }
 
     // Update is called once per frame
     private void Update()
     {
-        if(state != State.hurt)
+        if (state == State.climb)
+        {
+            Climb();
+        }
+
+        else if (state != State.hurt)
         {
             Movement();
         }
         AnimationState();
         anim.SetInteger("state", (int)state);//sets animation based on Enumerator state
+
+        if (Time.time >= nextAttackTime)
+        {
+            if (Input.GetKeyDown(KeyCode.H))
+            {
+                Attack();
+                nextAttackTime = Time.time + 1f / attackRate;
+            }
+
+
+        }
+
+        void Attack()
+        {
+            animator.SetTrigger("Attack");
+
+            //Detect enemies in range of attack
+            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackPoint.position, attackRange, enemyLayers);
+
+            foreach (Collider2D enemy in hitEnemies)
+            {
+                enemy.GetComponentInParent<Enemy_behaviour>().TakeDamage(attackDamage);
+            }
+        }
 
     }
 
@@ -55,6 +106,14 @@ public class PlayerControllerDemo : MonoBehaviour
             Destroy(collision.gameObject);
             gems += 1;
             gemText.text = gems.ToString();
+        }
+
+        if(collision.tag == "PowerUp")
+        {
+            Destroy(collision.gameObject);
+            jumpForce = 80f;
+            GetComponent<SpriteRenderer>().color = Color.yellow;
+            StartCoroutine(ResetPower());
         }
     }
 
@@ -73,7 +132,9 @@ public class PlayerControllerDemo : MonoBehaviour
             {
                 hurt.Play();
                 state = State.hurt;
-                if(other.gameObject.transform.position.x > transform.position.x)
+                HandleHealth();//Deals with health, updating ui, will reset level if health is <=0
+
+                if (other.gameObject.transform.position.x > transform.position.x)
                 {
                     //Enemy is to my right therefore i should damaged and move left
                     rb.velocity = new Vector2(-hurtForce, rb.velocity.y);
@@ -85,12 +146,31 @@ public class PlayerControllerDemo : MonoBehaviour
                 }
 
             }
-            
+
         }
     }
+
+    private void HandleHealth()
+    {
+        currentHealth -= 1;
+        healthAmount.text = currentHealth.ToString();
+        if (currentHealth <= 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+    }
+
     private void Movement()
     {
         float hDirection = Input.GetAxis("Horizontal");
+
+        if(canClimb && Mathf.Abs(Input.GetAxis("Vertical")) > .1f)
+        {
+            state = State.climb;
+            rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezeRotation;
+            transform.position = new Vector3(ladder.transform.position.x, rb.position.y);
+            rb.gravityScale = 0f;
+        }
         //Moving left
         if (hDirection < 0)
         {
@@ -106,7 +186,7 @@ public class PlayerControllerDemo : MonoBehaviour
 
         }
         //Jumping
-        if (Input.GetButtonDown("Jump") && coll.IsTouchingLayers(ground))
+        if (Input.GetKeyDown(KeyCode.Space) && coll.IsTouchingLayers(ground))
         {
             Jump();
         }
@@ -119,7 +199,12 @@ public class PlayerControllerDemo : MonoBehaviour
     }
     private void AnimationState()
     {
-        if(state == State.jumping)
+        if(state == State.climb)
+        {
+
+        }
+
+        else if(state == State.jumping)
         {
             if(rb.velocity.y < 0.1f)
             {
@@ -160,5 +245,74 @@ public class PlayerControllerDemo : MonoBehaviour
     private void FootStep()
     {
         footstep.Play();
+    }
+
+    private IEnumerator ResetPower()
+    {
+        yield return new WaitForSeconds(5);
+        jumpForce = 60;
+        GetComponent<SpriteRenderer>().color = Color.white;
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        while (AttackPoint == null)
+        {
+            return;
+        }
+        Gizmos.DrawWireSphere(AttackPoint.position, attackRange);
+    }
+
+    public void DamagePlayer(int damage)
+    {
+        currentHealth -= damage;
+        healthAmount.text = currentHealth.ToString();
+        animator.SetInteger("state", 4);
+        if (currentHealth <= 0)
+        {
+            PlayerDie();
+        }
+    }
+
+    void PlayerDie()
+    {
+        Debug.Log("Player Died");
+        animator.SetBool("isDead", true);
+
+        GetComponent<Collider2D>().enabled = false;
+        this.enabled = false;
+    }
+
+    private void Climb()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+            canClimb = false;
+            rb.gravityScale = naturalGravity;
+            anim.speed = 1f;
+            Jump();
+            return;
+        }
+
+        float vDirection = Input.GetAxis("Vertical");
+        //Climbing up
+        if (vDirection> .1f && !topLadder)
+        {
+            rb.velocity = new Vector2(0f, vDirection * climbSpeed);
+            anim.speed = 1f;
+        }
+        //Climbing down
+        else if (vDirection < -.1f && !bottomLadder)
+        {
+            rb.velocity = new Vector2(0f, vDirection * climbSpeed);
+            anim.speed = 1f;
+        }
+        //Still
+        else
+        {
+            anim.speed = 0f;
+            rb.velocity = Vector2.zero;
+        }
     }
 }

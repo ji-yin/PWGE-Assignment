@@ -4,34 +4,34 @@ using UnityEngine;
 
 public class HotZoneCheck : MonoBehaviour
 {
-    private Enemy_Behaviour enemyParent;
+    private Enemy_behaviour enemyParent;
     private bool inRange;
     private Animator anim;
 
     private void Awake()
     {
-        enemyParent = GetComponentInParent<Enemy_Behaviour>();
+        enemyParent = GetComponentInParent<Enemy_behaviour>();
         anim = GetComponentInParent<Animator>();
     }
 
     private void Update()
     {
-        if(inRange && !anim.GetCurrentAnimatorStateInfo(0).IsName("BigBoss_Attack"))
+        if(inRange && !anim.GetCurrentAnimatorStateInfo(0).IsName("Enemy_attack"))
         {
             enemyParent.Flip();
         }
     }
-    private void OnTriggerEnter2D(Collider2D collider)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-       if (collider.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             inRange = true;
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collider)
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collider.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             inRange = false;
             gameObject.SetActive(false);
@@ -40,5 +40,4 @@ public class HotZoneCheck : MonoBehaviour
             enemyParent.SelectTarget();
         }
     }
-
 }
