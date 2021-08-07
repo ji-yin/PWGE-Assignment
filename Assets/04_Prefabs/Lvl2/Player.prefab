@@ -50,6 +50,7 @@ GameObject:
   - component: {fileID: 1081253301}
   - component: {fileID: 1081253302}
   - component: {fileID: 1081253303}
+  - component: {fileID: 451002478}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -141,7 +142,7 @@ Rigidbody2D:
   m_GravityScale: 10
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!61 &3482310665349924645
@@ -157,7 +158,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.2839594, y: -0.4150176}
+  m_Offset: {x: -0.3166523, y: -0.386603}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -168,7 +169,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.72354317, y: 1.9199648}
+  m_Size: {x: 0.77685165, y: 2.0910537}
   m_EdgeRadius: 0
 --- !u!114 &3482310665349924646
 MonoBehaviour:
@@ -330,7 +331,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3482310665349924641}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 6200000, guid: a6b0788ee906e1d4fac31a9e059420a8, type: 2}
   m_IsTrigger: 0
@@ -348,14 +349,22 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.6875, y: 0.875}
-      - {x: -0.9375, y: 0.5}
-      - {x: -1, y: -0.125}
-      - {x: -1, y: -1}
-      - {x: -0.8125, y: -1.375}
-      - {x: 0.375, y: -1.375}
-      - {x: 0.375, y: 0.6875}
-      - {x: 0, y: 0.875}
+    - - {x: -0.37547302, y: 0.73744345}
+      - {x: -0.6424141, y: 0.5796752}
+      - {x: -0.48130035, y: -0.13921762}
+      - {x: -0.751915, y: -0.39504743}
+      - {x: -0.7601929, y: -0.42291713}
+      - {x: -1.2619705, y: -0.13714433}
+      - {x: -0.5310631, y: -0.5256884}
+      - {x: -0.83794785, y: -0.8582034}
+      - {x: -0.97387314, y: -1.06467}
+      - {x: -0.6598091, y: -1.1699262}
+      - {x: -0.5734825, y: -0.7070513}
+      - {x: 0.17502594, y: -1.3377603}
+      - {x: 0.8039894, y: -0.09016347}
+      - {x: 0.16915894, y: 0.41440916}
+      - {x: 0.1235733, y: 0.49400043}
+      - {x: -0.19861221, y: 0.8403528}
 --- !u!82 &1081253300
 AudioSource:
   m_ObjectHideFlags: 0
@@ -666,3 +675,19 @@ MonoBehaviour:
   attackRate: 2
   maxHealth: 100
   healthAmount: {fileID: 0}
+--- !u!58 &451002478
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3482310665349924641}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.34572914, y: -0.90461653}
+  serializedVersion: 2
+  m_Radius: 0.44262

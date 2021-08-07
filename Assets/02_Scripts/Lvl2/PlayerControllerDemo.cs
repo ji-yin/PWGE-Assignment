@@ -155,7 +155,7 @@ public class PlayerControllerDemo : MonoBehaviour
         currentHealth -= 1;
         healthAmount.text = currentHealth.ToString();
         if (currentHealth <= 0)
-        {
+        { 
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
@@ -279,8 +279,8 @@ public class PlayerControllerDemo : MonoBehaviour
         Debug.Log("Player Died");
         animator.SetBool("isDead", true);
 
-        GetComponent<Collider2D>().enabled = false;
-        this.enabled = false;
+        //GetComponent<Collider2D>().enabled = false;
+        Destroy(this);
     }
 
     private void Climb()

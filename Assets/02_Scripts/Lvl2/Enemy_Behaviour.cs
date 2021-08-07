@@ -109,7 +109,11 @@ public class Enemy_behaviour : MonoBehaviour
 
         foreach (Collider2D player in hitPlayer)
         {
-            player.GetComponent<PlayerControllerDemo>().DamagePlayer(damage);
+            if (!player.GetComponent<Animator>().GetBool("isDead"))
+            {
+                player.GetComponent<PlayerControllerDemo>().DamagePlayer(damage);
+            }
+            
         }
 
         hitBox.SetActive(false);
