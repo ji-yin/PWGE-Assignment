@@ -2,10 +2,10 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Lvl2/PauseMenu.cs">
     <Files>
       <File FileName="Assets/Scripts/Lvl2/DayAndNightCycle.cs" Line="4" Column="1" />
-      <File FileName="Assets/Scripts/Lvl2/SettingsMenu.cs" Line="15" Column="1" />
-      <File FileName="Assets/Scripts/Lvl2/WeatherManager.cs" Line="88" Column="27" />
-      <File FileName="Assets/Scripts/Lvl2/MainMenu.cs" Line="15" Column="28" />
-      <File FileName="Assets/Scripts/Lvl2/PauseMenu.cs" Line="7" Column="25" />
+      <File FileName="Assets/Scripts/Lvl2/SettingsMenu.cs" Line="7" Column="5" />
+      <File FileName="Assets/Scripts/Lvl2/WeatherManager.cs" Line="26" Column="39" />
+      <File FileName="Assets/Scripts/Lvl2/MainMenu.cs" Line="16" Column="28" />
+      <File FileName="Assets/Scripts/Lvl2/PauseMenu.cs" Line="13" Column="45" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
