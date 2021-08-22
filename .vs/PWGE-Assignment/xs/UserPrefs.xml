@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{8427AD66-5140-1149-7C2F-48A1BBA2DF3F}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Lvl2/PauseMenu.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Lvl2/DayAndNightCycle.cs" Line="4" Column="1" />
+      <File FileName="Assets/Scripts/Lvl2/SettingsMenu.cs" Line="15" Column="1" />
+      <File FileName="Assets/Scripts/Lvl2/WeatherManager.cs" Line="88" Column="27" />
+      <File FileName="Assets/Scripts/Lvl2/MainMenu.cs" Line="15" Column="28" />
+      <File FileName="Assets/Scripts/Lvl2/PauseMenu.cs" Line="7" Column="25" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PWGE-Assignment" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Lvl2" expanded="True">
+                  <Node name="PauseMenu.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AstarPathfindingProjectEditor PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="56b48931-3849-459b-ae4b-eb73ac9e2198" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

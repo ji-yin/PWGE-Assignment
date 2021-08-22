@@ -8,6 +8,9 @@ TagManager:
   - HitBox
   - OutOfTheWorld
   - Coin
+  - Boss
+  - PowerUp
+  - Collectable
   layers:
   - Default
   - TransparentFX
@@ -19,9 +22,9 @@ TagManager:
   - Player
   - Enemy
   - Coin
-  - 
-  - 
-  - 
+  - Ground
+  - Obstacle
+  - Enemies
   - 
   - 
   - 
@@ -44,4 +47,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Back
+    uniqueID: 4146325663
+    locked: 0
+  - name: Middle
+    uniqueID: 1413274857
+    locked: 0
+  - name: Entity
+    uniqueID: 1507826013
+    locked: 0
+  - name: Fore
+    uniqueID: 30875137
+    locked: 0
+  - name: Ground
+    uniqueID: 1131163341
+    locked: 0
+  - name: Camera
+    uniqueID: 124818411
     locked: 0
