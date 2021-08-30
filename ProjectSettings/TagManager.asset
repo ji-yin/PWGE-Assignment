@@ -11,6 +11,10 @@ TagManager:
   - Boss
   - PowerUp
   - Collectable
+  - GruzMother
+  - CaveProps
+  - FalseKnight
+  - CaveGround
   layers:
   - Default
   - TransparentFX
@@ -25,8 +29,8 @@ TagManager:
   - Ground
   - Obstacle
   - Enemies
-  - 
-  - 
+  - CaveProps
+  - GruzMother
   - 
   - 
   - 
@@ -51,8 +55,17 @@ TagManager:
   - name: Back
     uniqueID: 4146325663
     locked: 0
+  - name: Cave_Back
+    uniqueID: 3128209999
+    locked: 0
+  - name: Level_Back
+    uniqueID: 2206638381
+    locked: 0
   - name: Middle
     uniqueID: 1413274857
+    locked: 0
+  - name: Cave_Middle
+    uniqueID: 1804774095
     locked: 0
   - name: Entity
     uniqueID: 1507826013

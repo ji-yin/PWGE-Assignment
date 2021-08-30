@@ -6,12 +6,16 @@ using UnityEngine.SceneManagement;
 public class SceneChange : MonoBehaviour
 {
     [SerializeField] private string sceneName;
+    [SerializeField] private Key.KeyType keyType;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public Key.KeyType GetKeyType()
     {
-        if(collision.gameObject.tag == "Player")
-        {
-            SceneManager.LoadScene(sceneName);
-        }
+        return keyType;
     }
+
+    public void OpenDoor()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
 }

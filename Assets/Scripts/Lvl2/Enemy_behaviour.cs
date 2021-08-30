@@ -12,26 +12,31 @@ public class Enemy_behaviour : MonoBehaviour
     public Transform rightLimit;
     [HideInInspector] public Transform target;
     [HideInInspector] public bool inRange; //Check if Player is in range
+    [SerializeField] private int enemyDamage;
+    [SerializeField] private int playerDamage;
     public GameObject hotZone;
     public GameObject triggerArea;
     public GameObject hitBox;
-    public int damage = 1;
     public float attackRange = 0.5f;
-    public Transform hitBoxTransform;
     public LayerMask playerLayers;
     public int maxHealth = 100;
     int currentHealth;
+    public float cameraShakeIntensity = 5f;
+    public float cameraShakeTime = 0.1f;
+    public bool isHurt=false;
     #endregion
 
     #region Private Variables
-    private Animator anim;
+    protected Animator anim;
     private float distance; //Store the distance b/w enemy and player
-    private bool attackMode;
-    private bool cooling; //Check if Enemy is cooling after attack
-    private float intTimer;
+    protected bool attackMode;
+    protected bool cooling; //Check if Enemy is cooling after attack
+    protected float intTimer;
+    protected Transform hitBoxTransform;
+
     #endregion
 
-    void Start()
+    protected virtual void Start()
     {
         currentHealth = maxHealth;
 
@@ -44,7 +49,7 @@ public class Enemy_behaviour : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
-    void Update()
+    protected virtual void Update()
     {
         if (!attackMode)
         {
@@ -62,12 +67,12 @@ public class Enemy_behaviour : MonoBehaviour
         }
     }
 
-    void EnemyLogic()
+    protected virtual void EnemyLogic()
     {
         distance = Vector2.Distance(transform.position, target.position);
 
         if (distance > attackDistance)
-        {
+        { 
             StopAttack();
         }
         else if (attackDistance >= distance && cooling == false)
@@ -96,7 +101,7 @@ public class Enemy_behaviour : MonoBehaviour
 
     void Attack()
     {
-        hitBox.SetActive(true);
+        
         hitBoxTransform = hitBox.transform;
         timer = intTimer; //Reset Timer when Player enter Attack Range
         attackMode = true; //To check if Enemy can still attack or not
@@ -105,18 +110,17 @@ public class Enemy_behaviour : MonoBehaviour
         anim.SetBool("Attack", true);
 
         //Detect player in range of attack
-        Collider2D[] hitPlayer = Physics2D.OverlapCircleAll(hitBoxTransform.position, attackRange, playerLayers);
+        Collider2D[] player = Physics2D.OverlapCircleAll(hitBoxTransform.position, attackRange, playerLayers);
 
-        foreach (Collider2D player in hitPlayer)
+        foreach(Collider2D hitPlayer in player)
         {
-            if (!player.GetComponent<Animator>().GetBool("isDead"))
+            if (!hitPlayer.GetComponent<Animator>().GetBool("isDead"))
             {
-                player.GetComponent<PlayerControllerDemo>().DamagePlayer(damage);
+                hitPlayer.GetComponent<PlayerControllerDemo>().DamagePlayer(playerDamage);
             }
-            
-        }
 
-        hitBox.SetActive(false);
+        }
+        
 
     }
 
@@ -186,14 +190,20 @@ public class Enemy_behaviour : MonoBehaviour
         transform.eulerAngles = rotation;
     }
 
-    public void TakeDamage(int damage)
-    {
-        currentHealth -= damage;
-        anim.SetTrigger("Hurt");
 
+
+    public void TakeDamage()
+    {
+        currentHealth -= enemyDamage;
+        anim.SetTrigger("Hurt");
+        Debug.Log("enemy hurt");
         if (currentHealth <= 0)
         {
             Die();
+        }
+        else
+        {
+            isHurt = true;
         }
     }
 
@@ -202,9 +212,19 @@ public class Enemy_behaviour : MonoBehaviour
         Debug.Log("Enemy Died");
         anim.SetBool("isDead", true);
 
-        GetComponentInChildren<Collider2D>().enabled = false;
+        //GetComponentInChildren<Collider2D>().enabled = false;
         GetComponent<Enemy_behaviour>().enabled = false;
         GetComponentInChildren<HotZoneCheck>().enabled = false;
         this.enabled = false;
+    }
+
+    private void OnAttackStart()
+    {
+        CinemachineShake.Instance.ShakeCamera(cameraShakeIntensity, cameraShakeTime);
+    }
+
+    private void OnAttackEnd()
+    {
+        hitBox.SetActive(false);
     }
 }
