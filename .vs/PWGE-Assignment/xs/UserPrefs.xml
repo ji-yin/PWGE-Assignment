@@ -1,16 +1,27 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Main Character/PlayerControllerDemo.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Lvl2/EnemyAI.cs">
     <Files>
-      <File FileName="Assets/Scripts/Main Character/PlayerCollision.cs" Line="104" Column="29" />
-      <File FileName="Assets/Scripts/Lvl2/GravityHelper.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Lvl2/Parallaxing.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Main Character/PlayerControllerDemo.cs" Line="78" Column="14" />
-      <File FileName="Assets/Scripts/Main Character/PlayerController.cs" Line="64" Column="10" />
+      <File FileName="Assets/Scripts/Lvl2/MainMenu.cs" Line="10" Column="76" />
+      <File FileName="Assets/Scripts/Lvl2/EnemyAI.cs" Line="5" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PWGE-Assignment" expanded="True" selected="True" />
+          <Node name="PWGE-Assignment" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="Assets" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Lvl2" expanded="True">
+                    <Node name="EnemyAI.cs" selected="True" />
+                  </Node>
+                  <Node name="Main Character" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="AstarPathfindingProject" expanded="True">
+              <Node name="Assets" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

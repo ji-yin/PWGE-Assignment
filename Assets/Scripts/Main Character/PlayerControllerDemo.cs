@@ -314,6 +314,7 @@ public class PlayerControllerDemo : MonoBehaviour
 
         //GetComponent<Collider2D>().enabled = false;
         Destroy(this);
+        SceneManager.LoadScene("GameOver");
     }
 
     private void Climb()

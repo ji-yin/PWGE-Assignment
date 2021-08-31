@@ -216,6 +216,7 @@ public class Enemy_behaviour : MonoBehaviour
         GetComponent<Enemy_behaviour>().enabled = false;
         GetComponentInChildren<HotZoneCheck>().enabled = false;
         this.enabled = false;
+
     }
 
     private void OnAttackStart()
