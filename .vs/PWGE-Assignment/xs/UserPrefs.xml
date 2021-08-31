@@ -1,20 +1,28 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Lvl2/EnemyAI.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Main Character/PlayerController.cs">
     <Files>
-      <File FileName="Assets/Scripts/Lvl2/SceneChange.cs" Line="14" Column="6" />
-      <File FileName="Assets/Scripts/Lvl2/Key.cs" Line="20" Column="1" />
-      <File FileName="Assets/Scripts/Lvl2/KeyHolder.cs" Line="58" Column="32" />
-      <File FileName="Assets/Scripts/Lvl2/PlayerControllerDemo.cs" Line="292" Column="1" />
-      <File FileName="Assets/Scripts/Lvl2/PauseMenu.cs" Line="5" Column="52" />
-      <File FileName="Assets/Scripts/Lvl2/GruzMother/GruzMother.cs" Line="66" Column="6" />
-      <File FileName="Assets/Scripts/Lvl2/PlayerCombat.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Lvl2/PlayerControllerDemo.cs" Line="292" Column="1" />
-      <File FileName="Assets/Scripts/Lvl2/EnemyAI.cs" Line="57" Column="37" />
+      <File FileName="Assets/Scripts/Main Character/PlayerCollision.cs" Line="104" Column="29" />
+      <File FileName="Assets/Scripts/Lvl 4/BabyDinoAI.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Lvl2/GravityHelper.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Lvl2/Parallaxing.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Main Character/PlayerControllerDemo.cs" Line="42" Column="50" />
+      <File FileName="Assets/Scripts/Main Character/PlayerController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PWGE-Assignment" expanded="True" selected="True" />
+          <Node name="PWGE-Assignment" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="Assets" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Lvl 4" expanded="True" />
+                  <Node name="Main Character" expanded="True">
+                    <Node name="PlayerController.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

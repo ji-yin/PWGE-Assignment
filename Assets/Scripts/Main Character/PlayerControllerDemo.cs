@@ -41,8 +41,12 @@ public class PlayerControllerDemo : MonoBehaviour
     [SerializeField] private float attackRate = 2f;
     [SerializeField] private int maxHealth = 100;
     [SerializeField] private Text healthAmount;
+    public Transform groundDetection;
+    public Transform groundDetectionL;
+    public Transform groundDetectionR;
     int currentHealth;
     private float nextAttackTime = 0f;
+    private bool isGrounded;
 
 
     // Start is called before the first frame update
@@ -54,6 +58,7 @@ public class PlayerControllerDemo : MonoBehaviour
         currentHealth = maxHealth;
         healthAmount.text = currentHealth.ToString();
         naturalGravity = rb.gravityScale;
+        isGrounded = true;
     }
 
     // Update is called once per frame
@@ -74,6 +79,7 @@ public class PlayerControllerDemo : MonoBehaviour
         {
             Movement();
         }
+
         AnimationState();
         anim.SetInteger("state", (int)state);//sets animation based on Enumerator state
 
@@ -103,7 +109,21 @@ public class PlayerControllerDemo : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void FixedUpdate()
+    {
+        if (Physics2D.Linecast(transform.position, groundDetection.position, ground) ||
+            Physics2D.Linecast(transform.position, groundDetectionL.position, ground) ||
+            Physics2D.Linecast(transform.position, groundDetectionR.position, ground))
+        {
+            isGrounded = true;
+        }
+        else
+        {
+            isGrounded = false;
+        }
+    }
+
+        private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Collectable")
         {
@@ -116,7 +136,7 @@ public class PlayerControllerDemo : MonoBehaviour
         if(collision.tag == "PowerUp")
         {
             Destroy(collision.gameObject);
-            jumpForce = 90f;
+            jumpForce = 120f;
             GetComponent<SpriteRenderer>().color = Color.yellow;
             StartCoroutine(ResetPower());
         }
@@ -182,17 +202,15 @@ public class PlayerControllerDemo : MonoBehaviour
         {
             rb.velocity = new Vector2(-speed, rb.velocity.y);
             transform.localScale = new Vector2(-1, 1);
-
         }
         //Moving Right
         else if (hDirection > 0)
         {
             rb.velocity = new Vector2(speed, rb.velocity.y);
             transform.localScale = new Vector2(1, 1);
-
         }
         //Jumping
-        if (Input.GetKeyDown(KeyCode.Space) && coll.IsTouchingLayers(ground))
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             Jump();
         }
@@ -203,11 +221,12 @@ public class PlayerControllerDemo : MonoBehaviour
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         state = State.jumping;
     }
+
     private void AnimationState()
     {
         if(state == State.climb)
         {
-
+           
         }
 
         else if(state == State.jumping)
@@ -220,7 +239,7 @@ public class PlayerControllerDemo : MonoBehaviour
 
         else if(state == State.falling)
         {
-            if (coll.IsTouchingLayers(ground))
+            if (isGrounded)
             {
                 state = State.idle;
             }
@@ -234,7 +253,7 @@ public class PlayerControllerDemo : MonoBehaviour
             }
         }
 
-        else if (Mathf.Abs(rb.velocity.x) > 2f)
+        else if (Mathf.Abs(rb.velocity.x) > 2f && isGrounded)
         {
             //Moving
             state = State.running;
@@ -242,7 +261,15 @@ public class PlayerControllerDemo : MonoBehaviour
 
         else
         {
-            state = State.idle;
+            if (isGrounded)
+            {
+                state = State.idle;
+            }
+            else
+            {
+                state = State.falling;
+            }
+            
         }
 
    
@@ -293,11 +320,11 @@ public class PlayerControllerDemo : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            Jump();
             rb.constraints = RigidbodyConstraints2D.FreezeRotation;
             canClimb = false;
             rb.gravityScale = naturalGravity;
             anim.speed = 1f;
-            Jump();
             return;
         }
 
