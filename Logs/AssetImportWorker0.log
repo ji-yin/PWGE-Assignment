@@ -17,6 +17,7 @@ Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 50514
 Successfully changed project path to: /Users/weiqianho/Documents/GitHub/PWGE-Assignment
 /Users/weiqianho/Documents/GitHub/PWGE-Assignment
@@ -29,6 +30,13 @@ D:/PWGE-Assignment
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 116.72 ms, found 3 plugins.
 >>>>>>> e28bc197f159aef5914366c5605b2e0c38d51f33
+=======
+52297
+Successfully changed project path to: D:/PWGE-Assignment
+D:/PWGE-Assignment
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 75.36 ms, found 3 plugins.
+>>>>>>> parent of e28bc197 (Import menu+lvl1)
 =======
 52297
 Successfully changed project path to: D:/PWGE-Assignment
@@ -53,9 +61,14 @@ Direct3D:
     Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
     Vendor:   
 <<<<<<< HEAD
+<<<<<<< HEAD
     VRAM:     4055 MB
     Driver:   30.0.14.7111
 >>>>>>> e28bc197f159aef5914366c5605b2e0c38d51f33
+=======
+    VRAM:     4019 MB
+    Driver:   27.21.14.6231
+>>>>>>> parent of e28bc197 (Import menu+lvl1)
 =======
     VRAM:     4019 MB
     Driver:   27.21.14.6231
@@ -638,6 +651,7 @@ Total: 2.927700 ms (FindLiveObjects: 0.350300 ms CreateObjectMapping: 0.156500 m
 ========================================================================
 Received Import Request.
 <<<<<<< HEAD
+<<<<<<< HEAD
   path: Assets/Scenes/Main Menu.unity
   artifactKey: Guid(4f8b438458fa30041865000691e86423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Main Menu.unity using Guid(4f8b438458fa30041865000691e86423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8ac6dc5d80035996abbb6a1dadd032') in 0.020185 seconds
@@ -876,15 +890,21 @@ Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Material
   Import took 0.054543 seconds .
 >>>>>>> e28bc197f159aef5914366c5605b2e0c38d51f33
 =======
+=======
+>>>>>>> parent of e28bc197 (Import menu+lvl1)
   path: Assets/Animations/Lvl3
   artifactKey: Guid(c60d8c468433fda498b0a8172c39cc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Animations/Lvl3 using Guid(c60d8c468433fda498b0a8172c39cc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8558b3ad239fe092a6a2e46a904508') in 0.005326 seconds
   Import took 0.010699 seconds .
+<<<<<<< HEAD
+>>>>>>> parent of e28bc197 (Import menu+lvl1)
+=======
 >>>>>>> parent of e28bc197 (Import menu+lvl1)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Registered in 0.009152 seconds.
@@ -1060,10 +1080,20 @@ Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.947 seconds
+=======
+Registered in 0.003965 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.069 seconds
+>>>>>>> parent of e28bc197 (Import menu+lvl1)
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3491 Unused Serialized files (Serialized files now loaded: 0)
@@ -1537,11 +1567,15 @@ Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
 =======
 Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
 >>>>>>> parent of e28bc197 (Import menu+lvl1)
+=======
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+>>>>>>> parent of e28bc197 (Import menu+lvl1)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3491 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 234.0 MB.
 System memory in use after: 234.2 MB.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 4252.
 Total: 3.566900 ms (FindLiveObjects: 0.418100 ms CreateObjectMapping: 0.244800 ms MarkObjects: 2.857900 ms  DeleteObjects: 0.044800 ms)
@@ -1586,6 +1620,10 @@ Received Import Request.
 Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37446f740b9742f7c5abcbd6ab74b70a') in 0.035168 seconds
   Import took 0.044132 seconds .
 >>>>>>> e28bc197f159aef5914366c5605b2e0c38d51f33
+=======
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4141.
+Total: 3.087800 ms (FindLiveObjects: 0.341300 ms CreateObjectMapping: 0.155500 ms MarkObjects: 2.569600 ms  DeleteObjects: 0.020100 ms)
+>>>>>>> parent of e28bc197 (Import menu+lvl1)
 =======
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4141.
 Total: 3.087800 ms (FindLiveObjects: 0.341300 ms CreateObjectMapping: 0.155500 ms MarkObjects: 2.569600 ms  DeleteObjects: 0.020100 ms)
