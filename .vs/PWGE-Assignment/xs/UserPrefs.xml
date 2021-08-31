@@ -1,25 +1,23 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Lvl2/EnemyAI.cs">
+﻿<Properties StartupConfiguration="{8427AD66-5140-1149-7C2F-48A1BBA2DF3F}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Main Character/PlayerControllerDemo.cs">
     <Files>
       <File FileName="Assets/Scripts/Lvl2/MainMenu.cs" Line="10" Column="76" />
-      <File FileName="Assets/Scripts/Lvl2/EnemyAI.cs" Line="5" Column="1" />
+      <File FileName="Assets/Scripts/Lvl2/EnemyAI.cs" Line="11" Column="9" />
+      <File FileName="Assets/Scripts/Main Character/PlayerControllerDemo.cs" Line="318" Column="38" />
+      <File FileName="Assets/GameOverMenu.cs" Line="20" Column="28" />
+      <File FileName="Assets/Scripts/Lvl2/PauseMenu.cs" Line="59" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PWGE-Assignment" expanded="True">
-            <Node name="Assembly-CSharp" expanded="True">
-              <Node name="Assets" expanded="True">
-                <Node name="Scripts" expanded="True">
-                  <Node name="Lvl2" expanded="True">
-                    <Node name="EnemyAI.cs" selected="True" />
-                  </Node>
-                  <Node name="Main Character" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Lvl2" expanded="True" />
+                <Node name="Main Character" expanded="True">
+                  <Node name="PlayerControllerDemo.cs" selected="True" />
                 </Node>
               </Node>
-            </Node>
-            <Node name="AstarPathfindingProject" expanded="True">
-              <Node name="Assets" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -28,7 +26,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2a5241cd-2ed3-4074-92f0-4bfb46733972" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d0fb654a-6e0c-4dba-8c39-253195d5d40b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

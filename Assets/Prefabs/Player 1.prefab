@@ -164,9 +164,9 @@ MonoBehaviour:
     m_Bits: 8256
   speed: 10
   jumpForce: 80
-  gems: 0
   gemText: {fileID: 0}
   hurtForce: 12
+  gems: 0
   gem: {fileID: 6604735151125911292}
   footstep: {fileID: 5337925372694174809}
   hurt: {fileID: 8686829028092416613}
@@ -182,6 +182,7 @@ MonoBehaviour:
   groundDetection: {fileID: 5356491290836012525}
   groundDetectionL: {fileID: 2370473485164823175}
   groundDetectionR: {fileID: 2400413952814754321}
+  gameOverMenu: {fileID: 0}
 --- !u!95 &7829129723711758728
 Animator:
   serializedVersion: 3

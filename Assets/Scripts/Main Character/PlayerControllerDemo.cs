@@ -28,9 +28,9 @@ public class PlayerControllerDemo : MonoBehaviour
     [SerializeField] private LayerMask ground;
     [SerializeField] private float speed = 0.5f;
     [SerializeField] private float jumpForce = 20f;
-    [SerializeField] private int gems = 0;
     [SerializeField] private TextMeshProUGUI gemText;
     [SerializeField] private float hurtForce = 5f;
+    [SerializeField] int gems = 0;
     [SerializeField] private AudioSource gem;
     [SerializeField] private AudioSource footstep;
     [SerializeField] private AudioSource hurt;
@@ -44,6 +44,7 @@ public class PlayerControllerDemo : MonoBehaviour
     public Transform groundDetection;
     public Transform groundDetectionL;
     public Transform groundDetectionR;
+    public GameOverMenu gameOverMenu;
     int currentHealth;
     private float nextAttackTime = 0f;
     private bool isGrounded;
@@ -311,10 +312,13 @@ public class PlayerControllerDemo : MonoBehaviour
     {
         Debug.Log("Player Died");
         animator.SetBool("isDead", true);
-
+        Time.timeScale = 0f;
         //GetComponent<Collider2D>().enabled = false;
+        string gemsText = gems.ToString();
+        gameOverMenu.Setup(gemsText);
+        
         Destroy(this);
-        SceneManager.LoadScene("GameOver");
+        gameOverMenu.GameOver();
     }
 
     private void Climb()
