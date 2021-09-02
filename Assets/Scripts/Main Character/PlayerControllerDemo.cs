@@ -52,7 +52,8 @@ public class PlayerControllerDemo : MonoBehaviour
 
     // Start is called before the first frame update
     private void Start()
-    { 
+    {
+        Time.timeScale = 1f;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         coll = GetComponent<Collider2D>();
@@ -312,13 +313,15 @@ public class PlayerControllerDemo : MonoBehaviour
     {
         Debug.Log("Player Died");
         animator.SetBool("isDead", true);
-        Time.timeScale = 0f;
-        //GetComponent<Collider2D>().enabled = false;
+        GetComponent<Collider2D>().enabled = false;
         string gemsText = gems.ToString();
         gameOverMenu.Setup(gemsText);
-        
-        Destroy(this);
+        Time.timeScale = 0f;
         gameOverMenu.GameOver();
+        LevelManager.instance.Respawn();
+        Destroy(gameObject);
+        
+        
     }
 
     private void Climb()
