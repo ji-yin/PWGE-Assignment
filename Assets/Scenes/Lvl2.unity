@@ -6165,12 +6165,12 @@ PrefabInstance:
     - target: {fileID: 539505938597914174, guid: 94c54ae921f157d459740a2e44649df7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 77.45792
+      value: 114.72791
       objectReference: {fileID: 0}
     - target: {fileID: 539505938597914174, guid: 94c54ae921f157d459740a2e44649df7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.293929
+      value: -14.423928
       objectReference: {fileID: 0}
     - target: {fileID: 539505938597914174, guid: 94c54ae921f157d459740a2e44649df7,
         type: 3}
@@ -7075,6 +7075,16 @@ PrefabInstance:
       propertyPath: healthAmount
       value: 
       objectReference: {fileID: 1683537022}
+    - target: {fileID: 2379512942433823928, guid: aad364111379e45c8b4761809938ad91,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.329
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379512942433823928, guid: aad364111379e45c8b4761809938ad91,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 22c28920f9abb5442a566b9b6d077e18, type: 3}
     - target: {fileID: 7937790417123369920, guid: aad364111379e45c8b4761809938ad91,
         type: 3}
       propertyPath: m_RootOrder
@@ -7083,12 +7093,12 @@ PrefabInstance:
     - target: {fileID: 7937790417123369920, guid: aad364111379e45c8b4761809938ad91,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 77.23
+      value: 114.5
       objectReference: {fileID: 0}
     - target: {fileID: 7937790417123369920, guid: aad364111379e45c8b4761809938ad91,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.27
+      value: -14.4
       objectReference: {fileID: 0}
     - target: {fileID: 7937790417123369920, guid: aad364111379e45c8b4761809938ad91,
         type: 3}
@@ -7459,12 +7469,12 @@ PrefabInstance:
     - target: {fileID: 8866347226269494113, guid: 7e5dd1869f4b3244e89eb8e0d4d0af46,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 77.45792
+      value: 114.72791
       objectReference: {fileID: 0}
     - target: {fileID: 8866347226269494113, guid: 7e5dd1869f4b3244e89eb8e0d4d0af46,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.293929
+      value: -14.423928
       objectReference: {fileID: 0}
     - target: {fileID: 8866347226269494113, guid: 7e5dd1869f4b3244e89eb8e0d4d0af46,
         type: 3}
@@ -7520,6 +7530,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8874491604945409778, guid: 9735c3209344b41999ec3228738c7709,
+        type: 3}
+      propertyPath: keyType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8874491604945409779, guid: 9735c3209344b41999ec3228738c7709,
         type: 3}
       propertyPath: m_RootOrder
