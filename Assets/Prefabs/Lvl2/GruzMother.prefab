@@ -154,7 +154,7 @@ MonoBehaviour:
   attackMovementSpeed: 25
   attackMovementDirection: {x: -1, y: 5}
   attackPlayerSpeed: 20
-  player: {fileID: 0}
+  player: {fileID: 7937790417123369920, guid: aad364111379e45c8b4761809938ad91, type: 3}
   groundCheckUp: {fileID: 4760540535000559964}
   groundCheckDown: {fileID: 4760540534138034383}
   groundCheckWall: {fileID: 4760540534466315428}

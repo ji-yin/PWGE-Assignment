@@ -15,12 +15,12 @@ PrefabInstance:
     - target: {fileID: 1478785542176921988, guid: 0d00c081a9cf94e488217a1e4d99d1b0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 77.23
+      value: 114.5
       objectReference: {fileID: 0}
     - target: {fileID: 1478785542176921988, guid: 0d00c081a9cf94e488217a1e4d99d1b0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.27
+      value: -14.4
       objectReference: {fileID: 0}
     - target: {fileID: 1478785542176921988, guid: 0d00c081a9cf94e488217a1e4d99d1b0,
         type: 3}
@@ -72,29 +72,35 @@ PrefabInstance:
       propertyPath: doorText
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6604735151125911292, guid: 0d00c081a9cf94e488217a1e4d99d1b0,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.329
+      objectReference: {fileID: 0}
+    - target: {fileID: 6604735151125911292, guid: 0d00c081a9cf94e488217a1e4d99d1b0,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 22c28920f9abb5442a566b9b6d077e18, type: 3}
     - target: {fileID: 8457113015089162785, guid: 0d00c081a9cf94e488217a1e4d99d1b0,
         type: 3}
       propertyPath: ladder
       value: 
-      objectReference: {fileID: 6182509428697321715, guid: d78327a46a3534ac3b7e7b0f36ffdf9a,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8457113015089162785, guid: 0d00c081a9cf94e488217a1e4d99d1b0,
         type: 3}
       propertyPath: gemText
       value: 
-      objectReference: {fileID: 4152385728135493833, guid: da3baac9fe6a54c3887d2e8411fd92cb,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8457113015089162785, guid: 0d00c081a9cf94e488217a1e4d99d1b0,
         type: 3}
       propertyPath: gameOverMenu
       value: 
-      objectReference: {fileID: 7860188650322081722, guid: ecb0f2ee148f84b6b81680408cd3db66,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8457113015089162785, guid: 0d00c081a9cf94e488217a1e4d99d1b0,
         type: 3}
       propertyPath: healthAmount
       value: 
-      objectReference: {fileID: 500990591813733677, guid: c56b3a588a7c243e9b4794a93ae731e5,
-        type: 3}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d00c081a9cf94e488217a1e4d99d1b0, type: 3}
