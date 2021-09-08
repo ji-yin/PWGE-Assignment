@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
@@ -91,6 +92,8 @@ Global
 	EndGlobalSection
 EndGlobal
 =======
+=======
+>>>>>>> parent of cf3b1701 (import lvl2)
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
@@ -135,4 +138,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
+<<<<<<< HEAD
+>>>>>>> parent of cf3b1701 (import lvl2)
+=======
 >>>>>>> parent of cf3b1701 (import lvl2)
