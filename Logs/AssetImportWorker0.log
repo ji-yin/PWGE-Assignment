@@ -77,3 +77,243 @@ Received Import Request.
 Start importing Assets/Scripts/Lvl2/Enemy/Skeleton&FK/Enemy_behaviour.cs using Guid(f0fc27efb91d5d24ca4866d42f966097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ae2b032384d72c7deffb0a6b0e4a2b') in 0.077323 seconds
   Import took 0.090926 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 63.843307 seconds.
+  path: Assets/Prefabs/BabyDino.prefab
+  artifactKey: Guid(55041c84c891d444da9c0805efd95cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BabyDino.prefab using Guid(55041c84c891d444da9c0805efd95cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a84da608455c6723c245f18cff6a8c') in 0.088585 seconds
+  Import took 0.097650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Prefabs/Player 1.prefab
+  artifactKey: Guid(0d00c081a9cf94e488217a1e4d99d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player 1.prefab using Guid(0d00c081a9cf94e488217a1e4d99d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f33fae9dc09d43fc7f3b22c197de74') in 0.010258 seconds
+  Import took 0.020201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/Prefabs/Drake.prefab
+  artifactKey: Guid(c8874ea189abdd24cb02731583929490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Drake.prefab using Guid(c8874ea189abdd24cb02731583929490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c232f6b7b25590d7284a6be838eb332') in 0.009890 seconds
+  Import took 0.022028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Prefabs/GreenDino.prefab
+  artifactKey: Guid(7fcdc0f677ee0fd42a8fa18a51c5fdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GreenDino.prefab using Guid(7fcdc0f677ee0fd42a8fa18a51c5fdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2d1e88b11fce590e62e3150125514b') in 0.009749 seconds
+  Import took 0.023898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Prefabs/Coin.prefab
+  artifactKey: Guid(a4157a9562534fd4a9da8c0ef3ed3e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Coin.prefab using Guid(a4157a9562534fd4a9da8c0ef3ed3e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd645b8be77e866a6510e498657a021') in 0.011516 seconds
+  Import took 0.021496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(6f4aeafc07668874ba71ff6ea1bba4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(6f4aeafc07668874ba71ff6ea1bba4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f42d0aff14074c942a7c035639a260a') in 0.014042 seconds
+  Import took 0.026512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000600 seconds.
+  path: Assets/Prefabs/Key.prefab
+  artifactKey: Guid(9bc0c431c6305414ea98b75750271f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Key.prefab using Guid(9bc0c431c6305414ea98b75750271f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4804d90c6dc92722db4edddb6ab3c60c') in 0.010597 seconds
+  Import took 0.026074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Prefabs/Cage.prefab
+  artifactKey: Guid(c73b7906d50495a459deace296ab2f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cage.prefab using Guid(c73b7906d50495a459deace296ab2f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fbd195971ee19d7ef28e0e2e0fbbad') in 0.008501 seconds
+  Import took 0.019154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.750992 seconds.
+  path: Assets/Prefabs/Lvl2/A_.prefab
+  artifactKey: Guid(20afde8d475700b4ca9867a1a9fbd4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/A_.prefab using Guid(20afde8d475700b4ca9867a1a9fbd4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6dfd1705a2cd86d08413841326e56f') in 0.005751 seconds
+  Import took 0.014953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/Prefabs/Lvl2/CM vcam1.prefab
+  artifactKey: Guid(7e5dd1869f4b3244e89eb8e0d4d0af46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/CM vcam1.prefab using Guid(7e5dd1869f4b3244e89eb8e0d4d0af46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a630093a6651def74cd75c4f1c0c016') in 0.028127 seconds
+  Import took 0.038356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001356 seconds.
+  path: Assets/Prefabs/Lvl2/Cave.prefab
+  artifactKey: Guid(49bd64e4d3e3745e985cdc1167e74325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/Cave.prefab using Guid(49bd64e4d3e3745e985cdc1167e74325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10bb687b74f77f9e27f41776f718a3e') in 0.019141 seconds
+  Import took 0.032156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Prefabs/Lvl2/Frog.prefab
+  artifactKey: Guid(1ad7001529554fd4f9b4bbdfed4cca7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/Frog.prefab using Guid(1ad7001529554fd4f9b4bbdfed4cca7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574dc5f6472315ed83e00b58c40a1a63') in 0.013726 seconds
+  Import took 0.025553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Prefabs/Lvl2/fk-fireball.prefab
+  artifactKey: Guid(021bf22787df2411785022beba4a4fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/fk-fireball.prefab using Guid(021bf22787df2411785022beba4a4fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a96ee3524da4fa07ff54dad9a2b293') in 0.338251 seconds
+  Import took 0.346624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Prefabs/Lvl2/GameObject.prefab
+  artifactKey: Guid(2c922a5f08911a048aafc3442db39a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/GameObject.prefab using Guid(2c922a5f08911a048aafc3442db39a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49534c8fe42cb2b388b39b601a0a70f2') in 0.006030 seconds
+  Import took 0.016015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Prefabs/Lvl2/False Knight.prefab
+  artifactKey: Guid(9a5e7c4cbf3d34d33b98a4346fa38114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/False Knight.prefab using Guid(9a5e7c4cbf3d34d33b98a4346fa38114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686617cfa3f16189cf36f87f6f13acdc') in 0.021348 seconds
+  Import took 0.034938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Prefabs/Lvl2/Eagle.prefab
+  artifactKey: Guid(c776278c8bf04db428cf576598127135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/Eagle.prefab using Guid(c776278c8bf04db428cf576598127135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3154a9659afe91423c1d66ff3c58f5e3') in 0.012695 seconds
+  Import took 0.021156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004387 seconds.
+  path: Assets/Prefabs/Lvl2/False Knight.prefab
+  artifactKey: Guid(9a5e7c4cbf3d34d33b98a4346fa38114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/False Knight.prefab using Guid(9a5e7c4cbf3d34d33b98a4346fa38114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686617cfa3f16189cf36f87f6f13acdc') in 0.015411 seconds
+  Import took 0.029937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099628 seconds.
+  path: Assets/Prefabs/Lvl2/GameOverMenu.prefab
+  artifactKey: Guid(ecb0f2ee148f84b6b81680408cd3db66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/GameOverMenu.prefab using Guid(ecb0f2ee148f84b6b81680408cd3db66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84dc74bcea5db7ad895d9268be5e10cc') in 0.102357 seconds
+  Import took 0.112838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/Prefabs/Lvl2/Key.prefab
+  artifactKey: Guid(9735c3209344b41999ec3228738c7709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/Key.prefab using Guid(9735c3209344b41999ec3228738c7709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705ae43f6c29f35944ab6ed1c4724d4a') in 0.025142 seconds
+  Import took 0.035755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Prefabs/Lvl2/LadderCollider.prefab
+  artifactKey: Guid(d78327a46a3534ac3b7e7b0f36ffdf9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/LadderCollider.prefab using Guid(d78327a46a3534ac3b7e7b0f36ffdf9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a80f9d56c7097279f58bcf754de07ae') in 0.013143 seconds
+  Import took 0.023139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Prefabs/Lvl2/GruzMother.prefab
+  artifactKey: Guid(dddafd52c057f49ab9abb74cf5c4e8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/GruzMother.prefab using Guid(dddafd52c057f49ab9abb74cf5c4e8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773f82115da65585234ef7d30ec5b2b1') in 0.046416 seconds
+  Import took 0.057847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Prefabs/Lvl2/Level.prefab
+  artifactKey: Guid(62ceab1401bf60848885afb05114d0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/Level.prefab using Guid(62ceab1401bf60848885afb05114d0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84bd11a255e5e4fd3510e4baa82891d') in 0.016155 seconds
+  Import took 0.028469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.733327 seconds.
+  path: Assets/Prefabs/Lvl2/Player.prefab
+  artifactKey: Guid(aad364111379e45c8b4761809938ad91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/Player.prefab using Guid(aad364111379e45c8b4761809938ad91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810f34ddc6ac4425b70817d88078bfa8') in 0.010092 seconds
+  Import took 0.019824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000841 seconds.
+  path: Assets/Prefabs/Lvl2/Player.prefab
+  artifactKey: Guid(aad364111379e45c8b4761809938ad91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/Player.prefab using Guid(aad364111379e45c8b4761809938ad91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810f34ddc6ac4425b70817d88078bfa8') in 0.012224 seconds
+  Import took 0.025177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.537025 seconds.
+  path: Assets/Prefabs/Lvl2/RockSpawnArea.prefab
+  artifactKey: Guid(c8cfe6af7d570479a8e2c244b33a222b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/RockSpawnArea.prefab using Guid(c8cfe6af7d570479a8e2c244b33a222b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4c9605e675b899af79fa69a074f740') in 0.008635 seconds
+  Import took 0.017851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Prefabs/Lvl2/Skeleton.prefab
+  artifactKey: Guid(9957b62cd50da44378bc264f00f46a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/Skeleton.prefab using Guid(9957b62cd50da44378bc264f00f46a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ed189993ba63ae42d3176db5c0f325') in 0.011902 seconds
+  Import took 0.022779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Prefabs/Lvl2/RockSpawnArea.prefab
+  artifactKey: Guid(c8cfe6af7d570479a8e2c244b33a222b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/RockSpawnArea.prefab using Guid(c8cfe6af7d570479a8e2c244b33a222b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4c9605e675b899af79fa69a074f740') in 0.011456 seconds
+  Import took 0.023917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Prefabs/Lvl2/Skeleton.prefab
+  artifactKey: Guid(9957b62cd50da44378bc264f00f46a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/Skeleton.prefab using Guid(9957b62cd50da44378bc264f00f46a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ed189993ba63ae42d3176db5c0f325') in 0.009235 seconds
+  Import took 0.025507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.229759 seconds.
+  path: Assets/Prefabs/Lvl2/WeatherManager.prefab
+  artifactKey: Guid(6aea89ab270784e1880f5ed8c703642f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/WeatherManager.prefab using Guid(6aea89ab270784e1880f5ed8c703642f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0b7a18689ce54dff5bf80cdca0fd61') in 0.014596 seconds
+  Import took 0.024119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007498 seconds.
+  path: Assets/Prefabs/Lvl2/WeatherManager.prefab
+  artifactKey: Guid(6aea89ab270784e1880f5ed8c703642f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/WeatherManager.prefab using Guid(6aea89ab270784e1880f5ed8c703642f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0b7a18689ce54dff5bf80cdca0fd61') in 0.009277 seconds
+  Import took 0.021107 seconds .
+
