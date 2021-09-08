@@ -539,6 +539,7 @@ Received Import Request.
 Start importing Assets/Scripts/Lvl2/Enemy/Skeleton&FK/Enemy_behaviour.cs using Guid(f0fc27efb91d5d24ca4866d42f966097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ae2b032384d72c7deffb0a6b0e4a2b') in 0.077323 seconds
   Import took 0.090926 seconds .
 
+<<<<<<< HEAD
 ========================================================================
 Received Import Request.
   Time since last request: 63.843307 seconds.
@@ -1036,3 +1037,5 @@ Registered in 0.620641 seconds.
 >>>>>>> parent of 1e869776 (import lvl2)
 =======
 >>>>>>> parent of 7e3251e2 (import lvl2)
+=======
+>>>>>>> parent of dc7d48a5 (import lvl2)
