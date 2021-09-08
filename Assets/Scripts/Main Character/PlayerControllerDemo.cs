@@ -25,6 +25,9 @@ public class PlayerControllerDemo : MonoBehaviour
     [SerializeField] float climbSpeed = 3f;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     [Header("InspectorVar")]
     [NamedArrayAttribute(new string[] { "speed", "cimbSpeed", "jumpForce", "hurtForce","attackRange","attackRate", "nextAttackTime" })]
     [SerializeField] private float[] playerVar;
@@ -36,6 +39,7 @@ public class PlayerControllerDemo : MonoBehaviour
     [SerializeField] private Transform[] playerDetect;
     [NamedArrayAttribute(new string[] { "gems", "maxHealth", "currentHealth"})]
     [SerializeField] private int[] playerPoints;
+<<<<<<< HEAD
 
     [Header("UI")]
     [SerializeField] private TextMeshProUGUI gemText;
@@ -63,16 +67,27 @@ public class PlayerControllerDemo : MonoBehaviour
     private float nextAttackTime = 0f;
 >>>>>>> parent of b93abbce (lvl3)
 
+=======
+
+    [Header("UI")]
+    [SerializeField] private TextMeshProUGUI gemText;
+    [SerializeField] private Text healthAmount;
+    public GameOverMenu gameOverMenu;
+
+    
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 
     // Start is called before the first frame update
     private void Start()
-    { 
+    {
+        Time.timeScale = 1f;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         coll = GetComponent<Collider2D>();
         currentHealth = maxHealth;
         healthAmount.text = currentHealth.ToString();
         naturalGravity = rb.gravityScale;
+        isGrounded = true;
     }
 
     // Update is called once per frame
@@ -93,6 +108,7 @@ public class PlayerControllerDemo : MonoBehaviour
         {
             Movement();
         }
+
         AnimationState();
         anim.SetInteger("state", (int)state);//sets animation based on Enumerator state
 
@@ -123,6 +139,9 @@ public class PlayerControllerDemo : MonoBehaviour
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     private void FixedUpdate()
     {
         if (Physics2D.Linecast(transform.position, playerDetect[1].position, layers[0]) ||
@@ -137,8 +156,11 @@ public class PlayerControllerDemo : MonoBehaviour
         }
     }
 
+<<<<<<< HEAD
 =======
 >>>>>>> parent of b93abbce (lvl3)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Collectable")
@@ -153,10 +175,14 @@ public class PlayerControllerDemo : MonoBehaviour
         {
             Destroy(collision.gameObject);
 <<<<<<< HEAD
+<<<<<<< HEAD
             playerVar[2] = 120f;
 =======
             jumpForce = 90f;
 >>>>>>> parent of b93abbce (lvl3)
+=======
+            playerVar[2] = 120f;
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
             GetComponent<SpriteRenderer>().color = Color.yellow;
             StartCoroutine(ResetPower());
         }
@@ -222,14 +248,12 @@ public class PlayerControllerDemo : MonoBehaviour
         {
             rb.velocity = new Vector2(-speed, rb.velocity.y);
             transform.localScale = new Vector2(-1, 1);
-
         }
         //Moving Right
         else if (hDirection > 0)
         {
             rb.velocity = new Vector2(speed, rb.velocity.y);
             transform.localScale = new Vector2(1, 1);
-
         }
         //Jumping
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
@@ -243,11 +267,12 @@ public class PlayerControllerDemo : MonoBehaviour
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         state = State.jumping;
     }
+
     private void AnimationState()
     {
         if(state == State.climb)
         {
-
+           
         }
 
         else if(state == State.jumping)
@@ -274,7 +299,7 @@ public class PlayerControllerDemo : MonoBehaviour
             }
         }
 
-        else if (Mathf.Abs(rb.velocity.x) > 2f)
+        else if (Mathf.Abs(rb.velocity.x) > 2f && isGrounded)
         {
             //Moving
             state = State.running;
@@ -282,7 +307,15 @@ public class PlayerControllerDemo : MonoBehaviour
 
         else
         {
-            state = State.idle;
+            if (isGrounded)
+            {
+                state = State.idle;
+            }
+            else
+            {
+                state = State.falling;
+            }
+            
         }
 
    
@@ -332,6 +365,9 @@ public class PlayerControllerDemo : MonoBehaviour
     {
         Debug.Log("Player Died");
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
         anim.SetBool("isDead", true);
         GetComponent<Collider2D>().enabled = false;
         string gemsText = playerPoints[0].ToString();
@@ -339,23 +375,26 @@ public class PlayerControllerDemo : MonoBehaviour
         Time.timeScale = 0f;
         gameOverMenu.GameOver();
         Destroy(gameObject);
+<<<<<<< HEAD
 =======
         animator.SetBool("isDead", true);
 
         //GetComponent<Collider2D>().enabled = false;
         Destroy(this);
 >>>>>>> parent of b93abbce (lvl3)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     }
 
     private void Climb()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            Jump();
             rb.constraints = RigidbodyConstraints2D.FreezeRotation;
             canClimb = false;
             rb.gravityScale = naturalGravity;
             anim.speed = 1f;
-            Jump();
             return;
         }
 

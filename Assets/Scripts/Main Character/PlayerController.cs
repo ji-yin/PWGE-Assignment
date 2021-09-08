@@ -40,7 +40,6 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Mouse0) && !isAttack && !isBeingAttacked)
         {
-            animator.SetBool("Run", false);
             animator.SetBool("Attack", true);
             StartCoroutine(DoAttack());
         }

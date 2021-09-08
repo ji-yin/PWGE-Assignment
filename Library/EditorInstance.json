@@ -1,9 +1,13 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	"process_id" : 9051,
 =======
 	"process_id" : 4873,
 >>>>>>> parent of 16265ab2 (import lvl3)
+=======
+	"process_id" : 4873,
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 	"version" : "2020.3.11f1",
 	"app_path" : "/Applications/Unity/Unity.app",
 	"app_contents_path" : "/Applications/Unity/Unity.app/Contents"
