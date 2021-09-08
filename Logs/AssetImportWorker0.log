@@ -467,6 +467,7 @@ Received Import Request.
 Start importing Assets/Prefabs/Lvl2/WeatherManager.prefab using Guid(6aea89ab270784e1880f5ed8c703642f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f0b3f16fa464be761350c727a1c1ea') in 0.007613 seconds
   Import took 0.010072 seconds .
 
+<<<<<<< HEAD
 ========================================================================
 Received Import Request.
   Time since last request: 20.881862 seconds.
@@ -803,3 +804,5 @@ Received Import Request.
 Start importing Assets/Sprites/Lvl2/URP/UniversalRenderPipelineAsset.asset using Guid(332b4f966c38442b7a8a3d3c063a45b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c89b4ab11f0cde5aa904921f07255e0') in 0.004694 seconds
   Import took 0.006751 seconds .
 
+=======
+>>>>>>> parent of 6dc571ac (import lvl2)

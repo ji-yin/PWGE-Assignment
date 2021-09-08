@@ -20,7 +20,7 @@ public class GruzMother : MonoBehaviour
     [Header("Other")]
     [NamedArrayAttribute(new string[] { "groundCheckUp", "groundCheckDown" ,"groundCheckWall"})]
     [SerializeField] private Transform[] groundCheck;
-    [NamedArrayAttribute(new string[] { "groundLayer", "playerLayer" })]
+    [NamedArrayAttribute(new string[] { "GroundLayer", "PlayerLayer" })]
     [SerializeField] private LayerMask[] layers;
     [SerializeField] float groundCheckRadius;
     [SerializeField] int playerDamage;
