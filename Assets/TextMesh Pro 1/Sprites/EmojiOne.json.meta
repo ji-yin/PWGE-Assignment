@@ -1,7 +1,13 @@
 fileFormatVersion: 2
 guid: 789948b22c2784355815d74b3af7844e
+<<<<<<< HEAD
 TextScriptImporter:
   externalObjects: {}
+=======
+timeCreated: 1480316860
+licenseType: Pro
+TextScriptImporter:
+>>>>>>> parent of 639fb924 (Delete files)
   userData: 
   assetBundleName: 
   assetBundleVariant: 

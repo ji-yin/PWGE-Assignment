@@ -1,8 +1,14 @@
 fileFormatVersion: 2
 guid: 772202237e55646b3aa57a32c7e7fc24
+<<<<<<< HEAD
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 0
+=======
+timeCreated: 1484171803
+licenseType: Pro
+NativeFormatImporter:
+>>>>>>> parent of 639fb924 (Delete files)
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 guid: 47eb260d106534ae690988783aea0a3e
+<<<<<<< HEAD
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -16,6 +17,22 @@ TrueTypeFontImporter:
   ascentCalculationMode: 1
   useLegacyBoundsCalculation: 0
   shouldRoundAdvanceValue: 1
+=======
+timeCreated: 1484171297
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 2
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  use2xBehaviour: 0
+  fontNames: []
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+>>>>>>> parent of 639fb924 (Delete files)
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -1,8 +1,14 @@
 fileFormatVersion: 2
 guid: 3bba9d1ff039741a0990e206b0c874a1
 folderAsset: yes
+<<<<<<< HEAD
 DefaultImporter:
   externalObjects: {}
+=======
+timeCreated: 1441876896
+licenseType: Pro
+DefaultImporter:
+>>>>>>> parent of 639fb924 (Delete files)
   userData: 
   assetBundleName: 
   assetBundleVariant: 
