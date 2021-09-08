@@ -1,6 +1,2 @@
 # Starting compiling Assembly-CSharp.dll
-<<<<<<< HEAD
 /Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d89ec850e41f24b4cba6bb1ecd0eb967
-=======
-C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-593f9cabc7f177641ac18a15a99d7afc
->>>>>>> parent of 16265ab2 (import lvl3)
