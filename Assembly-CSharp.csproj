@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1107,6 +1108,8 @@
 >>>>>>> parent of 617dc19b (import lvl2)
 =======
 >>>>>>> parent of 1e869776 (import lvl2)
+=======
+>>>>>>> parent of f6dcb9d9 (import lvl2)
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
@@ -2330,6 +2333,7 @@
   </Target>
   -->
 </Project>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of 639fb924 (Delete files)
@@ -5216,3 +5220,5 @@
 >>>>>>> parent of 617dc19b (import lvl2)
 =======
 >>>>>>> parent of 1e869776 (import lvl2)
+=======
+>>>>>>> parent of f6dcb9d9 (import lvl2)

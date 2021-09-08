@@ -5,26 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< HEAD
       ticks: 637659152150000000
     m_Hash: 2348359619
-=======
-      ticks: 637666908491605966
-    m_Hash: 2628012558
->>>>>>> parent of 16265ab2 (import lvl3)
   m_LockFileStatus:
     m_FilePath: /Users/weiqianho/Documents/GitHub/PWGE-Assignment/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< HEAD
       ticks: 637659152150000000
     m_Hash: 3646100755
-=======
-      ticks: 637666908491615964
-    m_Hash: 2511562964
->>>>>>> parent of 16265ab2 (import lvl3)
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
