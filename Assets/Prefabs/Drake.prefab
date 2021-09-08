@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 480266659}
   - component: {fileID: 480266658}
   - component: {fileID: 480266657}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,7 +110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 561155613}
   - component: {fileID: 561155614}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 676425772}
   - component: {fileID: 676425774}
   - component: {fileID: 676425773}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -273,7 +273,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1044120724}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -311,7 +311,7 @@ GameObject:
   - component: {fileID: 1354626647}
   - component: {fileID: 1354626649}
   - component: {fileID: 1354626648}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -390,9 +390,9 @@ GameObject:
   - component: {fileID: 2343508470339703848}
   - component: {fileID: 2343508470339703852}
   - component: {fileID: 1199471006}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Drake
-  m_TagString: Enemy
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -549,6 +549,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   maxTeleportTimes: 2
+  teleportPos1: {fileID: 0}
+  teleportPos2: {fileID: 0}
   teleportDistance: 2
   target: {fileID: 0}
   moveSpeed: 1.2
@@ -579,7 +581,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2343508471556434072}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Raycast
   m_TagString: Untagged
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}

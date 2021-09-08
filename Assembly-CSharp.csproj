@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1246,6 +1247,8 @@
 >>>>>>> parent of 1e869776 (import lvl2)
 =======
 >>>>>>> parent of f6dcb9d9 (import lvl2)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
@@ -1304,6 +1307,7 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1544,6 +1548,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     <Compile Include="Assets/Scripts/Lvl2/Camera/CinemachineShake.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" />
     <Compile Include="Assets/JMO Assets/WarFX/Scripts/CFX_LightIntensityFade.cs" />
@@ -1594,8 +1600,11 @@
     <Compile Include="Assets/Scripts/Lvl 4/CoinCountScript.cs" />
     <Compile Include="Assets/Scripts/Lvl2/Enemy/GruzMother/GruzMother_AttackUpNDown.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of c13a0216 (import)
 =======
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
     <Compile Include="Assets/Scripts/Lvl2/Others/Fall.cs" />
@@ -1634,8 +1643,11 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
     <Compile Include="Assets/Scripts/Lvl2/Others/DayAndNightCycle.cs" />
     <Compile Include="Assets/Scripts/Lvl2/Enemy/Frog&amp;Eagle/Eagle/Eagle.cs" />
+<<<<<<< HEAD
 =======
 >>>>>>> parent of f3689c88 (import lvl2)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     <Compile Include="Assets/Scripts/Lvl2/Props/Key.cs" />
     <Compile Include="Assets/Scripts/Lvl2/Props/KeyHolder.cs" />
     <Compile Include="Assets/Scripts/Lvl 4/CoinScript.cs" />
@@ -1650,6 +1662,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
     <Compile Include="Assets/EffectExamples/Shared/Scripts/GunAim.cs" />
     <Compile Include="Assets/Scripts/Lvl2/NamedArrayDrawer.cs" />
+<<<<<<< HEAD
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 <<<<<<< HEAD
 >>>>>>> parent of 23ad7349 (import lvl2)
@@ -1661,6 +1674,8 @@
 >>>>>>> parent of 0330462f (import lvl2)
 =======
 >>>>>>> parent of 617dc19b (import lvl2)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro 1/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
@@ -2425,6 +2440,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 23ad7349 (import lvl2)
@@ -2432,6 +2448,8 @@
 <<<<<<< HEAD
 =======
 >>>>>>> parent of f3689c88 (import lvl2)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     <ProjectReference Include="PackageToolsEditor.csproj">
       <Project>{BD692CB4-B0C6-20A9-1F14-CF2B19542E16}</Project>
       <Name>PackageToolsEditor</Name>
@@ -2446,6 +2464,7 @@
     </ProjectReference>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of c13a0216 (import)
 =======
@@ -2458,6 +2477,8 @@
 >>>>>>> parent of f3689c88 (import lvl2)
 =======
 >>>>>>> parent of 0330462f (import lvl2)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
@@ -2469,6 +2490,7 @@
   </Target>
   -->
 </Project>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6054,3 +6076,5 @@
 >>>>>>> parent of f6dcb9d9 (import lvl2)
 =======
 >>>>>>> parent of cf3b1701 (import lvl2)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)

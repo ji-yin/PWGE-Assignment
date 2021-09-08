@@ -23,27 +23,6 @@ public class PlayerControllerDemo : MonoBehaviour
     public Ladder ladder;
     private float naturalGravity;
 
-<<<<<<< HEAD
-    //Inspector varibles
-    [SerializeField] private LayerMask ground;
-    [SerializeField] private float speed = 0.5f;
-    [SerializeField] private float jumpForce = 20f;
-    [SerializeField] private int gems = 0;
-    [SerializeField] private TextMeshProUGUI gemText;
-    [SerializeField] private float hurtForce = 5f;
-    [SerializeField] private AudioSource gem;
-    [SerializeField] private AudioSource footstep;
-    [SerializeField] private AudioSource hurt;
-    [SerializeField] private Animator animator;
-    [SerializeField] private Transform AttackPoint;
-    [SerializeField] private LayerMask enemyLayers;
-    [SerializeField] private float attackRange = 0.5f;
-    [SerializeField] private float attackRate = 2f;
-    [SerializeField] private int maxHealth = 100;
-    [SerializeField] private Text healthAmount;
-    int currentHealth;
-    private float nextAttackTime = 0f;
-=======
     [Header("InspectorVar")]
     [NamedArrayAttribute(new string[] { "speed", "cimbSpeed", "jumpForce", "hurtForce","attackRange","attackRate", "nextAttackTime" })]
     [SerializeField] private float[] playerVar;
@@ -60,18 +39,19 @@ public class PlayerControllerDemo : MonoBehaviour
     [SerializeField] private TextMeshProUGUI gemText;
     [SerializeField] private Text healthAmount;
     public GameOverMenu gameOverMenu;
->>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
 
     
 
     // Start is called before the first frame update
     private void Start()
-    { 
+    {
+        Time.timeScale = 1f;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         playerPoints[2] = playerPoints[1];
         healthAmount.text = playerPoints[2].ToString();
         naturalGravity = rb.gravityScale;
+        isGrounded = true;
     }
 
     // Update is called once per frame
@@ -92,6 +72,7 @@ public class PlayerControllerDemo : MonoBehaviour
         {
             Movement();
         }
+
         AnimationState();
         anim.SetInteger("state", (int)state);//sets animation based on Enumerator state
 
@@ -121,8 +102,6 @@ public class PlayerControllerDemo : MonoBehaviour
 
     }
 
-<<<<<<< HEAD
-=======
     private void FixedUpdate()
     {
         if (Physics2D.Linecast(transform.position, playerDetect[1].position, layers[0]) ||
@@ -137,7 +116,6 @@ public class PlayerControllerDemo : MonoBehaviour
         }
     }
 
->>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Collectable")
@@ -151,11 +129,7 @@ public class PlayerControllerDemo : MonoBehaviour
         if(collision.tag == "PowerUp")
         {
             Destroy(collision.gameObject);
-<<<<<<< HEAD
-            jumpForce = 90f;
-=======
             playerVar[2] = 120f;
->>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
             GetComponent<SpriteRenderer>().color = Color.yellow;
             StartCoroutine(ResetPower());
         }
@@ -218,17 +192,15 @@ public class PlayerControllerDemo : MonoBehaviour
         {
             rb.velocity = new Vector2(-playerVar[0], rb.velocity.y);
             transform.localScale = new Vector2(-1, 1);
-
         }
         //Moving Right
         else if (hDirection > 0)
         {
             rb.velocity = new Vector2(playerVar[0], rb.velocity.y);
             transform.localScale = new Vector2(1, 1);
-
         }
         //Jumping
-        if (Input.GetKeyDown(KeyCode.Space) && coll.IsTouchingLayers(ground))
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             Jump();
         }
@@ -239,11 +211,12 @@ public class PlayerControllerDemo : MonoBehaviour
         rb.velocity = new Vector2(rb.velocity.x, playerVar[2]);
         state = State.jumping;
     }
+
     private void AnimationState()
     {
         if(state == State.climb)
         {
-
+           
         }
 
         else if(state == State.jumping)
@@ -256,7 +229,7 @@ public class PlayerControllerDemo : MonoBehaviour
 
         else if(state == State.falling)
         {
-            if (coll.IsTouchingLayers(ground))
+            if (isGrounded)
             {
                 state = State.idle;
             }
@@ -270,7 +243,7 @@ public class PlayerControllerDemo : MonoBehaviour
             }
         }
 
-        else if (Mathf.Abs(rb.velocity.x) > 2f)
+        else if (Mathf.Abs(rb.velocity.x) > 2f && isGrounded)
         {
             //Moving
             state = State.running;
@@ -278,7 +251,15 @@ public class PlayerControllerDemo : MonoBehaviour
 
         else
         {
-            state = State.idle;
+            if (isGrounded)
+            {
+                state = State.idle;
+            }
+            else
+            {
+                state = State.falling;
+            }
+            
         }
 
     }
@@ -319,12 +300,6 @@ public class PlayerControllerDemo : MonoBehaviour
     void PlayerDie()
     {
         Debug.Log("Player Died");
-<<<<<<< HEAD
-        animator.SetBool("isDead", true);
-
-        //GetComponent<Collider2D>().enabled = false;
-        Destroy(this);
-=======
         anim.SetBool("isDead", true);
         GetComponent<Collider2D>().enabled = false;
         string gemsText = playerPoints[0].ToString();
@@ -332,18 +307,17 @@ public class PlayerControllerDemo : MonoBehaviour
         Time.timeScale = 0f;
         gameOverMenu.GameOver();
         Destroy(gameObject);
->>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
     }
 
     private void Climb()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            Jump();
             rb.constraints = RigidbodyConstraints2D.FreezeRotation;
             canClimb = false;
             rb.gravityScale = naturalGravity;
             anim.speed = 1f;
-            Jump();
             return;
         }
 

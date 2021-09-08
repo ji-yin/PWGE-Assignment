@@ -4,146 +4,147 @@ using UnityEngine;
 
 public class BabyDinoAI : MonoBehaviour
 {
-    public float moveSpeed;
-    public float jumpForce;
-    public Transform target;
-    public LayerMask playerLayer;
-    public float baseDetectDistance;
-    public float baseAttackDistance;
     public Transform rayCast;
+    public LayerMask rcMask;
+    public float rcLength;
+    public float attackDistance;    // min distance for attack
+    public float moveSpeed;
+    public float timer;             // attack cooldown timer
 
-    private bool facingRight;
-    private bool isGrounded;
+    private RaycastHit2D hit;
+    private GameObject target;
     private Animator animator;
-    private Rigidbody2D rb;
-
+    private float distance;     // distance between player and enemy
+    private bool onAttackMode;
+    private bool inRange;       // check if player is in range
+    private bool onCooldown;     // check if enemy attack is on cooldown
+    private float initialTimer;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
+        initialTimer = timer;
         animator = GetComponent<Animator>();
-        facingRight = false;
-        rb = GetComponent<Rigidbody2D>();
-        isGrounded = true;
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
-        if (IsDetectPlayer())
+        if (inRange)
         {
-            ChasePlayer();
-        }
-        else
-        {
-            StopChasingPlayer();
+            hit = Physics2D.Raycast(rayCast.position, Vector2.left, rcLength, rcMask);
+            RayCastDebugger();
         }
 
-        if (IsInAttackRange() && isGrounded)
+        // when player is detected
+        if (hit.collider != null)
         {
-            StopChasingPlayer();
-            JumpAttack();
+            EnemyLogic();
         }
-        else
+        else if (hit.collider == null)
         {
-            StopJumpAttack();
+            inRange = false;
+        }
+
+        if (!inRange)
+        {
+            animator.SetBool("Run", false);
+            StopAttackPlayer();
         }
     }
 
-    bool IsDetectPlayer()
+    void EnemyLogic()
     {
-        bool condition = false;
+        distance = Vector2.Distance(transform.position, target.transform.position);
 
-        float detectDistance = baseDetectDistance;
-
-        Vector3 targetLeftPos = rayCast.position;
-        targetLeftPos.x -= detectDistance;
-        Vector3 targetRightPos = rayCast.position;
-        targetRightPos.x += detectDistance;
-
-        Debug.DrawLine(rayCast.position, targetLeftPos, Color.red);
-        Debug.DrawLine(rayCast.position, targetRightPos, Color.red);
-
-        if (Physics2D.Linecast(rayCast.position, targetLeftPos, playerLayer) ||
-            Physics2D.Linecast(rayCast.position, targetRightPos, playerLayer))
+        if (distance > attackDistance)
         {
-            condition = true;
+            MoveToPlayer();
+            StopAttackPlayer();
         }
-        else
+        else if (distance <= attackDistance && onCooldown == false)
         {
-            condition = false;
+            AttackPlayer();
         }
 
-        if (Physics2D.Linecast(rayCast.position, targetLeftPos, playerLayer) && facingRight)
+        if (onCooldown)
         {
-            FlipEnemy();
-            facingRight = false;
+            Cooldown();
+            animator.SetBool("Attack", false);
         }
-
-        if (Physics2D.Linecast(rayCast.position, targetRightPos, playerLayer) && !facingRight)
-        {
-            FlipEnemy();
-            facingRight = true;
-        }
-
-        return condition;
     }
 
-    bool IsInAttackRange()
-    {
-        bool condition = false;
-
-        float attackDistance = baseAttackDistance;
-
-        if (!facingRight)
-        {
-            attackDistance = -baseAttackDistance;
-        }
-
-        Vector3 targetPos = rayCast.position;
-        targetPos.x += attackDistance;
-
-        Debug.DrawLine(rayCast.position, targetPos, Color.blue);
-
-        if (Physics2D.Linecast(rayCast.position, targetPos, playerLayer))
-        {
-            condition = true;
-        }
-        else
-        {
-            condition = false;
-        }
-
-        return condition;
-    }
-
-    void JumpAttack()
-    {
-        float distanceFromPlayer = target.position.x - transform.position.x;
-        rb.velocity = new Vector2(distanceFromPlayer, jumpForce);
-        isGrounded = false;
-    }
-
-    void StopJumpAttack()
-    {
-        isGrounded = true;
-    }
-
-    void ChasePlayer()
+    void MoveToPlayer()
     {
         animator.SetBool("Run", true);
 
-        Vector2 targetPos = new Vector2(target.position.x, transform.position.y);
-        transform.position = Vector2.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
+        {
+            Vector2 targetPos = new Vector2(target.transform.position.x, transform.position.y);
+            transform.position = Vector2.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
+        }
     }
 
-    void StopChasingPlayer()
+    void AttackPlayer()
     {
+        timer = initialTimer;
+        onAttackMode = true;
+
         animator.SetBool("Run", false);
+        animator.SetBool("Attack", true);
     }
 
-    void FlipEnemy()
+    void StopAttackPlayer()
     {
-        transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
+        onCooldown = false;
+        onAttackMode = false;
+
+        animator.SetBool("Attack", false);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            target = collision.gameObject;
+            inRange = true;
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            target = collision.gameObject;
+            inRange = true;
+        }
+    }
+
+    void RayCastDebugger()
+    {
+        if (distance > attackDistance)
+        {
+            Debug.DrawRay(rayCast.position, Vector2.left * rcLength, Color.red);
+        }
+        else if (distance < attackDistance)
+        {
+            Debug.DrawRay(rayCast.position, Vector2.left * rcLength, Color.green);
+        }
+    }
+
+    void Cooldown()
+    {
+        timer -= Time.deltaTime;
+
+        if (timer <= 0 && onCooldown && onAttackMode)
+        {
+            onCooldown = false;
+            timer = initialTimer;
+        }
+    }
+
+    public void TriggerCooldown()
+    {
+        onCooldown = true;
     }
 }
