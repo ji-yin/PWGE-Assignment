@@ -8,7 +8,6 @@ public class DrakeAI : MonoBehaviour
     public float baseDetectDistance;
     public LayerMask playerLayer;
     public float maxTeleportTimes;
-    public Transform teleportPos1, teleportPos2;
     public float teleportDistance;
     public Transform target;
     public float moveSpeed;
@@ -48,18 +47,16 @@ public class DrakeAI : MonoBehaviour
             {
                 StopChasingPlayer();
                 Teleport();
-                currentTeleportTimes += 1;
             }
-            else
-            {
-                AttackPlayer();
-            }
+
+            AttackPlayer();
         }
 
         if (onCooldown)
         {
             Cooldown();
             StopAttackingPlayer();
+            currentTeleportTimes = 0;
         }
     }
 
@@ -87,7 +84,7 @@ public class DrakeAI : MonoBehaviour
             condition = false;
         }
 
-        if (Physics2D.Linecast(rayCast.position, targetLeftPos, playerLayer) && facingRight) 
+        if (Physics2D.Linecast(rayCast.position, targetLeftPos, playerLayer) && facingRight)
         {
             FlipEnemy();
             facingRight = false;
@@ -132,16 +129,16 @@ public class DrakeAI : MonoBehaviour
 
     void Teleport()
     {
-        int rand = Random.Range(1, 3);
+        float distance = teleportDistance;
 
-        if (rand == 1)
+        if (!facingRight)
         {
-            transform.position = teleportPos1.position;
+            distance = -teleportDistance;
         }
-        else if (rand == 2)
-        {
-            transform.position = teleportPos2.position;
-        }
+
+        transform.position = new Vector2(target.position.x + distance, transform.position.y);
+
+        currentTeleportTimes += 1;
     }
 
     void ChasePlayer()
