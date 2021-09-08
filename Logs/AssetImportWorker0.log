@@ -771,3 +771,35 @@ Received Import Request.
 Start importing Assets/Tilemaps/Palettes/New Palette.prefab using Guid(f9ad82bbfd19d37428a3424a29dcdc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a66dd3bd80702d467702eae02826bc') in 0.023544 seconds
   Import took 0.025065 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 175.766102 seconds.
+  path: Assets/Sprites/Lvl2/URP
+  artifactKey: Guid(dcbe35388639b4abf8e9c4566aeb4556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Lvl2/URP using Guid(dcbe35388639b4abf8e9c4566aeb4556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ffaa313d90e5314d6cab40dc9b5f04') in 0.002120 seconds
+  Import took 0.003708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.104331 seconds.
+  path: Assets/Sprites/Lvl2/URP/2D Light Material.mat
+  artifactKey: Guid(814dd15709ba94b8685ed7e578a0d189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Lvl2/URP/2D Light Material.mat using Guid(814dd15709ba94b8685ed7e578a0d189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf454219242cba4e5997eff546678c0d') in 0.127862 seconds
+  Import took 0.129763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Sprites/Lvl2/URP/2D Renderer Data.asset
+  artifactKey: Guid(eb8b47114a5ba4ed390ecae0266a7aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Lvl2/URP/2D Renderer Data.asset using Guid(eb8b47114a5ba4ed390ecae0266a7aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be00195579272a9c88beef7ad55b1520') in 0.003245 seconds
+  Import took 0.004666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Sprites/Lvl2/URP/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(332b4f966c38442b7a8a3d3c063a45b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Lvl2/URP/UniversalRenderPipelineAsset.asset using Guid(332b4f966c38442b7a8a3d3c063a45b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c89b4ab11f0cde5aa904921f07255e0') in 0.004694 seconds
+  Import took 0.006751 seconds .
+
