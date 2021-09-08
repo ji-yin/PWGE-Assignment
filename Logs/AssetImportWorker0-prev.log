@@ -4,6 +4,7 @@ Using pre-set license
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
  COMMAND LINE ARGUMENTS:
 /Applications/Unity/Unity.app/Contents/MacOS/Unity
@@ -35,12 +36,18 @@ C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
  COMMAND LINE ARGUMENTS:
 /Applications/Unity/Unity.app/Contents/MacOS/Unity
 >>>>>>> parent of b93abbce (lvl3)
+=======
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+>>>>>>> parent of b93abbce (lvl3)
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114,11 +121,23 @@ Successfully changed project path to: /Users/weiqianho/Documents/GitHub/PWGE-Ass
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 151.50 ms, found 3 plugins.
 >>>>>>> parent of b93abbce (lvl3)
+=======
+/Users/weiqianho/Documents/GitHub/PWGE-Assignment
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50511
+Successfully changed project path to: /Users/weiqianho/Documents/GitHub/PWGE-Assignment
+/Users/weiqianho/Documents/GitHub/PWGE-Assignment
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 151.50 ms, found 3 plugins.
+>>>>>>> parent of b93abbce (lvl3)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/weiqianho/Documents/GitHub/PWGE-Assignment/Assets
 GfxDevice: creating device client; threaded=0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Direct3D:
@@ -166,10 +185,18 @@ Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6000
 2021-09-02 12:37:48.888 Unity[4819:240815] Using device Intel(R) Iris(TM) Graphics 6000 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6000
 >>>>>>> parent of b93abbce (lvl3)
+=======
+2021-09-02 12:37:48.887 Unity[4819:240815] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6000 (low power)
+2021-09-02 12:37:48.887 Unity[4819:240815] Metal devices available: 1
+2021-09-02 12:37:48.887 Unity[4819:240815] 0: Intel(R) Iris(TM) Graphics 6000 (low power)
+2021-09-02 12:37:48.888 Unity[4819:240815] Using device Intel(R) Iris(TM) Graphics 6000 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6000
+>>>>>>> parent of b93abbce (lvl3)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Initialize mono
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207,6 +234,8 @@ Registered in 0.620641 seconds.
 >>>>>>> parent of 16265ab2 (import lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
+=======
+>>>>>>> parent of b93abbce (lvl3)
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
@@ -228,6 +257,7 @@ Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 155.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 <<<<<<< HEAD
 - Completed reload, in  2.363 seconds
 <<<<<<< HEAD
@@ -263,6 +293,9 @@ Mono: successfully reloaded assembly
 =======
 - Completed reload, in  2.868 seconds
 >>>>>>> parent of b93abbce (lvl3)
+=======
+- Completed reload, in  2.868 seconds
+>>>>>>> parent of b93abbce (lvl3)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -270,6 +303,7 @@ Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not 
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -284,6 +318,10 @@ Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
 Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
 Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
 >>>>>>> parent of b93abbce (lvl3)
+=======
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+>>>>>>> parent of b93abbce (lvl3)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3676 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 339.9 MB.
@@ -294,6 +332,7 @@ Total: 4.942534 ms (FindLiveObjects: 0.622673 ms CreateObjectMapping: 0.616008 m
 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
 <<<<<<< HEAD
   path: Assets/Prefabs/Lvl2/False Knight.prefab
   artifactKey: Guid(9a5e7c4cbf3d34d33b98a4346fa38114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -1905,6 +1944,69 @@ Total: 3.830695 ms (FindLiveObjects: 0.430990 ms CreateObjectMapping: 0.177128 m
 
 >>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
 >>>>>>> parent of 16265ab2 (import lvl3)
+=======
+  path: Assets/Prefabs/Lvl2/Cave.prefab
+  artifactKey: Guid(49bd64e4d3e3745e985cdc1167e74325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/Cave.prefab using Guid(49bd64e4d3e3745e985cdc1167e74325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3bb658e64aa6087aca22e328c8c6428') in 0.112349 seconds
+  Import took 0.124048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.982722 seconds.
+  path: Assets/Prefabs/Lvl2/Skeleton.prefab
+  artifactKey: Guid(9957b62cd50da44378bc264f00f46a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lvl2/Skeleton.prefab using Guid(9957b62cd50da44378bc264f00f46a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5926ec70fa04551dd4e49a7b2139941f') in 0.364728 seconds
+  Import took 0.376214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.464661 seconds.
+  path: Assets/Sprites/Lvl2/Enemies
+  artifactKey: Guid(7584ebf43b51340b1a56eeb51531fa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Lvl2/Enemies using Guid(7584ebf43b51340b1a56eeb51531fa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0599b6883ede548c1e25e5e137bb1a6a') in 0.003283 seconds
+  Import took 0.021820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.829207 seconds.
+  path: Assets/Sprites/Lvl2/Skeleton
+  artifactKey: Guid(7584ebf43b51340b1a56eeb51531fa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Lvl2/Skeleton using Guid(7584ebf43b51340b1a56eeb51531fa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509bf8cf73b7920708774ce8b7653a79') in 0.003431 seconds
+  Import took 0.019998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.996432 seconds.
+  path: Assets/Sprites/Lvl2/GruzMother 1
+  artifactKey: Guid(da846eaf7856148dfb58cc6a0465231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Lvl2/GruzMother 1 using Guid(da846eaf7856148dfb58cc6a0465231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3831f0c1ca45d7e39b48e6b4293ae0ff') in 0.002169 seconds
+  Import took 0.024909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.435807 seconds.
+  path: Assets/Sprites/Lvl2/GruzMother
+  artifactKey: Guid(da846eaf7856148dfb58cc6a0465231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Lvl2/GruzMother using Guid(da846eaf7856148dfb58cc6a0465231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcfdf605db49e2356ff4dacd75943e6b') in 0.007027 seconds
+  Import took 0.019133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.462241 seconds.
+  path: Assets/Sprites/Lvl2/Fx
+  artifactKey: Guid(879348f5081814f15b74a637aff1805d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Lvl2/Fx using Guid(879348f5081814f15b74a637aff1805d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd51e1f28f950aded30a3e1e0a8826c5') in 0.002184 seconds
+  Import took 0.020686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.619519 seconds.
+  path: Assets/Sprites/Lvl2/Fx/enemy-death
+  artifactKey: Guid(8e410531b0ca844b79228da6d076824c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Lvl2/Fx/enemy-death using Guid(8e410531b0ca844b79228da6d076824c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f164d098eb5610d3f23d42bdd4430a7f') in 0.002381 seconds
+  Import took 0.022840 seconds .
+
+>>>>>>> parent of b93abbce (lvl3)
 =======
   path: Assets/Prefabs/Lvl2/Cave.prefab
   artifactKey: Guid(49bd64e4d3e3745e985cdc1167e74325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)

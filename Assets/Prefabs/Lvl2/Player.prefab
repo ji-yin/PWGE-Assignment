@@ -105,6 +105,7 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 8457113015089162785, guid: 0d00c081a9cf94e488217a1e4d99d1b0,
         type: 3}
       propertyPath: layers.Array.size
@@ -214,6 +215,8 @@ PrefabInstance:
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+>>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
     m_RemovedComponents: []
