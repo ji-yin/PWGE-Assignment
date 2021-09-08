@@ -628,3 +628,23 @@ console write time    : 0ms
 
 =======
 >>>>>>> parent of b93abbce (lvl3)
+[api-updater (non-obsolete-error-filter)] 8/9/2021 8:21:51 PM : Starting /Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 77.83ms
+moved types parse time: 73ms
+candidates parse time : 3ms
+C# parse time         : 422ms
+candidates check time : 213ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 8/9/2021 8:30:56 PM : Starting /Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 201.548ms
+moved types parse time: 78ms
+candidates parse time : 2ms
+C# parse time         : 448ms
+candidates check time : 204ms
+console write time    : 0ms
+
