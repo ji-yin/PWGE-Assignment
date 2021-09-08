@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13,6 +14,8 @@
 >>>>>>> parent of d31ece80 (revert)
 =======
 >>>>>>> parent of d31ece80 (revert)
+=======
+>>>>>>> parent of 3e782088 (import)
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
@@ -1090,8 +1093,6 @@
 =======
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
@@ -1151,7 +1152,6 @@
   </ItemGroup>
   <ItemGroup>
 <<<<<<< HEAD
-<<<<<<< HEAD
     <Compile Include="Assets/Scripts/Lvl2/CinemachineShake.cs" />
     <Compile Include="Assets/Scripts/Lvl2/EnemyAI.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" />
@@ -1165,8 +1165,6 @@
     <Compile Include="Assets/Scripts/Lvl 4/BabyDinoAI.cs" />
     <Compile Include="Assets/GameOverMenu.cs" />
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     <Compile Include="Assets/Scripts/Lvl2/Camera/CinemachineShake.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" />
     <Compile Include="Assets/JMO Assets/WarFX/Scripts/CFX_LightIntensityFade.cs" />
@@ -1179,9 +1177,6 @@
     <Compile Include="Assets/Scripts/Lvl 4/BabyDinoAI.cs" />
     <Compile Include="Assets/GameOverMenu.cs" />
     <Compile Include="Assets/Scripts/Lvl2/Others/LevelManager.cs" />
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     <Compile Include="Assets/EffectExamples/Shared/Scripts/DecalDestroyer.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
@@ -1190,29 +1185,22 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
     <Compile Include="Assets/Scripts/Lvl 4/BossCollision.cs" />
 <<<<<<< HEAD
-<<<<<<< HEAD
     <Compile Include="Assets/Scripts/Lvl2/GruzMother/GruzMother_AttackPlayer.cs" />
     <Compile Include="Assets/Scripts/Lvl2/Frog.cs" />
     <Compile Include="Assets/Scripts/Lvl2/GravityHelper.cs" />
     <Compile Include="Assets/JMO Assets/WarFX/Demo/Assets/CFX_AutoStopLoopedEffect.cs" />
     <Compile Include="Assets/Scripts/Lvl2/Grenade.cs" />
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     <Compile Include="Assets/Scripts/Lvl2/Enemy/GruzMother/GruzMother_AttackPlayer.cs" />
     <Compile Include="Assets/Scripts/Lvl2/Enemy/Frog&amp;Eagle/Frog/Frog.cs" />
     <Compile Include="Assets/Scripts/Lvl2/Others/GravityHelper.cs" />
     <Compile Include="Assets/JMO Assets/WarFX/Demo/Assets/CFX_AutoStopLoopedEffect.cs" />
     <Compile Include="Assets/Scripts/Lvl2/Enemy/Skeleton&amp;FK/Grenade.cs" />
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     <Compile Include="Assets/Scripts/Lvl 4/CageScript.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
     <Compile Include="Assets/Scripts/Lvl 4/KeyCountScript.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" />
-<<<<<<< HEAD
 <<<<<<< HEAD
     <Compile Include="Assets/Scripts/Lvl2/GruzMother/GruzMother.cs" />
     <Compile Include="Assets/Scripts/Lvl2/WeatherManager.cs" />
@@ -1224,8 +1212,6 @@
     <Compile Include="Assets/Scripts/Lvl2/PlayerCombat.cs" />
     <Compile Include="Assets/Scripts/Lvl2/EnemyGFX.cs" />
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     <Compile Include="Assets/Scripts/Lvl2/Enemy/GruzMother/GruzMother.cs" />
     <Compile Include="Assets/Scripts/Lvl2/Props/WeatherManager.cs" />
     <Compile Include="Assets/Scripts/Lvl2/NamedArrayAttribute.cs" />
@@ -1234,15 +1220,11 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
     <Compile Include="Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RandomDir.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo_Wall.cs" />
-<<<<<<< HEAD
 <<<<<<< HEAD
     <Compile Include="Assets/Scripts/Lvl2/hitBoxCheck.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
@@ -1266,8 +1248,6 @@
     <Compile Include="Assets/Scripts/Main Character/PlayerCollision.cs" />
     <Compile Include="Assets/Scripts/Lvl2/Shoot.cs" />
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     <Compile Include="Assets/Scripts/Lvl2/Enemy/Skeleton&amp;FK/hitBoxCheck.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
     <Compile Include="Assets/Scripts/Main Character/PlayerControllerDemo.cs" />
@@ -1286,9 +1266,6 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
     <Compile Include="Assets/Scripts/Lvl2/BG/Parallaxing.cs" />
     <Compile Include="Assets/Scripts/Main Character/PlayerCollision.cs" />
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     <Compile Include="Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo_DeleteAfterDelay.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
@@ -1298,7 +1275,6 @@
     <Compile Include="Assets/EffectExamples/Shared/Scripts/ExtinguishableFire.cs" />
     <Compile Include="Assets/EffectExamples/Shared/Scripts/ParticleMenu.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
-<<<<<<< HEAD
 <<<<<<< HEAD
     <Compile Include="Assets/Scripts/Lvl2/HotZoneCheck.cs" />
     <Compile Include="Assets/JMO Assets/WarFX/Scripts/WFX_LightFlicker.cs" />
@@ -1312,8 +1288,6 @@
     <Compile Include="Assets/Scripts/Lvl 4/KeyScript.cs" />
     <Compile Include="Assets/Scripts/Lvl2/TriggerAreaCheck.cs" />
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     <Compile Include="Assets/Scripts/Lvl2/Enemy/Skeleton&amp;FK/HotZoneCheck.cs" />
     <Compile Include="Assets/JMO Assets/WarFX/Scripts/WFX_LightFlicker.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
@@ -1324,9 +1298,6 @@
     <Compile Include="Assets/Scripts/Lvl2/Enemy/Skeleton&amp;FK/Enemy_behaviour.cs" />
     <Compile Include="Assets/Scripts/Lvl 4/KeyScript.cs" />
     <Compile Include="Assets/Scripts/Lvl2/Enemy/Skeleton&amp;FK/TriggerAreaCheck.cs" />
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
     <Compile Include="Assets/EffectExamples/Shared/Scripts/ParticleExamples.cs" />
@@ -1339,28 +1310,21 @@
     <Compile Include="Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_Translate.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
 <<<<<<< HEAD
-<<<<<<< HEAD
     <Compile Include="Assets/Scripts/Lvl2/DayAndNightCycle.cs" />
     <Compile Include="Assets/Scripts/Lvl2/BigBoss.cs" />
     <Compile Include="Assets/Scripts/Lvl2/Eagle.cs" />
     <Compile Include="Assets/Scripts/Lvl2/Key.cs" />
     <Compile Include="Assets/Scripts/Lvl2/KeyHolder.cs" />
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     <Compile Include="Assets/Scripts/Lvl2/Others/DayAndNightCycle.cs" />
     <Compile Include="Assets/Scripts/Lvl2/Enemy/Frog&amp;Eagle/Eagle/Eagle.cs" />
     <Compile Include="Assets/Scripts/Lvl2/Props/Key.cs" />
     <Compile Include="Assets/Scripts/Lvl2/Props/KeyHolder.cs" />
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     <Compile Include="Assets/Scripts/Lvl 4/CoinScript.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
-<<<<<<< HEAD
 <<<<<<< HEAD
     <Compile Include="Assets/Scripts/Lvl2/PauseMenu.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
@@ -1371,21 +1335,12 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
     <Compile Include="Assets/Scripts/Main Character/PlayerController.cs" />
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
-    <Compile Include="Assets/Scripts/Lvl2/Menu/PauseMenu.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
-    <Compile Include="Assets/Scripts/Main Character/PlayerController.cs" />
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
     <Compile Include="Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo_New.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
     <Compile Include="Assets/EffectExamples/Shared/Scripts/GunAim.cs" />
 <<<<<<< HEAD
-<<<<<<< HEAD
     <Compile Include="Assets/Scripts/Lvl2/LevelManager.cs" />
-=======
-    <Compile Include="Assets/Scripts/Lvl2/NamedArrayDrawer.cs" />
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
     <Compile Include="Assets/Scripts/Lvl2/NamedArrayDrawer.cs" />
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
@@ -2172,10 +2127,10 @@
   -->
 </Project>
 <<<<<<< HEAD
-<<<<<<< HEAD
 >>>>>>> parent of 639fb924 (Delete files)
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 <<<<<<< HEAD
@@ -4093,3 +4048,5 @@
 >>>>>>> parent of d31ece80 (revert)
 =======
 >>>>>>> parent of d31ece80 (revert)
+=======
+>>>>>>> parent of 3e782088 (import)

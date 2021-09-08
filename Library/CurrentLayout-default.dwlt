@@ -33,13 +33,10 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Inspector
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_RootView: {fileID: 2}
 >>>>>>> parent of 639fb924 (Delete files)
   m_MinSize: {x: 875, y: 300}
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
   m_RootView: {fileID: 9}
   m_MinSize: {x: 875, y: 542}
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
@@ -84,7 +81,6 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
-<<<<<<< HEAD
     width: 1440
     height: 790
   m_MinSize: {x: 875, y: 300}
@@ -95,15 +91,10 @@ MonoBehaviour:
   m_BottomViewHeight: 20
 >>>>>>> parent of 639fb924 (Delete files)
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     width: 100
     height: 100
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 8192, y: 8192}
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 --- !u!114 &3
 MonoBehaviour:
@@ -140,7 +131,6 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
-<<<<<<< HEAD
     width: 1440
     height: 30
   m_MinSize: {x: 0, y: 0}
@@ -151,8 +141,6 @@ MonoBehaviour:
   m_LastLoadedLayoutName: 
 >>>>>>> parent of 639fb924 (Delete files)
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     width: 337
     height: 302
   m_MinSize: {x: 100, y: 100}
@@ -162,9 +150,6 @@ MonoBehaviour:
   - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 0
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 --- !u!114 &4
 MonoBehaviour:
@@ -188,7 +173,6 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
     y: 0
     width: 228
     height: 394
@@ -207,8 +191,6 @@ MonoBehaviour:
   m_MaxSize: {x: 0, y: 0}
 >>>>>>> parent of 639fb924 (Delete files)
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     y: 438
     width: 1019
     height: 302
@@ -216,9 +198,6 @@ MonoBehaviour:
   m_MaxSize: {x: 14002, y: 10021}
   vertical: 0
   controlID: 159
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 --- !u!114 &5
 MonoBehaviour:
@@ -262,22 +241,16 @@ MonoBehaviour:
     width: 1440
     height: 740
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 1
   controlID: 47
 >>>>>>> parent of 639fb924 (Delete files)
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
   m_MinSize: {x: 676, y: 492}
   m_MaxSize: {x: 18002, y: 14042}
   vertical: 0
   controlID: 61
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 --- !u!114 &6
 MonoBehaviour:
@@ -309,7 +282,6 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
     width: 1206
     height: 715
   m_MinSize: {x: 875, y: 300}
@@ -327,8 +299,6 @@ MonoBehaviour:
   controlID: 48
 >>>>>>> parent of 639fb924 (Delete files)
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     width: 421
     height: 740
   m_MinSize: {x: 275, y: 50}
@@ -338,9 +308,6 @@ MonoBehaviour:
   - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 --- !u!114 &7
 MonoBehaviour:
@@ -370,7 +337,6 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
     width: 1206
     height: 30
   m_MinSize: {x: 0, y: 0}
@@ -387,8 +353,6 @@ MonoBehaviour:
   controlID: 49
 >>>>>>> parent of 639fb924 (Delete files)
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     width: 255
     height: 438
   m_MinSize: {x: 201, y: 221}
@@ -398,9 +362,6 @@ MonoBehaviour:
   - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 0
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 --- !u!114 &8
 MonoBehaviour:
@@ -436,7 +397,6 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
-<<<<<<< HEAD
     width: 1057
     height: 469
   m_MinSize: {x: 403, y: 221}
@@ -445,8 +405,6 @@ MonoBehaviour:
   controlID: 50
 >>>>>>> parent of 639fb924 (Delete files)
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     width: 682
     height: 302
   m_MinSize: {x: 232, y: 271}
@@ -456,9 +414,6 @@ MonoBehaviour:
   - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 --- !u!114 &9
 MonoBehaviour:
@@ -488,7 +443,6 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
     width: 921
     height: 665
   m_MinSize: {x: 403, y: 492}
@@ -507,8 +461,6 @@ MonoBehaviour:
   m_LastSelected: 0
 >>>>>>> parent of 639fb924 (Delete files)
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     width: 1440
     height: 790
   m_MinSize: {x: 875, y: 300}
@@ -517,9 +469,6 @@ MonoBehaviour:
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 --- !u!114 &10
 MonoBehaviour:
@@ -539,7 +488,6 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
-<<<<<<< HEAD
     x: 226
     y: 0
     width: 831
@@ -554,8 +502,6 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 2
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     x: 0
     y: 0
     width: 1440
@@ -566,9 +512,6 @@ MonoBehaviour:
   - {fileID: 21}
   m_MainToolbar: {fileID: 21}
   m_LastLoadedLayoutName: 
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 --- !u!114 &11
 MonoBehaviour:
@@ -617,7 +560,6 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
-<<<<<<< HEAD
     width: 921
     height: 394
   m_MinSize: {x: 403, y: 221}
@@ -629,8 +571,6 @@ MonoBehaviour:
   - {fileID: 12}
   - {fileID: 13}
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     width: 1019
     height: 740
   m_MinSize: {x: 401, y: 492}
@@ -690,7 +630,6 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
     x: 228
     y: 0
     width: 693
@@ -707,8 +646,6 @@ MonoBehaviour:
 =======
     x: 0
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     x: 255
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     y: 0
@@ -1163,7 +1100,6 @@ MonoBehaviour:
     x: 0
     y: 75
 <<<<<<< HEAD
-<<<<<<< HEAD
     width: 225
     height: 448
 >>>>>>> parent of 639fb924 (Delete files)
@@ -1176,8 +1112,6 @@ MonoBehaviour:
       m_LastClickedID: 0
       m_ExpandedIDs: 1ef3ffff
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     width: 254
     height: 417
   m_ViewDataDictionary: {fileID: 0}
@@ -1187,9 +1121,6 @@ MonoBehaviour:
       m_SelectedIDs: 6e540000
       m_LastClickedID: 21614
       m_ExpandedIDs: 1694ffff3cf9ffff04fbffff845300006e540000
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -1272,21 +1203,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
-<<<<<<< HEAD
     x: 226
     y: 75
     width: 829
     height: 448
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     x: 255
     y: 75
     width: 762
     height: 417
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 1
@@ -1307,7 +1232,6 @@ MonoBehaviour:
   m_Position:
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
     m_Value: {x: 75.74241, y: -20.422466, z: -54.90723}
@@ -1316,11 +1240,6 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 38.820007, y: -2.7200012, z: -2.2753906}
 >>>>>>> parent of 639fb924 (Delete files)
-=======
-    m_Target: {x: 83.550964, y: -3.255209, z: -25.055927}
-    speed: 2
-    m_Value: {x: 83.550964, y: -3.255209, z: -25.055927}
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
     m_Target: {x: 83.550964, y: -3.255209, z: -25.055927}
     speed: 2
@@ -1405,15 +1324,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-<<<<<<< HEAD
     m_Target: 24.125652
     speed: 2
     m_Value: 606.2178
-=======
-    m_Target: 29.957998
-    speed: 2
-    m_Value: 29.957998
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
     m_Target: 29.957998
     speed: 2
@@ -1514,22 +1427,16 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
-<<<<<<< HEAD
     x: 226
     y: 75
     width: 829
     height: 448
 >>>>>>> parent of 639fb924 (Delete files)
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     x: 255
     y: 75
     width: 762
     height: 417
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
@@ -1596,7 +1503,6 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
 <<<<<<< HEAD
-<<<<<<< HEAD
       y: 0
 <<<<<<< HEAD
       width: 1532
@@ -1610,16 +1516,11 @@ MonoBehaviour:
     m_Translation: {x: 414.5, y: 223.99998}
 >>>>>>> parent of 639fb924 (Delete files)
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
       y: 21
       width: 762
       height: 396
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 381, y: 198}
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -1627,7 +1528,6 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       x: -766
@@ -1647,8 +1547,6 @@ MonoBehaviour:
   m_LastWindowPixelSize: {x: 829, y: 448}
 >>>>>>> parent of 639fb924 (Delete files)
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
       x: -381
       y: -198
       width: 762
@@ -1656,9 +1554,6 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 762, y: 417}
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -1703,7 +1598,6 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
 <<<<<<< HEAD
     y: 544
     width: 511
@@ -1889,17 +1783,12 @@ MonoBehaviour:
 >>>>>>> parent of 639fb924 (Delete files)
 MonoBehaviour:
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     y: 513
     width: 336
     height: 281
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &21
 MonoBehaviour:
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

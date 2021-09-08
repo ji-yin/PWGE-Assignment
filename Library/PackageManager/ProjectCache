@@ -7,17 +7,12 @@ m_ProjectFiles:
       serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       ticks: 637667004870000000
     m_Hash: 2725982745
 =======
       ticks: 637659152150000000
     m_Hash: 2348359619
 >>>>>>> parent of 639fb924 (Delete files)
-=======
-      ticks: 637659152150000000
-    m_Hash: 2348359619
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
       ticks: 637659152150000000
     m_Hash: 2348359619
@@ -30,17 +25,12 @@ m_ProjectFiles:
       serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       ticks: 637667004920000000
     m_Hash: 2851052661
 =======
       ticks: 637659152150000000
     m_Hash: 3646100755
 >>>>>>> parent of 639fb924 (Delete files)
-=======
-      ticks: 637659152150000000
-    m_Hash: 3646100755
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
       ticks: 637659152150000000
     m_Hash: 3646100755
@@ -1006,12 +996,9 @@ m_PackageAssets:
         - 1.2.3
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
         - 1.2.4
 =======
 >>>>>>> parent of 639fb924 (Delete files)
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
         compatible:
@@ -1028,15 +1015,11 @@ m_PackageAssets:
         - 1.2.3
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
         - 1.2.4
         verified: 1.2.4
 =======
         verified: 1.2.3
 >>>>>>> parent of 639fb924 (Delete files)
-=======
-        verified: 1.2.3
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
         verified: 1.2.3
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
