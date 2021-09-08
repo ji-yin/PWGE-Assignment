@@ -1,7 +1,6 @@
 ﻿<Properties StartupConfiguration="{8427AD66-5140-1149-7C2F-48A1BBA2DF3F}|">
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Lvl2/EnemyAI.cs">
     <Files>
       <File FileName="Assets/Scripts/Lvl2/Enemy/Frog&amp;Eagle/Enemy.cs" Line="1" Column="1" />
@@ -18,10 +17,6 @@
 =======
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Main Character/PlayerControllerDemo.cs">
     <Files>
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Main Character/PlayerControllerDemo.cs">
-    <Files>
->>>>>>> parent of cf3b1701 (import lvl2)
       <File FileName="Assets/Scripts/Lvl2/Enemy/GruzMother/GruzMother_AttackPlayer.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Lvl2/Enemy/GruzMother/GruzMother.cs" Line="6" Column="27" />
       <File FileName="Assets/Scripts/Lvl2/Enemy/Skeleton&amp;FK/Grenade.cs" Line="1" Column="1" />
@@ -30,9 +25,6 @@
       <File FileName="Assets/Scripts/Lvl2/Props/SceneChange.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Lvl2/Enemy/Skeleton&amp;FK/Enemy_behaviour.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Main Character/PlayerControllerDemo.cs" Line="1" Column="1" />
-<<<<<<< HEAD
->>>>>>> parent of cf3b1701 (import lvl2)
-=======
 >>>>>>> parent of cf3b1701 (import lvl2)
     </Files>
     <Pads>
@@ -55,20 +47,14 @@
                     <Node name="Skeleton&amp;FK" expanded="True" />
                   </Node>
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
                   <Node name="PauseMenu.cs" selected="True" />
 >>>>>>> parent of 639fb924 (Delete files)
 =======
-=======
->>>>>>> parent of cf3b1701 (import lvl2)
                   <Node name="Props" expanded="True" />
                 </Node>
                 <Node name="Main Character" expanded="True">
                   <Node name="PlayerControllerDemo.cs" selected="True" />
-<<<<<<< HEAD
->>>>>>> parent of cf3b1701 (import lvl2)
-=======
 >>>>>>> parent of cf3b1701 (import lvl2)
                 </Node>
               </Node>

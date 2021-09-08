@@ -1,12 +1,6 @@
 # Starting compiling Assembly-CSharp.dll
 <<<<<<< HEAD
-<<<<<<< HEAD
 C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-593f9cabc7f177641ac18a15a99d7afc
-=======
-/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-8e1f1a1e2c3904600b24c2cc648595ad
-# Starting compiling Assembly-CSharp-Editor.dll
-/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-1fef0089e41df476e951282af3478f67
->>>>>>> parent of cf3b1701 (import lvl2)
 =======
 /Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-8e1f1a1e2c3904600b24c2cc648595ad
 # Starting compiling Assembly-CSharp-Editor.dll

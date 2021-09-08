@@ -23,7 +23,6 @@ public class PlayerControllerDemo : MonoBehaviour
     public Ladder ladder;
     private float naturalGravity;
 <<<<<<< HEAD
-<<<<<<< HEAD
     [SerializeField] float climbSpeed = 3f;
 
 <<<<<<< HEAD
@@ -41,8 +40,6 @@ public class PlayerControllerDemo : MonoBehaviour
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
-=======
->>>>>>> parent of cf3b1701 (import lvl2)
 
 <<<<<<< HEAD
     //Inspector varibles
@@ -65,9 +62,6 @@ public class PlayerControllerDemo : MonoBehaviour
     int currentHealth;
     private float nextAttackTime = 0f;
 =======
-<<<<<<< HEAD
->>>>>>> parent of cf3b1701 (import lvl2)
-=======
 >>>>>>> parent of cf3b1701 (import lvl2)
     [Header("InspectorVar")]
     [NamedArrayAttribute(new string[] { "speed", "cimbSpeed", "jumpForce", "hurtForce","attackRange","attackRate", "nextAttackTime" })]
@@ -89,7 +83,6 @@ public class PlayerControllerDemo : MonoBehaviour
     [SerializeField] private TextMeshProUGUI gemText;
     [SerializeField] private Text healthAmount;
     public GameOverMenu gameOverMenu;
-<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 639fb924 (Delete files)
@@ -133,8 +126,6 @@ public class PlayerControllerDemo : MonoBehaviour
     [SerializeField] private TextMeshProUGUI gemText;
     [SerializeField] private Text healthAmount;
     public GameOverMenu gameOverMenu;
-=======
->>>>>>> parent of cf3b1701 (import lvl2)
 >>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
 
     
@@ -218,7 +209,6 @@ public class PlayerControllerDemo : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
@@ -227,9 +217,6 @@ public class PlayerControllerDemo : MonoBehaviour
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
-=======
->>>>>>> parent of cf3b1701 (import lvl2)
 =======
 =======
 >>>>>>> parent of cf3b1701 (import lvl2)
@@ -260,7 +247,6 @@ public class PlayerControllerDemo : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of b93abbce (lvl3)
 =======
@@ -271,9 +257,6 @@ public class PlayerControllerDemo : MonoBehaviour
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
->>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
->>>>>>> parent of cf3b1701 (import lvl2)
 =======
 >>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
 >>>>>>> parent of cf3b1701 (import lvl2)
@@ -300,7 +283,6 @@ public class PlayerControllerDemo : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
             playerVar[2] = 120f;
 =======
             jumpForce = 90f;
@@ -320,12 +302,6 @@ public class PlayerControllerDemo : MonoBehaviour
 =======
             playerVar[2] = 120f;
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
-            jumpForce = 90f;
-=======
-            playerVar[2] = 120f;
->>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
->>>>>>> parent of cf3b1701 (import lvl2)
 =======
             jumpForce = 90f;
 =======
@@ -526,21 +502,15 @@ public class PlayerControllerDemo : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
-=======
->>>>>>> parent of cf3b1701 (import lvl2)
         animator.SetBool("isDead", true);
 
         //GetComponent<Collider2D>().enabled = false;
         Destroy(this);
-=======
-<<<<<<< HEAD
->>>>>>> parent of cf3b1701 (import lvl2)
 =======
 >>>>>>> parent of cf3b1701 (import lvl2)
         anim.SetBool("isDead", true);
@@ -550,7 +520,6 @@ public class PlayerControllerDemo : MonoBehaviour
         Time.timeScale = 0f;
         gameOverMenu.GameOver();
         Destroy(gameObject);
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -587,9 +556,6 @@ public class PlayerControllerDemo : MonoBehaviour
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
->>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
->>>>>>> parent of cf3b1701 (import lvl2)
 =======
 >>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
 >>>>>>> parent of cf3b1701 (import lvl2)

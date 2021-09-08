@@ -611,7 +611,6 @@ candidates check time : 62ms
 console write time    : 0ms
 
 <<<<<<< HEAD
-<<<<<<< HEAD
 [api-updater (non-obsolete-error-filter)] 8/9/2021 8:00:22 PM : Starting /Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
 [api-updater (non-obsolete-error-filter)] Exception caught while loading types from /Users/weiqianho/Documents/GitHub/PWGE-Assignment/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll (some types may not be loaded)
 	Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
@@ -653,7 +652,5 @@ console write time    : 0ms
 
 =======
 >>>>>>> parent of 639fb924 (Delete files)
-=======
->>>>>>> parent of cf3b1701 (import lvl2)
 =======
 >>>>>>> parent of cf3b1701 (import lvl2)

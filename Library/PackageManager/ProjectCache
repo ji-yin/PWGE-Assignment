@@ -10,7 +10,6 @@ m_ProjectFiles:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       ticks: 637667004870000000
     m_Hash: 2725982745
 =======
@@ -33,17 +32,12 @@ m_ProjectFiles:
       ticks: 637666954202244914
     m_Hash: 2628012558
 >>>>>>> parent of cf3b1701 (import lvl2)
-=======
-      ticks: 637666954202244914
-    m_Hash: 2628012558
->>>>>>> parent of cf3b1701 (import lvl2)
   m_LockFileStatus:
     m_FilePath: D:/PWGE-Assignment/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67,10 +61,6 @@ m_ProjectFiles:
       ticks: 637666908491615964
     m_Hash: 2511562964
 >>>>>>> parent of 16265ab2 (import lvl3)
-=======
-      ticks: 637666954202244914
-    m_Hash: 2511562964
->>>>>>> parent of cf3b1701 (import lvl2)
 =======
       ticks: 637666954202244914
     m_Hash: 2511562964
@@ -2018,7 +2008,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\PWGE-Assignment\Library\PackageCache\com.unity.modules.ai@1.0.0
+      resolvedPath: /Users/weiqianho/Documents/GitHub/PWGE-Assignment/Library/PackageCache/com.unity.modules.ai@1.0.0
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI

@@ -5,7 +5,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 16265ab2 (import lvl3)
 >>>>>>> parent of 2df8fb3f (revert)
@@ -14,15 +13,10 @@
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
 =======
-=======
->>>>>>> parent of cf3b1701 (import lvl2)
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>8.0</LangVersion>
-<<<<<<< HEAD
->>>>>>> parent of cf3b1701 (import lvl2)
-=======
 >>>>>>> parent of cf3b1701 (import lvl2)
   </PropertyGroup>
   <PropertyGroup>
@@ -45,11 +39,7 @@
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
 <<<<<<< HEAD
-<<<<<<< HEAD
     <DefineConstants>DEBUG;TRACE;UNITY_2020_3_11;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
-=======
-    <DefineConstants>UNITY_2020_3_11;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
->>>>>>> parent of cf3b1701 (import lvl2)
 =======
     <DefineConstants>UNITY_2020_3_11;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
 >>>>>>> parent of cf3b1701 (import lvl2)
@@ -76,7 +66,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-<<<<<<< HEAD
 <<<<<<< HEAD
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
     <UnityProjectGeneratorVersion>2.10.2.0</UnityProjectGeneratorVersion>
@@ -148,8 +137,6 @@
     <Compile Include="Assets\GameOverMenu.cs" />
     <Compile Include="Assets\Scripts\Lvl2\LevelManager.cs" />
 =======
-=======
->>>>>>> parent of cf3b1701 (import lvl2)
     <UnityProjectGenerator>Package</UnityProjectGenerator>
     <UnityProjectGeneratorVersion>2.0.8</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
@@ -189,9 +176,6 @@
 >>>>>>> parent of 16265ab2 (import lvl3)
 =======
     <Compile Include="Assets\Scripts\Lvl2\Others\LevelManager.cs" />
-<<<<<<< HEAD
->>>>>>> parent of cf3b1701 (import lvl2)
-=======
 >>>>>>> parent of cf3b1701 (import lvl2)
 >>>>>>> parent of 2df8fb3f (revert)
     <Compile Include="Assets\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
@@ -307,29 +291,22 @@
 >>>>>>> parent of 2df8fb3f (revert)
     <Compile Include="Assets\Scripts\Lvl 4\BossCollision.cs" />
 <<<<<<< HEAD
-<<<<<<< HEAD
     <Compile Include="Assets\Scripts\Lvl2\GruzMother\GruzMother_AttackPlayer.cs" />
     <Compile Include="Assets\Scripts\Lvl2\Frog.cs" />
     <Compile Include="Assets\Scripts\Lvl2\GravityHelper.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
     <Compile Include="Assets\Scripts\Lvl2\Grenade.cs" />
 =======
-=======
->>>>>>> parent of cf3b1701 (import lvl2)
     <Compile Include="Assets\Scripts\Lvl2\Enemy\GruzMother\GruzMother_AttackPlayer.cs" />
     <Compile Include="Assets\Scripts\Lvl2\Enemy\Frog&amp;Eagle\Frog\Frog.cs" />
     <Compile Include="Assets\Scripts\Lvl2\Others\GravityHelper.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
     <Compile Include="Assets\Scripts\Lvl2\Enemy\Skeleton&amp;FK\Grenade.cs" />
-<<<<<<< HEAD
->>>>>>> parent of cf3b1701 (import lvl2)
-=======
 >>>>>>> parent of cf3b1701 (import lvl2)
     <Compile Include="Assets\Scripts\Lvl 4\CageScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\Scripts\Lvl 4\KeyCountScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
-<<<<<<< HEAD
 <<<<<<< HEAD
     <Compile Include="Assets\Scripts\Lvl2\GruzMother\GruzMother.cs" />
     <Compile Include="Assets\Scripts\Lvl2\WeatherManager.cs" />
@@ -341,8 +318,6 @@
     <Compile Include="Assets\Scripts\Lvl2\PlayerCombat.cs" />
     <Compile Include="Assets\Scripts\Lvl2\EnemyGFX.cs" />
 =======
-=======
->>>>>>> parent of cf3b1701 (import lvl2)
     <Compile Include="Assets\Scripts\Lvl2\Enemy\GruzMother\GruzMother.cs" />
     <Compile Include="Assets\Scripts\Lvl2\Props\WeatherManager.cs" />
     <Compile Include="Assets\Scripts\Lvl2\NamedArrayAttribute.cs" />
@@ -351,15 +326,11 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RandomDir.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
-<<<<<<< HEAD
->>>>>>> parent of cf3b1701 (import lvl2)
-=======
 >>>>>>> parent of cf3b1701 (import lvl2)
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\WFX_Demo_Wall.cs" />
-<<<<<<< HEAD
 <<<<<<< HEAD
     <Compile Include="Assets\Scripts\Lvl2\hitBoxCheck.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
@@ -391,8 +362,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\Scripts\Lvl2\Fall.cs" />
 =======
-=======
->>>>>>> parent of cf3b1701 (import lvl2)
     <Compile Include="Assets\Scripts\Lvl2\Enemy\Skeleton&amp;FK\hitBoxCheck.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\Main Character\PlayerControllerDemo.cs" />
@@ -406,23 +375,15 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\Scripts\Lvl2\Others\Fall.cs" />
-<<<<<<< HEAD
->>>>>>> parent of cf3b1701 (import lvl2)
-=======
 >>>>>>> parent of cf3b1701 (import lvl2)
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\Scripts\Lvl2\PlayerMove.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
 <<<<<<< HEAD
-<<<<<<< HEAD
     <Compile Include="Assets\Scripts\Lvl2\Parallaxing.cs" />
     <Compile Include="Assets\Scripts\Main Character\PlayerCollision.cs" />
     <Compile Include="Assets\Scripts\Lvl2\Shoot.cs" />
-=======
-    <Compile Include="Assets\Scripts\Lvl2\BG\Parallaxing.cs" />
-    <Compile Include="Assets\Scripts\Main Character\PlayerCollision.cs" />
->>>>>>> parent of cf3b1701 (import lvl2)
 =======
     <Compile Include="Assets\Scripts\Lvl2\BG\Parallaxing.cs" />
     <Compile Include="Assets\Scripts\Main Character\PlayerCollision.cs" />
@@ -436,7 +397,6 @@
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
 <<<<<<< HEAD
-<<<<<<< HEAD
     <Compile Include="Assets\Scripts\Lvl2\HotZoneCheck.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Scripts\WFX_LightFlicker.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -449,8 +409,6 @@
     <Compile Include="Assets\Scripts\Lvl 4\KeyScript.cs" />
     <Compile Include="Assets\Scripts\Lvl2\TriggerAreaCheck.cs" />
 =======
-=======
->>>>>>> parent of cf3b1701 (import lvl2)
     <Compile Include="Assets\Scripts\Lvl2\Enemy\Skeleton&amp;FK\HotZoneCheck.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Scripts\WFX_LightFlicker.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -461,9 +419,6 @@
     <Compile Include="Assets\Scripts\Lvl2\Enemy\Skeleton&amp;FK\Enemy_behaviour.cs" />
     <Compile Include="Assets\Scripts\Lvl 4\KeyScript.cs" />
     <Compile Include="Assets\Scripts\Lvl2\Enemy\Skeleton&amp;FK\TriggerAreaCheck.cs" />
-<<<<<<< HEAD
->>>>>>> parent of cf3b1701 (import lvl2)
-=======
 >>>>>>> parent of cf3b1701 (import lvl2)
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
@@ -476,29 +431,22 @@
     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_Demo_Translate.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
 <<<<<<< HEAD
-<<<<<<< HEAD
     <Compile Include="Assets\Scripts\Lvl2\DayAndNightCycle.cs" />
     <Compile Include="Assets\Scripts\Lvl2\BigBoss.cs" />
     <Compile Include="Assets\Scripts\Lvl2\Eagle.cs" />
     <Compile Include="Assets\Scripts\Lvl2\Key.cs" />
     <Compile Include="Assets\Scripts\Lvl2\KeyHolder.cs" />
 =======
-=======
->>>>>>> parent of cf3b1701 (import lvl2)
     <Compile Include="Assets\Scripts\Lvl2\Others\DayAndNightCycle.cs" />
     <Compile Include="Assets\Scripts\Lvl2\NamedArrayDrawer.cs" />
     <Compile Include="Assets\Scripts\Lvl2\Enemy\Frog&amp;Eagle\Eagle\Eagle.cs" />
     <Compile Include="Assets\Scripts\Lvl2\Props\Key.cs" />
     <Compile Include="Assets\Scripts\Lvl2\Props\KeyHolder.cs" />
-<<<<<<< HEAD
->>>>>>> parent of cf3b1701 (import lvl2)
-=======
 >>>>>>> parent of cf3b1701 (import lvl2)
     <Compile Include="Assets\Scripts\Lvl 4\CoinScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
-<<<<<<< HEAD
 <<<<<<< HEAD
     <Compile Include="Assets\Scripts\Lvl2\PauseMenu.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
@@ -511,8 +459,6 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
 =======
-=======
->>>>>>> parent of cf3b1701 (import lvl2)
     <Compile Include="Assets\Scripts\Lvl2\Menu\PauseMenu.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\Scripts\Main Character\PlayerController.cs" />
@@ -527,9 +473,6 @@
     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft Scroll.shader" />
-<<<<<<< HEAD
->>>>>>> parent of cf3b1701 (import lvl2)
-=======
 >>>>>>> parent of cf3b1701 (import lvl2)
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro 1\Fonts\LiberationSans - OFL.txt" />
@@ -541,42 +484,30 @@
     <None Include="Assets\TextMesh Pro 1\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro 1\Shaders\TMP_SDF Overlay.shader" />
 <<<<<<< HEAD
-<<<<<<< HEAD
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro 1\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
 =======
-=======
->>>>>>> parent of cf3b1701 (import lvl2)
     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Alpha-Specular TintColor.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro 1\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Add Scroll.shader" />
-<<<<<<< HEAD
->>>>>>> parent of cf3b1701 (import lvl2)
-=======
 >>>>>>> parent of cf3b1701 (import lvl2)
     <None Include="Assets\TextMesh Pro 1\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
     <None Include="Assets\TextMesh Pro 1\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
 <<<<<<< HEAD
-<<<<<<< HEAD
     <None Include="Assets\JMO Assets\WarFX\_Effects (Mobile)\MuzzleFlashes\!MuzzleFlash Differences.txt" />
     <None Include="Assets\TextMesh Pro 1\Shaders\TMP_Sprite.shader" />
 =======
-=======
->>>>>>> parent of cf3b1701 (import lvl2)
     <None Include="Assets\Asset Store\Warrior\Contact.txt" />
     <None Include="Assets\JMO Assets\WarFX\_Effects (Mobile)\MuzzleFlashes\!MuzzleFlash Differences.txt" />
     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Particle Add A8.shader" />
     <None Include="Assets\TextMesh Pro 1\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Smoke Scroll.shader" />
     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Particle Multiply A8.shader" />
-<<<<<<< HEAD
->>>>>>> parent of cf3b1701 (import lvl2)
-=======
 >>>>>>> parent of cf3b1701 (import lvl2)
     <None Include="Assets\TextMesh Pro 1\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro 1\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -587,13 +518,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
 <<<<<<< HEAD
-<<<<<<< HEAD
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-=======
-    <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S AlphaBlend Scroll.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\Asset Store\Warrior\License.txt" />
->>>>>>> parent of cf3b1701 (import lvl2)
 =======
     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S AlphaBlend Scroll.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
@@ -608,7 +533,6 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro 1\Shaders\TMP_Bitmap-Mobile.shader" />
 <<<<<<< HEAD
-<<<<<<< HEAD
     <None Include="Assets\JMO Assets\WarFX\!WarFX Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro 1\Shaders\TMP_SDF-Surface.shader" />
@@ -617,8 +541,6 @@
     <None Include="Assets\TextMesh Pro 1\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
 =======
-=======
->>>>>>> parent of cf3b1701 (import lvl2)
     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Particle AddSoft A8.shader" />
     <None Include="Assets\JMO Assets\WarFX\!WarFX Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
@@ -630,15 +552,11 @@
     <None Include="Assets\TextMesh Pro 1\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S AlphaBlend NoSoftParticles.shader" />
-<<<<<<< HEAD
->>>>>>> parent of cf3b1701 (import lvl2)
-=======
 >>>>>>> parent of cf3b1701 (import lvl2)
     <None Include="Assets\TextMesh Pro 1\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro 1\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
-<<<<<<< HEAD
 <<<<<<< HEAD
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -3285,8 +3203,6 @@
     <Reference Include="Unity.RenderPipelines.Core.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
 =======
-=======
->>>>>>> parent of cf3b1701 (import lvl2)
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -3978,9 +3894,6 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
-<<<<<<< HEAD
->>>>>>> parent of cf3b1701 (import lvl2)
-=======
 >>>>>>> parent of cf3b1701 (import lvl2)
     </Reference>
   </ItemGroup>
@@ -4959,11 +4872,13 @@
 =======
 </Project>
 <<<<<<< HEAD
-<<<<<<< HEAD
 >>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
 >>>>>>> parent of 16265ab2 (import lvl3)
 =======
 >>>>>>> parent of cf3b1701 (import lvl2)
+<<<<<<< HEAD
 =======
 >>>>>>> parent of cf3b1701 (import lvl2)
 >>>>>>> parent of 2df8fb3f (revert)
+=======
+>>>>>>> parent of a54bfd08 (revert)
