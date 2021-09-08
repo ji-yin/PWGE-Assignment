@@ -1,6 +1,5 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -42,8 +41,6 @@ public class Enemy_behaviour : MonoBehaviour
 =======
 =======
 >>>>>>> parent of b93abbce (lvl3)
-=======
->>>>>>> parent of b93abbce (lvl3)
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -83,9 +80,6 @@ public class Enemy_behaviour : MonoBehaviour
     #endregion
 
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of b93abbce (lvl3)
-=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
@@ -95,7 +89,6 @@ public class Enemy_behaviour : MonoBehaviour
 
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
     }
 
     void Awake()
@@ -166,8 +159,6 @@ public class Enemy_behaviour : MonoBehaviour
 =======
 =======
 >>>>>>> parent of b93abbce (lvl3)
-=======
->>>>>>> parent of b93abbce (lvl3)
     }
 
     void Awake()
@@ -236,9 +227,6 @@ public class Enemy_behaviour : MonoBehaviour
 
         anim.SetBool("canWalk", false);
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of b93abbce (lvl3)
-=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
@@ -259,7 +247,6 @@ public class Enemy_behaviour : MonoBehaviour
 
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
     }
 
     void Cooldown()
@@ -333,8 +320,6 @@ public class Enemy_behaviour : MonoBehaviour
 =======
 =======
 >>>>>>> parent of b93abbce (lvl3)
-=======
->>>>>>> parent of b93abbce (lvl3)
     }
 
     void Cooldown()
@@ -406,9 +391,6 @@ public class Enemy_behaviour : MonoBehaviour
 
 
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of b93abbce (lvl3)
-=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
@@ -438,7 +420,6 @@ public class Enemy_behaviour : MonoBehaviour
         this.enabled = false;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 
     }
 
@@ -455,8 +436,6 @@ public class Enemy_behaviour : MonoBehaviour
 =======
 =======
 >>>>>>> parent of b93abbce (lvl3)
-=======
->>>>>>> parent of b93abbce (lvl3)
     }
 
     private void OnAttackStart()
@@ -470,9 +449,6 @@ public class Enemy_behaviour : MonoBehaviour
     }
 }
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of b93abbce (lvl3)
-=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)

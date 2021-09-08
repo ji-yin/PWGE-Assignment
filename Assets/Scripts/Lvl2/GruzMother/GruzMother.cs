@@ -1,6 +1,5 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Net.NetworkInformation;
@@ -68,8 +67,6 @@ public class GruzMother : MonoBehaviour
 =======
 =======
 >>>>>>> parent of b93abbce (lvl3)
-=======
->>>>>>> parent of b93abbce (lvl3)
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Net.NetworkInformation;
@@ -135,9 +132,6 @@ public class GruzMother : MonoBehaviour
     }
 
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of b93abbce (lvl3)
-=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
@@ -155,7 +149,6 @@ public class GruzMother : MonoBehaviour
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
     }
 
 
@@ -287,8 +280,6 @@ public class GruzMother : MonoBehaviour
 =======
 =======
 >>>>>>> parent of b93abbce (lvl3)
-=======
->>>>>>> parent of b93abbce (lvl3)
     }
 
 
@@ -418,9 +409,6 @@ public class GruzMother : MonoBehaviour
     }
 }
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of b93abbce (lvl3)
-=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)

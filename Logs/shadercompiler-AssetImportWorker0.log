@@ -1,12 +1,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 Base path: '/Applications/Unity/Unity.app/Contents', plugins path '/Applications/Unity/Unity.app/Contents/PlaybackEngines'
 Cmd: initializeCompiler
 
 =======
-=======
->>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
 Base path: 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines'
@@ -34,9 +31,6 @@ Unhandled exception: Protocol error - failed to read magic number (error -214748
 
 Quitting shader compiler process
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of b93abbce (lvl3)
-=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)

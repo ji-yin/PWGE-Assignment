@@ -1,13 +1,10 @@
 Using pre-set license
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 
  COMMAND LINE ARGUMENTS:
 /Applications/Unity/Unity.app/Contents/MacOS/Unity
 =======
-=======
->>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
@@ -17,9 +14,6 @@ BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, I
  COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of b93abbce (lvl3)
-=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
@@ -29,7 +23,6 @@ C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 /Users/weiqianho/Documents/GitHub/PWGE-Assignment
@@ -836,8 +829,6 @@ Start importing Assets/Sprites/Lvl2/URP/UniversalRenderPipelineAsset.asset using
 =======
 =======
 >>>>>>> parent of b93abbce (lvl3)
-=======
->>>>>>> parent of b93abbce (lvl3)
 D:/PWGE-Assignment
 -logFile
 Logs/AssetImportWorker0.log
@@ -879,9 +870,6 @@ Platform modules already initialized, skipping
 Registering precompiled user dll's ...
 Registered in 0.620641 seconds.
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of b93abbce (lvl3)
-=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
