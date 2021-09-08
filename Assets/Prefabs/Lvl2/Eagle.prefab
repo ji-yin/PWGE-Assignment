@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1266037867}
   - component: {fileID: 5120553601811007732}
   - component: {fileID: 1630162850432875801}
+  - component: {fileID: 1630162850432875802}
   - component: {fileID: 1630162850432875803}
   - component: {fileID: 479089831}
   - component: {fileID: 479089832}
@@ -99,12 +100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52393a45fbce2ed4787167a7e5b7679c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eagleVar:
-  - 200
-  - 3
-  eagleTrans:
-  - {fileID: 0}
-  - {fileID: 1630162851360459133}
+  anim: {fileID: 1750950353}
+  rb: {fileID: 1266037868}
 --- !u!82 &5120553601811007732
 AudioSource:
   m_ObjectHideFlags: 0
@@ -217,6 +214,22 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &1630162850432875802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630162851360459121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c18e9fdff4ca44399e2ed49a8415cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 7937790417123369920, guid: aad364111379e45c8b4761809938ad91, type: 3}
+  speed: 400
+  nextWaypointDistance: 3
+  enemyGFX: {fileID: 1630162851360459133}
 --- !u!114 &1630162850432875803
 MonoBehaviour:
   m_ObjectHideFlags: 0
