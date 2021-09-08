@@ -45,6 +45,7 @@ public class PlayerControllerDemo : MonoBehaviour
 >>>>>>> parent of cf3b1701 (import lvl2)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     //Inspector varibles
     [SerializeField] private LayerMask ground;
     [SerializeField] private float speed = 0.5f;
@@ -69,6 +70,8 @@ public class PlayerControllerDemo : MonoBehaviour
 >>>>>>> parent of cf3b1701 (import lvl2)
 =======
 >>>>>>> parent of cf3b1701 (import lvl2)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     [Header("InspectorVar")]
     [NamedArrayAttribute(new string[] { "speed", "cimbSpeed", "jumpForce", "hurtForce","attackRange","attackRate", "nextAttackTime" })]
     [SerializeField] private float[] playerVar;
@@ -89,6 +92,7 @@ public class PlayerControllerDemo : MonoBehaviour
     [SerializeField] private TextMeshProUGUI gemText;
     [SerializeField] private Text healthAmount;
     public GameOverMenu gameOverMenu;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -136,6 +140,8 @@ public class PlayerControllerDemo : MonoBehaviour
 =======
 >>>>>>> parent of cf3b1701 (import lvl2)
 >>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 
     
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
@@ -219,6 +225,7 @@ public class PlayerControllerDemo : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
@@ -233,6 +240,8 @@ public class PlayerControllerDemo : MonoBehaviour
 =======
 =======
 >>>>>>> parent of cf3b1701 (import lvl2)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     private void FixedUpdate()
     {
         if (Physics2D.Linecast(transform.position, playerDetect[1].position, layers[0]) ||
@@ -261,6 +270,7 @@ public class PlayerControllerDemo : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of b93abbce (lvl3)
 =======
@@ -277,6 +287,8 @@ public class PlayerControllerDemo : MonoBehaviour
 =======
 >>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
 >>>>>>> parent of cf3b1701 (import lvl2)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     private void OnTriggerEnter2D(Collider2D collision)
 =======
         private void OnTriggerEnter2D(Collider2D collision)
@@ -293,6 +305,7 @@ public class PlayerControllerDemo : MonoBehaviour
         if(collision.tag == "PowerUp")
         {
             Destroy(collision.gameObject);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -332,6 +345,9 @@ public class PlayerControllerDemo : MonoBehaviour
             playerVar[2] = 120f;
 >>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
 >>>>>>> parent of cf3b1701 (import lvl2)
+=======
+            playerVar[2] = 120f;
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
             GetComponent<SpriteRenderer>().color = Color.yellow;
             StartCoroutine(ResetPower());
         }
@@ -405,7 +421,7 @@ public class PlayerControllerDemo : MonoBehaviour
             transform.localScale = new Vector2(1, 1);
         }
         //Jumping
-        if (Input.GetKeyDown(KeyCode.Space) && coll.IsTouchingLayers(ground))
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             Jump();
         }
@@ -434,7 +450,7 @@ public class PlayerControllerDemo : MonoBehaviour
 
         else if(state == State.falling)
         {
-            if (coll.IsTouchingLayers(ground))
+            if (isGrounded)
             {
                 state = State.idle;
             }
@@ -527,6 +543,7 @@ public class PlayerControllerDemo : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
@@ -543,6 +560,8 @@ public class PlayerControllerDemo : MonoBehaviour
 >>>>>>> parent of cf3b1701 (import lvl2)
 =======
 >>>>>>> parent of cf3b1701 (import lvl2)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
         anim.SetBool("isDead", true);
         GetComponent<Collider2D>().enabled = false;
         string gemsText = playerPoints[0].ToString();
@@ -550,6 +569,7 @@ public class PlayerControllerDemo : MonoBehaviour
         Time.timeScale = 0f;
         gameOverMenu.GameOver();
         Destroy(gameObject);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -593,6 +613,8 @@ public class PlayerControllerDemo : MonoBehaviour
 =======
 >>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
 >>>>>>> parent of cf3b1701 (import lvl2)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     }
 
     private void Climb()
