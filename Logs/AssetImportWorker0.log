@@ -1,21 +1,15 @@
 Using pre-set license
 <<<<<<< HEAD
-<<<<<<< HEAD
 
  COMMAND LINE ARGUMENTS:
 /Applications/Unity/Unity.app/Contents/MacOS/Unity
 =======
-=======
->>>>>>> parent of b93abbce (lvl3)
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
 OS: 'Windows 10 Pro; OS build 19042.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 7986 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
-<<<<<<< HEAD
->>>>>>> parent of b93abbce (lvl3)
-=======
 >>>>>>> parent of b93abbce (lvl3)
 -adb2
 -batchMode
@@ -23,7 +17,6 @@ C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-<<<<<<< HEAD
 <<<<<<< HEAD
 /Users/weiqianho/Documents/GitHub/PWGE-Assignment
 -logFile
@@ -827,8 +820,6 @@ Start importing Assets/Sprites/Lvl2/URP/UniversalRenderPipelineAsset.asset using
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
 =======
-=======
->>>>>>> parent of b93abbce (lvl3)
 D:/PWGE-Assignment
 -logFile
 Logs/AssetImportWorker0.log
@@ -869,7 +860,4 @@ Mono: successfully reloaded assembly
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
 Registered in 0.620641 seconds.
-<<<<<<< HEAD
->>>>>>> parent of b93abbce (lvl3)
-=======
 >>>>>>> parent of b93abbce (lvl3)

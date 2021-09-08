@@ -1,5 +1,4 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Net.NetworkInformation;
@@ -65,8 +64,6 @@ public class GruzMother : MonoBehaviour
     }
 
 =======
-=======
->>>>>>> parent of b93abbce (lvl3)
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Net.NetworkInformation;
@@ -131,9 +128,6 @@ public class GruzMother : MonoBehaviour
         }
     }
 
-<<<<<<< HEAD
->>>>>>> parent of b93abbce (lvl3)
-=======
 >>>>>>> parent of b93abbce (lvl3)
     void Attack()
     {
@@ -148,7 +142,6 @@ public class GruzMother : MonoBehaviour
 
         }
 <<<<<<< HEAD
-<<<<<<< HEAD
     }
 
 
@@ -278,8 +271,6 @@ public class GruzMother : MonoBehaviour
     }
 }
 =======
-=======
->>>>>>> parent of b93abbce (lvl3)
     }
 
 
@@ -408,7 +399,4 @@ public class GruzMother : MonoBehaviour
         Gizmos.DrawWireSphere(groundCheckWall.position, groundCheckRadius);
     }
 }
-<<<<<<< HEAD
->>>>>>> parent of b93abbce (lvl3)
-=======
 >>>>>>> parent of b93abbce (lvl3)

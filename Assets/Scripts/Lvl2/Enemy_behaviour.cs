@@ -1,5 +1,4 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -39,8 +38,6 @@ public class Enemy_behaviour : MonoBehaviour
     #endregion
 
 =======
-=======
->>>>>>> parent of b93abbce (lvl3)
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -79,16 +76,12 @@ public class Enemy_behaviour : MonoBehaviour
 
     #endregion
 
-<<<<<<< HEAD
->>>>>>> parent of b93abbce (lvl3)
-=======
 >>>>>>> parent of b93abbce (lvl3)
     protected virtual void Start()
     {
         currentHealth = maxHealth;
 
 <<<<<<< HEAD
-<<<<<<< HEAD
     }
 
     void Awake()
@@ -157,8 +150,6 @@ public class Enemy_behaviour : MonoBehaviour
 
         anim.SetBool("canWalk", false);
 =======
-=======
->>>>>>> parent of b93abbce (lvl3)
     }
 
     void Awake()
@@ -226,9 +217,6 @@ public class Enemy_behaviour : MonoBehaviour
         attackMode = true; //To check if Enemy can still attack or not
 
         anim.SetBool("canWalk", false);
-<<<<<<< HEAD
->>>>>>> parent of b93abbce (lvl3)
-=======
 >>>>>>> parent of b93abbce (lvl3)
         anim.SetBool("Attack", true);
 
@@ -246,7 +234,6 @@ public class Enemy_behaviour : MonoBehaviour
         
 
 <<<<<<< HEAD
-<<<<<<< HEAD
     }
 
     void Cooldown()
@@ -318,8 +305,6 @@ public class Enemy_behaviour : MonoBehaviour
 
 
 =======
-=======
->>>>>>> parent of b93abbce (lvl3)
     }
 
     void Cooldown()
@@ -390,9 +375,6 @@ public class Enemy_behaviour : MonoBehaviour
 
 
 
-<<<<<<< HEAD
->>>>>>> parent of b93abbce (lvl3)
-=======
 >>>>>>> parent of b93abbce (lvl3)
     public void TakeDamage()
     {
@@ -419,7 +401,6 @@ public class Enemy_behaviour : MonoBehaviour
         GetComponentInChildren<HotZoneCheck>().enabled = false;
         this.enabled = false;
 <<<<<<< HEAD
-<<<<<<< HEAD
 
     }
 
@@ -434,8 +415,6 @@ public class Enemy_behaviour : MonoBehaviour
     }
 }
 =======
-=======
->>>>>>> parent of b93abbce (lvl3)
     }
 
     private void OnAttackStart()
@@ -448,7 +427,4 @@ public class Enemy_behaviour : MonoBehaviour
         hitBox.SetActive(false);
     }
 }
-<<<<<<< HEAD
->>>>>>> parent of b93abbce (lvl3)
-=======
 >>>>>>> parent of b93abbce (lvl3)
