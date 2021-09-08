@@ -24,15 +24,15 @@ public class PlayerControllerDemo : MonoBehaviour
     private float naturalGravity;
 
     [Header("InspectorVar")]
-    [NamedArrayAttribute(new string[] { "Speed", "CimbSpeed", "JumpForce", "HurtForce","AttackRange","AttackRate", "NextAttackTime" })]
+    [NamedArrayAttribute(new string[] { "speed", "cimbSpeed", "jumpForce", "hurtForce","attackRange","attackRate", "nextAttackTime" })]
     [SerializeField] private float[] playerVar;
-    [NamedArrayAttribute(new string[] { "GroundLayer", "EnemyLayer"})]
+    [NamedArrayAttribute(new string[] { "groundLayer", "enemyLayer"})]
     [SerializeField] private LayerMask[] layers;
-    [NamedArrayAttribute(new string[] { "Gem", "Footstep", "Hurt" ,"Dead"})]
+    [NamedArrayAttribute(new string[] { "gem", "footstep", "hurt" ,"dead"})]
     [SerializeField] private AudioSource[] playerAudio;
-    [NamedArrayAttribute(new string[] { "AttackPoint", "GroundDetection", "GroundDetectionL", "GroundDetectionR"})]
+    [NamedArrayAttribute(new string[] { "attackPoint", "groundDetection", "groundDetectionL", "groundDetectionR"})]
     [SerializeField] private Transform[] playerDetect;
-    [NamedArrayAttribute(new string[] { "Gems", "MaxHealth", "CurrentHealth"})]
+    [NamedArrayAttribute(new string[] { "gems", "maxHealth", "currentHealth"})]
     [SerializeField] private int[] playerPoints;
 
     [Header("UI")]
@@ -287,6 +287,7 @@ public class PlayerControllerDemo : MonoBehaviour
 
     public void DamagePlayer(int damage)
     {
+        playerAudio[2].Play();
         playerPoints[2] -= damage;
         healthAmount.text = playerPoints[2].ToString();
         anim.SetInteger("state", 4);

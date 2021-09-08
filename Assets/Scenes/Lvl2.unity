@@ -2395,12 +2395,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -0.000015258789}
   m_SizeDelta: {x: 0, y: 41.0154}
   m_Pivot: {x: 0.5, y: 1}
---- !u!82 &975816946 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 617362496883879793, guid: aad364111379e45c8b4761809938ad91,
-    type: 3}
-  m_PrefabInstance: {fileID: 7937790419010038708}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &979961982
 GameObject:
   m_ObjectHideFlags: 0
@@ -7130,11 +7124,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 617362496883879793, guid: aad364111379e45c8b4761809938ad91,
-        type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1148614388457656421, guid: aad364111379e45c8b4761809938ad91,
         type: 3}
       propertyPath: ladder
@@ -7155,16 +7144,6 @@ PrefabInstance:
       propertyPath: healthAmount
       value: 
       objectReference: {fileID: 1683537022}
-    - target: {fileID: 1148614388457656421, guid: aad364111379e45c8b4761809938ad91,
-        type: 3}
-      propertyPath: playerAudio.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1148614388457656421, guid: aad364111379e45c8b4761809938ad91,
-        type: 3}
-      propertyPath: playerAudio.Array.data[3]
-      value: 
-      objectReference: {fileID: 975816946}
     - target: {fileID: 7937790417123369920, guid: aad364111379e45c8b4761809938ad91,
         type: 3}
       propertyPath: m_RootOrder

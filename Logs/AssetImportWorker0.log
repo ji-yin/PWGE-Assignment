@@ -238,3 +238,72 @@ System memory in use after: 341.0 MB.
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4196.
 Total: 3.830695 ms (FindLiveObjects: 0.430990 ms CreateObjectMapping: 0.177128 ms MarkObjects: 3.184987 ms  DeleteObjects: 0.036036 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011221 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.786 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 341.0 MB.
+System memory in use after: 341.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4199.
+Total: 4.342833 ms (FindLiveObjects: 0.578010 ms CreateObjectMapping: 0.202695 ms MarkObjects: 3.528797 ms  DeleteObjects: 0.031370 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011982 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.451 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 341.3 MB.
+System memory in use after: 341.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4202.
+Total: 3.671192 ms (FindLiveObjects: 0.556764 ms CreateObjectMapping: 0.180893 ms MarkObjects: 2.903147 ms  DeleteObjects: 0.029041 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010297 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.476 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 341.6 MB.
+System memory in use after: 341.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4205.
+Total: 3.689011 ms (FindLiveObjects: 0.486948 ms CreateObjectMapping: 0.191447 ms MarkObjects: 2.958881 ms  DeleteObjects: 0.050451 ms)
+
