@@ -1,8 +1,2 @@
 # Starting compiling Assembly-CSharp.dll
-<<<<<<< HEAD
-/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-42355a7ee173343dabf3cd64d03805eb
-=======
-/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b948a6664cae24f51a1660997aa1c890
-# Starting compiling Assembly-CSharp-Editor.dll
-/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-700d7a62c064f4bf78a38b957bb7c9e4
->>>>>>> parent of 6dc571ac (import lvl2)
+/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-a0e148274b0bd4dd78b6ee89fcd445dc
