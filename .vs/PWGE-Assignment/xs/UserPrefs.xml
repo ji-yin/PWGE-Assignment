@@ -1,6 +1,5 @@
 ﻿<Properties StartupConfiguration="{8427AD66-5140-1149-7C2F-48A1BBA2DF3F}|">
 <<<<<<< HEAD
-<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Lvl2/EnemyAI.cs">
     <Files>
       <File FileName="Assets/Scripts/Lvl2/Enemy/Frog&amp;Eagle/Enemy.cs" Line="1" Column="1" />
@@ -14,49 +13,27 @@
       <File FileName="Assets/Scripts/Lvl2/PauseMenu.cs" Line="84" Column="11" />
       <File FileName="Assets/GameOverMenu.cs" Line="1" Column="1" />
 >>>>>>> parent of 639fb924 (Delete files)
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Main Character/PlayerControllerDemo.cs">
-    <Files>
-      <File FileName="Assets/Scripts/Lvl2/Enemy/GruzMother/GruzMother_AttackPlayer.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Lvl2/Enemy/GruzMother/GruzMother.cs" Line="6" Column="27" />
-      <File FileName="Assets/Scripts/Lvl2/Enemy/Skeleton&amp;FK/Grenade.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Lvl2/Props/KeyHolder.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Lvl2/Props/Key.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Lvl2/Props/SceneChange.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Lvl2/Enemy/Skeleton&amp;FK/Enemy_behaviour.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Main Character/PlayerControllerDemo.cs" Line="1" Column="1" />
->>>>>>> parent of cf3b1701 (import lvl2)
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PWGE-Assignment" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="AstarPathfindingProject" expanded="True">
-                <Node name="Core" expanded="True">
-                  <Node name="AI" expanded="True" />
-                </Node>
-              </Node>
-              <Node name="EffectExamples" expanded="True">
-                <Node name="Shared" expanded="True" />
-              </Node>
               <Node name="Scripts" expanded="True">
                 <Node name="Lvl2" expanded="True">
 <<<<<<< HEAD
                   <Node name="Enemy" expanded="True">
-                    <Node name="Skeleton&amp;FK" expanded="True" />
+                    <Node name="Frog&amp;Eagle" expanded="True">
+                      <Node name="Eagle" expanded="True">
+                        <Node name="Eagle.cs" selected="True" />
+                      </Node>
+                    </Node>
                   </Node>
-<<<<<<< HEAD
 =======
                   <Node name="PauseMenu.cs" selected="True" />
 >>>>>>> parent of 639fb924 (Delete files)
-=======
-                  <Node name="Props" expanded="True" />
                 </Node>
-                <Node name="Main Character" expanded="True">
-                  <Node name="PlayerControllerDemo.cs" selected="True" />
->>>>>>> parent of cf3b1701 (import lvl2)
-                </Node>
+                <Node name="Main Character" expanded="True" />
               </Node>
             </Node>
           </Node>
