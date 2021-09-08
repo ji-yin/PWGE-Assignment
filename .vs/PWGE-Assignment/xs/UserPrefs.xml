@@ -1,18 +1,36 @@
 ﻿<Properties StartupConfiguration="{8427AD66-5140-1149-7C2F-48A1BBA2DF3F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Lvl2/PauseMenu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Lvl2/Enemy/Skeleton&amp;FK/Enemy_behaviour.cs">
     <Files>
-      <File FileName="Assets/Scripts/Lvl2/GruzMother/GruzMother.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Lvl2/PauseMenu.cs" Line="84" Column="11" />
-      <File FileName="Assets/GameOverMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Lvl2/Props/WeatherManager.cs" Line="30" Column="31" />
+      <File FileName="Assets/Scripts/Lvl2/Menu/PauseMenu.cs" Line="15" Column="40" />
+      <File FileName="Assets/Scripts/Lvl2/Enemy/Frog&amp;Eagle/Frog/Frog.cs" Line="8" Column="46" />
+      <File FileName="Assets/Scripts/Main Character/PlayerControllerDemo.cs" Line="177" Column="10" />
+      <File FileName="Assets/Scripts/Lvl2/Enemy/Skeleton&amp;FK/FK_behaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Lvl2/Enemy/Skeleton&amp;FK/Enemy_behaviour.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PWGE-Assignment" expanded="True">
             <Node name="Assets" expanded="True">
+              <Node name="AstarPathfindingProject" expanded="True">
+                <Node name="Core" expanded="True">
+                  <Node name="AI" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="EffectExamples" expanded="True">
+                <Node name="Shared" expanded="True" />
+              </Node>
               <Node name="Scripts" expanded="True">
                 <Node name="Lvl2" expanded="True">
-                  <Node name="PauseMenu.cs" selected="True" />
+                  <Node name="Enemy" expanded="True">
+                    <Node name="Frog&amp;Eagle" expanded="True">
+                      <Node name="Frog" expanded="True" />
+                    </Node>
+                    <Node name="Skeleton&amp;FK" expanded="True">
+                      <Node name="Enemy_behaviour.cs" selected="True" />
+                    </Node>
+                  </Node>
                 </Node>
                 <Node name="Main Character" expanded="True" />
               </Node>
@@ -24,7 +42,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="07f1b7ca-4818-45df-a31e-479313c52cbc" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f4086c48-e61d-4ac9-8d64-fe627c94f2cd" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
