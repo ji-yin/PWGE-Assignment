@@ -5,9 +5,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 16265ab2 (import lvl3)
 >>>>>>> parent of 2df8fb3f (revert)
+=======
+>>>>>>> parent of d31ece80 (revert)
 =======
 >>>>>>> parent of d31ece80 (revert)
 ﻿<?xml version="1.0" encoding="utf-8"?>
@@ -71,6 +74,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\Lvl2\WeatherManager.cs" />
     <Compile Include="Assets\Scripts\Main Character\PlayerCollision.cs" />
     <Compile Include="Assets\Scripts\Lvl2\Key.cs" />
@@ -99,6 +103,8 @@
 =======
 =======
 >>>>>>> parent of d31ece80 (revert)
+=======
+>>>>>>> parent of d31ece80 (revert)
     <Compile Include="Assets\Scripts\Lvl2\Enemy\GruzMother\GruzMother.cs" />
     <Compile Include="Assets\Scripts\Lvl2\Enemy\GruzMother\GruzMother_AttackUpNDown.cs" />
     <Compile Include="Assets\Scripts\Lvl2\EnemyAI.cs" />
@@ -116,6 +122,7 @@
     <Compile Include="Assets\Scripts\Lvl2\Props\WeatherManager.cs" />
     <Compile Include="Assets\Scripts\Lvl2\GruzMother\GruzMother_AttackUpNDown.cs" />
     <Compile Include="Assets\Scripts\Main Character\PlayerController.cs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     <Compile Include="Assets\Scripts\Lvl2\CinemachineShake.cs" />
@@ -390,6 +397,8 @@
     <Compile Include="Assets\Scripts\Lvl2\Parallex.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
 >>>>>>> parent of 16265ab2 (import lvl3)
+=======
+>>>>>>> parent of d31ece80 (revert)
 =======
 >>>>>>> parent of d31ece80 (revert)
     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\WFX_Demo_New.cs" />
@@ -2169,6 +2178,7 @@
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 ﻿<?xml version="1.0" encoding="utf-8"?>
@@ -4079,5 +4089,7 @@
 >>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
 >>>>>>> parent of 16265ab2 (import lvl3)
 >>>>>>> parent of 8b0b4f73 (revert)
+=======
+>>>>>>> parent of d31ece80 (revert)
 =======
 >>>>>>> parent of d31ece80 (revert)
