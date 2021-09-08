@@ -216,7 +216,7 @@ PrefabInstance:
     - target: {fileID: 8457113015089162785, guid: 0d00c081a9cf94e488217a1e4d99d1b0,
         type: 3}
       propertyPath: playerAudio.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8457113015089162785, guid: 0d00c081a9cf94e488217a1e4d99d1b0,
         type: 3}
@@ -273,11 +273,6 @@ PrefabInstance:
       propertyPath: playerAudio.Array.data[2]
       value: 
       objectReference: {fileID: 153352393337284641}
-    - target: {fileID: 8457113015089162785, guid: 0d00c081a9cf94e488217a1e4d99d1b0,
-        type: 3}
-      propertyPath: playerAudio.Array.data[3]
-      value: 
-      objectReference: {fileID: 617362496883879793}
     - target: {fileID: 8457113015089162785, guid: 0d00c081a9cf94e488217a1e4d99d1b0,
         type: 3}
       propertyPath: playerDetect.Array.data[0]
