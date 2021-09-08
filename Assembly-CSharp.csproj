@@ -1161,6 +1161,7 @@
   <ItemGroup>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Assets/Scripts/Lvl2/CinemachineShake.cs" />
     <Compile Include="Assets/Scripts/Lvl2/EnemyAI.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" />
@@ -1272,6 +1273,8 @@
 =======
 =======
 >>>>>>> parent of 23ad7349 (import lvl2)
+=======
+>>>>>>> parent of 3ac4036d (import lvl2)
     <Compile Include="Assets/Scripts/Lvl 4/BabyDinoAI.cs" />
     <Compile Include="Assets/Scripts/Lvl2/GruzMother/GruzMother_AttackPlayer.cs" />
     <Compile Include="Assets/Scripts/Lvl2/Frog.cs" />
@@ -1307,6 +1310,7 @@
     <Compile Include="Assets/Scripts/Lvl2/EnemyGFX.cs" />
     <Compile Include="Assets/Scripts/Lvl2/Props/WeatherManager.cs" />
     <Compile Include="Assets/Scripts/Lvl2/Enemy/Frog&amp;Eagle/Eagle/Eagle.cs" />
+<<<<<<< HEAD
 =======
     <Compile Include="Assets/Scripts/Lvl2/Camera/CinemachineShake.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" />
@@ -1414,6 +1418,8 @@
     <Compile Include="Assets/Scripts/Lvl2/NamedArrayDrawer.cs" />
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 >>>>>>> parent of 23ad7349 (import lvl2)
+=======
+>>>>>>> parent of 3ac4036d (import lvl2)
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro 1/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
@@ -2175,6 +2181,7 @@
   <ItemGroup>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 23ad7349 (import lvl2)
@@ -2196,6 +2203,8 @@
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 >>>>>>> parent of 23ad7349 (import lvl2)
+=======
+>>>>>>> parent of 3ac4036d (import lvl2)
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

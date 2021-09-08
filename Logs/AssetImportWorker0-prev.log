@@ -2,7 +2,6 @@ Using pre-set license
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 
  COMMAND LINE ARGUMENTS:
 /Applications/Unity/Unity.app/Contents/MacOS/Unity
@@ -24,11 +23,6 @@ C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
  COMMAND LINE ARGUMENTS:
 /Applications/Unity/Unity.app/Contents/MacOS/Unity
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
-
- COMMAND LINE ARGUMENTS:
-/Applications/Unity/Unity.app/Contents/MacOS/Unity
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 -adb2
 -batchMode
 -noUpm
@@ -38,14 +32,10 @@ AssetImportWorker0
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 /Users/weiqianho/Documents/GitHub/PWGE-Assignment
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-<<<<<<< HEAD
 =======
 D:/PWGE-Assignment
 -logFile
@@ -87,23 +77,17 @@ Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 151.50 ms, found 3 plugins.
 >>>>>>> parent of b93abbce (lvl3)
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 50015
 Successfully changed project path to: /Users/weiqianho/Documents/GitHub/PWGE-Assignment
 /Users/weiqianho/Documents/GitHub/PWGE-Assignment
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 149.98 ms, found 3 plugins.
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/weiqianho/Documents/GitHub/PWGE-Assignment/Assets
 GfxDevice: creating device client; threaded=0
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -132,22 +116,16 @@ Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6000
 Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6000
 >>>>>>> parent of b93abbce (lvl3)
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 2021-09-08 13:35:34.426 Unity[2183:115075] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6000 (low power)
 2021-09-08 13:35:34.427 Unity[2183:115075] Metal devices available: 1
 2021-09-08 13:35:34.427 Unity[2183:115075] 0: Intel(R) Iris(TM) Graphics 6000 (low power)
 2021-09-08 13:35:34.428 Unity[2183:115075] Using device Intel(R) Iris(TM) Graphics 6000 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6000
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Initialize mono
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -196,8 +174,6 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  2.868 seconds
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
@@ -220,9 +196,6 @@ Refreshing native plugins compatible for Editor in 170.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  3.092 seconds
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 Platform modules already initialized, skipping
 ========================================================================
@@ -231,7 +204,6 @@ Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not 
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-<<<<<<< HEAD
 <<<<<<< HEAD
 Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
 Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
@@ -319,8 +291,6 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  2.786 seconds
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
 Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -472,15 +442,11 @@ Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  2.010 seconds
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-<<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -491,8 +457,6 @@ System memory in use after: 341.2 MB.
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4199.
 Total: 4.342833 ms (FindLiveObjects: 0.578010 ms CreateObjectMapping: 0.202695 ms MarkObjects: 3.528797 ms  DeleteObjects: 0.031370 ms)
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
@@ -501,15 +465,11 @@ System memory in use after: 332.6 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4144.
 Total: 4.410219 ms (FindLiveObjects: 0.561853 ms CreateObjectMapping: 0.350391 ms MarkObjects: 3.454943 ms  DeleteObjects: 0.041020 ms)
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-<<<<<<< HEAD
 <<<<<<< HEAD
 Registered in 0.011982 seconds.
 Begin MonoManager ReloadAssembly
@@ -519,8 +479,6 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  2.451 seconds
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 Registered in 0.006879 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
@@ -528,15 +486,11 @@ Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.860 seconds
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-<<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -547,8 +501,6 @@ System memory in use after: 341.5 MB.
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4202.
 Total: 3.671192 ms (FindLiveObjects: 0.556764 ms CreateObjectMapping: 0.180893 ms MarkObjects: 2.903147 ms  DeleteObjects: 0.029041 ms)
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
@@ -557,15 +509,11 @@ System memory in use after: 332.9 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4147.
 Total: 3.446327 ms (FindLiveObjects: 0.503849 ms CreateObjectMapping: 0.206660 ms MarkObjects: 2.705766 ms  DeleteObjects: 0.028583 ms)
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-<<<<<<< HEAD
 <<<<<<< HEAD
 Registered in 0.010297 seconds.
 Begin MonoManager ReloadAssembly
@@ -575,8 +523,6 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  2.476 seconds
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 Registered in 0.004189 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
@@ -1524,15 +1470,11 @@ Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.965 seconds
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-<<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -1549,8 +1491,6 @@ Total: 3.689011 ms (FindLiveObjects: 0.486948 ms CreateObjectMapping: 0.191447 m
 =======
 >>>>>>> parent of b93abbce (lvl3)
 =======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
@@ -1560,7 +1500,4 @@ System memory in use after: 355.4 MB.
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4340.
 Total: 4.710015 ms (FindLiveObjects: 0.599935 ms CreateObjectMapping: 0.357819 ms MarkObjects: 3.720492 ms  DeleteObjects: 0.030269 ms)
 
-<<<<<<< HEAD
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
