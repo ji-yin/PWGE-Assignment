@@ -10,10 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_EditorHideFlags: 1
 =======
   m_EditorHideFlags: 0
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+  m_EditorHideFlags: 0
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
   m_EditorHideFlags: 0
 >>>>>>> parent of 6dc571ac (import lvl2)
@@ -24,9 +28,12 @@ MonoBehaviour:
   - {fileID: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 14}
 =======
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
   m_Position:
@@ -37,6 +44,7 @@ MonoBehaviour:
     height: 740
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 18002, y: 14042}
   vertical: 0
@@ -44,12 +52,17 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+>>>>>>> parent of 6dc571ac (import lvl2)
   m_MinSize: {x: 608, y: 492}
   m_MaxSize: {x: 18003, y: 14042}
   vertical: 1
   controlID: -1
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
 --- !u!114 &2
@@ -62,8 +75,13 @@ MonoBehaviour:
   m_Enabled: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_EditorHideFlags: 1
   m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
   m_EditorHideFlags: 0
   m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
@@ -73,6 +91,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_Text: Scene
     m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000,
@@ -91,13 +110,21 @@ MonoBehaviour:
     m_Text: Animator
     m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000,
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+    m_Text: Animator
+    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000,
+>>>>>>> parent of 6dc571ac (import lvl2)
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 255
+=======
+    x: 419
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
     x: 419
 >>>>>>> parent of 6dc571ac (import lvl2)
@@ -105,6 +132,7 @@ MonoBehaviour:
     width: 743
     height: 422
   m_ViewDataDictionary: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_ShowContextualTools: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
@@ -205,6 +233,8 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+>>>>>>> parent of 6dc571ac (import lvl2)
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: 5800769345534426332, guid: d4f8a3b16aedfce4b89dd3207e7fc460, type: 2}
@@ -295,7 +325,10 @@ MonoBehaviour:
   m_LayerEditor:
     m_SelectedLayerIndex: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
 --- !u!114 &3
@@ -314,6 +347,7 @@ MonoBehaviour:
   - {fileID: 4}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 9}
 =======
   - {fileID: 17}
@@ -321,10 +355,14 @@ MonoBehaviour:
 =======
   - {fileID: 17}
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+  - {fileID: 17}
+>>>>>>> parent of 6dc571ac (import lvl2)
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     width: 1019
@@ -340,12 +378,19 @@ MonoBehaviour:
     width: 1440
     height: 740
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+    width: 1440
+    height: 740
+>>>>>>> parent of 6dc571ac (import lvl2)
   m_MinSize: {x: 608, y: 492}
   m_MaxSize: {x: 18003, y: 14042}
   vertical: 0
   controlID: -1
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
 --- !u!114 &4
@@ -364,6 +409,7 @@ MonoBehaviour:
   - {fileID: 5}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 7}
 =======
   - {fileID: 12}
@@ -371,10 +417,14 @@ MonoBehaviour:
 =======
   - {fileID: 12}
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+  - {fileID: 12}
+>>>>>>> parent of 6dc571ac (import lvl2)
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     width: 1019
@@ -386,6 +436,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+>>>>>>> parent of 6dc571ac (import lvl2)
     width: 1164
     height: 740
   m_MinSize: {x: 333, y: 492}
@@ -393,7 +445,10 @@ MonoBehaviour:
   vertical: 1
   controlID: -1
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
 --- !u!114 &5
@@ -407,6 +462,7 @@ MonoBehaviour:
   m_EditorHideFlags: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -414,6 +470,11 @@ MonoBehaviour:
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -445,7 +506,10 @@ MonoBehaviour:
   m_Name: SceneHierarchyWindow
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
   m_Children: []
@@ -455,22 +519,29 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 255
     height: 438
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
 =======
+=======
+>>>>>>> parent of 6dc571ac (import lvl2)
     width: 419
     height: 443
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 7}
+<<<<<<< HEAD
+>>>>>>> parent of 6dc571ac (import lvl2)
+=======
 >>>>>>> parent of 6dc571ac (import lvl2)
   m_Panes:
   - {fileID: 7}
   m_Selected: 0
   m_LastSelected: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!114 &6
 =======
@@ -485,6 +556,9 @@ MonoBehaviour:
   m_LastSelected: 0
 --- !u!114 &7
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+--- !u!114 &7
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
 --- !u!114 &7
 >>>>>>> parent of 6dc571ac (import lvl2)
@@ -511,6 +585,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 75
     width: 254
     height: 417
@@ -524,13 +599,22 @@ MonoBehaviour:
     width: 418
     height: 422
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+    y: 19
+    width: 418
+    height: 422
+>>>>>>> parent of 6dc571ac (import lvl2)
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: 
+=======
+      m_SelectedIDs: 365b0000
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
       m_SelectedIDs: 365b0000
 >>>>>>> parent of 6dc571ac (import lvl2)
@@ -538,6 +622,7 @@ MonoBehaviour:
       m_ExpandedIDs: 38fbffff4a52000048530000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
         m_Name: 
         m_OriginalName: 
@@ -554,6 +639,10 @@ MonoBehaviour:
         m_Name: Frog
         m_OriginalName: Frog
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+        m_Name: Frog
+        m_OriginalName: Frog
+>>>>>>> parent of 6dc571ac (import lvl2)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -562,7 +651,11 @@ MonoBehaviour:
           height: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         m_UserData: 0
+=======
+        m_UserData: -1374
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
         m_UserData: -1374
 >>>>>>> parent of 6dc571ac (import lvl2)
@@ -570,6 +663,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 0
         m_IsRenamingFilename: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
         m_ClientGUIView: {fileID: 5}
 =======
@@ -583,6 +677,9 @@ MonoBehaviour:
 =======
         m_ClientGUIView: {fileID: 6}
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+        m_ClientGUIView: {fileID: 6}
+>>>>>>> parent of 6dc571ac (import lvl2)
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -591,12 +688,17 @@ MonoBehaviour:
     m_CurrentSortingName: TransformSorting
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_WindowGUID: 4c969a2b90040154d917609493e03593
 --- !u!114 &7
 =======
   m_WindowGUID: 8e5a828a206112f489aeeb23aa121a59
 --- !u!114 &8
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+  m_WindowGUID: 8e5a828a206112f489aeeb23aa121a59
+--- !u!114 &8
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
   m_WindowGUID: 8e5a828a206112f489aeeb23aa121a59
 --- !u!114 &8
@@ -612,10 +714,14 @@ MonoBehaviour:
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: SceneView
 =======
   m_Name: AnimatorControllerTool
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+  m_Name: AnimatorControllerTool
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
   m_Name: AnimatorControllerTool
 >>>>>>> parent of 6dc571ac (import lvl2)
@@ -625,7 +731,11 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 255
+=======
+    x: 419
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
     x: 419
 >>>>>>> parent of 6dc571ac (import lvl2)
@@ -640,6 +750,7 @@ MonoBehaviour:
   - {fileID: 10}
   - {fileID: 11}
   - {fileID: 2}
+<<<<<<< HEAD
 <<<<<<< HEAD
   - {fileID: 8}
   m_Selected: 0
@@ -667,6 +778,11 @@ MonoBehaviour:
   m_LastSelected: 0
 --- !u!114 &9
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+  m_Selected: 3
+  m_LastSelected: 0
+--- !u!114 &9
+>>>>>>> parent of 6dc571ac (import lvl2)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -677,10 +793,14 @@ MonoBehaviour:
   m_EditorHideFlags: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
 =======
   m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
   m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
 >>>>>>> parent of 6dc571ac (import lvl2)
@@ -691,7 +811,10 @@ MonoBehaviour:
   m_TitleContent:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
     m_Text: Scene
@@ -838,7 +961,10 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
     m_Text: Game
@@ -847,6 +973,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 255
@@ -865,10 +992,17 @@ MonoBehaviour:
     width: 743
     height: 422
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+    x: 419
+    y: 75
+    width: 743
+    height: 422
+>>>>>>> parent of 6dc571ac (import lvl2)
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
   m_PlayModeViewName: GameView
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_ShowGizmos: 1
@@ -887,12 +1021,19 @@ MonoBehaviour:
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
   m_TargetSize: {x: 1920, y: 1080}
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 1920, y: 1080}
+>>>>>>> parent of 6dc571ac (import lvl2)
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
   m_MaximizeOnPlay: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_Gizmos: 1
@@ -908,11 +1049,17 @@ MonoBehaviour:
   m_Stats: 0
   m_SelectedSizes: 03000000000000000000000000000000000000000000000000000000000000000000000000000000
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 03000000000000000000000000000000000000000000000000000000000000000000000000000000
+>>>>>>> parent of 6dc571ac (import lvl2)
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_HBaseRangeMin: -381
@@ -922,12 +1069,17 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+>>>>>>> parent of 6dc571ac (import lvl2)
     m_HBaseRangeMin: -960
     m_HBaseRangeMax: 960
     m_VBaseRangeMin: -540
     m_VBaseRangeMax: 540
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
     m_HAllowExceedBaseRangeMin: 1
@@ -940,10 +1092,14 @@ MonoBehaviour:
     m_IgnoreScrollWheelUntilClicked: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_EnableMouseInput: 1
 =======
     m_EnableMouseInput: 0
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+    m_EnableMouseInput: 0
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
     m_EnableMouseInput: 0
 >>>>>>> parent of 6dc571ac (import lvl2)
@@ -957,6 +1113,7 @@ MonoBehaviour:
       y: 21
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: 762
       height: 396
     m_Scale: {x: 1, y: 1}
@@ -964,12 +1121,17 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+>>>>>>> parent of 6dc571ac (import lvl2)
       width: 743
       height: 401
     m_Scale: {x: 0.3712963, y: 0.3712963}
     m_Translation: {x: 371.5, y: 200.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
     m_MarginLeft: 0
@@ -978,6 +1140,7 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       x: -381
@@ -1005,6 +1168,15 @@ MonoBehaviour:
   m_defaultScale: 0.3712963
   m_LastWindowPixelSize: {x: 743, y: 422}
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+      x: -1000.54865
+      y: -540
+      width: 2001.0973
+      height: 1080
+    m_MinimalGUI: 1
+  m_defaultScale: 0.3712963
+  m_LastWindowPixelSize: {x: 743, y: 422}
+>>>>>>> parent of 6dc571ac (import lvl2)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1012,10 +1184,14 @@ MonoBehaviour:
   m_RenderTexture: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &9
 =======
 --- !u!114 &12
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+--- !u!114 &12
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
 --- !u!114 &12
 >>>>>>> parent of 6dc571ac (import lvl2)
@@ -1033,8 +1209,13 @@ MonoBehaviour:
   m_Children:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 10}
   - {fileID: 12}
+=======
+  - {fileID: 13}
+  - {fileID: 15}
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
   - {fileID: 13}
   - {fileID: 15}
@@ -1048,6 +1229,7 @@ MonoBehaviour:
   m_MinSize: {x: 333, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
   controlID: 95
 --- !u!114 &10
@@ -1070,6 +1252,10 @@ MonoBehaviour:
   controlID: 157
 --- !u!114 &13
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+  controlID: 157
+--- !u!114 &13
+>>>>>>> parent of 6dc571ac (import lvl2)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1079,10 +1265,14 @@ MonoBehaviour:
   m_Enabled: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_EditorHideFlags: 0
 =======
   m_EditorHideFlags: 1
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+  m_EditorHideFlags: 1
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
   m_EditorHideFlags: 1
 >>>>>>> parent of 6dc571ac (import lvl2)
@@ -1096,22 +1286,29 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 337
     height: 302
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 11}
 =======
+=======
+>>>>>>> parent of 6dc571ac (import lvl2)
     width: 735
     height: 297
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
+<<<<<<< HEAD
+>>>>>>> parent of 6dc571ac (import lvl2)
+=======
 >>>>>>> parent of 6dc571ac (import lvl2)
   m_Panes:
   - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!114 &11
 =======
@@ -1126,6 +1323,9 @@ MonoBehaviour:
   m_LastSelected: 0
 --- !u!114 &14
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+--- !u!114 &14
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
 --- !u!114 &14
 >>>>>>> parent of 6dc571ac (import lvl2)
@@ -1152,6 +1352,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 513
     width: 336
     height: 281
@@ -1171,6 +1372,13 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &15
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+    y: 518
+    width: 734
+    height: 276
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &15
+>>>>>>> parent of 6dc571ac (import lvl2)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1180,10 +1388,14 @@ MonoBehaviour:
   m_Enabled: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_EditorHideFlags: 1
 =======
   m_EditorHideFlags: 0
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+  m_EditorHideFlags: 0
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
   m_EditorHideFlags: 0
 >>>>>>> parent of 6dc571ac (import lvl2)
@@ -1195,7 +1407,11 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 337
+=======
+    x: 735
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
     x: 735
 >>>>>>> parent of 6dc571ac (import lvl2)
@@ -1209,6 +1425,7 @@ MonoBehaviour:
   - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!114 &13
 =======
@@ -1225,6 +1442,9 @@ MonoBehaviour:
   m_LastSelected: 0
 --- !u!114 &16
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+--- !u!114 &16
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
 --- !u!114 &16
 >>>>>>> parent of 6dc571ac (import lvl2)
@@ -1250,6 +1470,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 337
     y: 513
     width: 680
@@ -1257,12 +1478,17 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+>>>>>>> parent of 6dc571ac (import lvl2)
     x: 735
     y: 518
     width: 427
     height: 276
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
   m_ViewDataDictionary: {fileID: 0}
@@ -1281,10 +1507,14 @@ MonoBehaviour:
     m_Folders:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/JMO Assets/Cartoon FX Easy Editor
 =======
     - Assets/Scripts/Lvl2
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+    - Assets/Scripts/Lvl2
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
     - Assets/Scripts/Lvl2
 >>>>>>> parent of 6dc571ac (import lvl2)
@@ -1295,10 +1525,14 @@ MonoBehaviour:
   m_LastFolders:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Assets/JMO Assets/Cartoon FX Easy Editor
 =======
   - Assets/Scripts/Lvl2
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+  - Assets/Scripts/Lvl2
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
   - Assets/Scripts/Lvl2
 >>>>>>> parent of 6dc571ac (import lvl2)
@@ -1309,6 +1543,7 @@ MonoBehaviour:
   m_FolderTreeState:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 32.99951}
     m_SelectedIDs: 90620000
     m_LastClickedID: 25232
@@ -1316,12 +1551,17 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+>>>>>>> parent of 6dc571ac (import lvl2)
     scrollPos: {x: 0, y: 383}
     m_SelectedIDs: b85d0000
     m_LastClickedID: 23992
     m_ExpandedIDs: 00000000a45d0000a65d0000a85d0000aa5d0000ac5d0000ae5d0000b05d0000b25d0000b45d0000b65d0000b85d0000ba5d0000bc5d0000be5d0000c05d0000c25d000000ca9a3b
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
     m_RenameOverlay:
@@ -1353,10 +1593,14 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000007e62000080620000826200008462000086620000886200008a6200008c6200008e62000090620000926200009462000096620000986200009a6200009c6200009e620000a0620000a2620000
 =======
     m_ExpandedIDs: 00000000a45d0000a65d0000a85d0000aa5d0000ac5d0000ae5d0000b05d0000b25d0000b45d0000b65d0000b85d0000ba5d0000bc5d0000be5d0000c05d0000c25d0000
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+    m_ExpandedIDs: 00000000a45d0000a65d0000a85d0000aa5d0000ac5d0000ae5d0000b05d0000b25d0000b45d0000b65d0000b85d0000ba5d0000bc5d0000be5d0000c05d0000c25d0000
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
     m_ExpandedIDs: 00000000a45d0000a65d0000a85d0000aa5d0000ac5d0000ae5d0000b05d0000b25d0000b45d0000b65d0000b85d0000ba5d0000bc5d0000be5d0000c05d0000c25d0000
 >>>>>>> parent of 6dc571ac (import lvl2)
@@ -1386,6 +1630,7 @@ MonoBehaviour:
   m_ListAreaState:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
@@ -1396,6 +1641,12 @@ MonoBehaviour:
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000dc3c000008540000e03700007e390000ba3c0000723d0000b43c0000924e000040470000ea3d0000c6400000d4400000b8570000aa66010000000000
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+    m_SelectedInstanceIDs: 365b0000
+    m_LastClickedInstanceID: 23350
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000dc3c000008540000e03700007e390000ba3c0000723d0000b43c0000924e000040470000ea3d0000c6400000d4400000b8570000aa66010000000000
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
     m_SelectedInstanceIDs: 365b0000
     m_LastClickedInstanceID: 23350
@@ -1427,6 +1678,7 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
@@ -1446,6 +1698,13 @@ MonoBehaviour:
   m_DirectoriesAreaWidth: 219
 --- !u!114 &17
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+    m_ScrollPosition: {x: 0, y: 205.5}
+    m_GridSize: 64
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 219
+--- !u!114 &17
+>>>>>>> parent of 6dc571ac (import lvl2)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1453,6 +1712,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_EditorHideFlags: 1
@@ -1468,13 +1728,22 @@ MonoBehaviour:
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: InspectorWindow
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+>>>>>>> parent of 6dc571ac (import lvl2)
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1019
+=======
+    x: 1164
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
     x: 1164
 >>>>>>> parent of 6dc571ac (import lvl2)
@@ -1488,6 +1757,7 @@ MonoBehaviour:
   - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!114 &15
 =======
@@ -1504,6 +1774,9 @@ MonoBehaviour:
   m_LastSelected: 0
 --- !u!114 &18
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+--- !u!114 &18
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
 --- !u!114 &18
 >>>>>>> parent of 6dc571ac (import lvl2)
@@ -1529,6 +1802,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1019
     y: 75
     width: 420
@@ -1542,6 +1816,11 @@ MonoBehaviour:
     y: 75
     width: 275
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+    x: 1164
+    y: 75
+    width: 275
+>>>>>>> parent of 6dc571ac (import lvl2)
     height: 719
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
@@ -1549,10 +1828,14 @@ MonoBehaviour:
   m_PreviewResizer:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_CachedPref: 160
 =======
     m_CachedPref: 151
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+    m_CachedPref: 151
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
     m_CachedPref: 151
 >>>>>>> parent of 6dc571ac (import lvl2)

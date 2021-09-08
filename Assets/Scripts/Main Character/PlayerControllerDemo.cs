@@ -512,7 +512,10 @@ public class PlayerControllerDemo : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         playerAudio[2].Play();
+=======
+>>>>>>> parent of 6dc571ac (import lvl2)
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
         playerPoints[2] -= damage;
