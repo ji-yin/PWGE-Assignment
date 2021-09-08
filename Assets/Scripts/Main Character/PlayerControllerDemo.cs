@@ -22,26 +22,70 @@ public class PlayerControllerDemo : MonoBehaviour
     [HideInInspector] public bool topLadder = false;
     public Ladder ladder;
     private float naturalGravity;
+<<<<<<< HEAD
+<<<<<<< HEAD
     [SerializeField] float climbSpeed = 3f;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+=======
+>>>>>>> parent of cf3b1701 (import lvl2)
+
+<<<<<<< HEAD
+    //Inspector varibles
+    [SerializeField] private LayerMask ground;
+    [SerializeField] private float speed = 0.5f;
+    [SerializeField] private float jumpForce = 20f;
+    [SerializeField] private int gems = 0;
+    [SerializeField] private TextMeshProUGUI gemText;
+    [SerializeField] private float hurtForce = 5f;
+    [SerializeField] private AudioSource gem;
+    [SerializeField] private AudioSource footstep;
+    [SerializeField] private AudioSource hurt;
+    [SerializeField] private Animator animator;
+    [SerializeField] private Transform AttackPoint;
+    [SerializeField] private LayerMask enemyLayers;
+    [SerializeField] private float attackRange = 0.5f;
+    [SerializeField] private float attackRate = 2f;
+    [SerializeField] private int maxHealth = 100;
+    [SerializeField] private Text healthAmount;
+    int currentHealth;
+    private float nextAttackTime = 0f;
+
     [Header("InspectorVar")]
-    [NamedArrayAttribute(new string[] { "Speed", "CimbSpeed", "JumpForce", "HurtForce","AttackRange","AttackRate", "NextAttackTime" })]
+    [NamedArrayAttribute(new string[] { "speed", "cimbSpeed", "jumpForce", "hurtForce","attackRange","attackRate", "nextAttackTime" })]
     [SerializeField] private float[] playerVar;
-    [NamedArrayAttribute(new string[] { "GroundLayer", "EnemyLayer"})]
+    [NamedArrayAttribute(new string[] { "groundLayer", "enemyLayer"})]
     [SerializeField] private LayerMask[] layers;
-    [NamedArrayAttribute(new string[] { "Gem", "Footstep", "Hurt" ,"Dead"})]
+    [NamedArrayAttribute(new string[] { "gem", "footstep", "hurt" ,"dead"})]
     [SerializeField] private AudioSource[] playerAudio;
-    [NamedArrayAttribute(new string[] { "AttackPoint", "GroundDetection", "GroundDetectionL", "GroundDetectionR"})]
+    [NamedArrayAttribute(new string[] { "attackPoint", "groundDetection", "groundDetectionL", "groundDetectionR"})]
     [SerializeField] private Transform[] playerDetect;
-    [NamedArrayAttribute(new string[] { "Gems", "MaxHealth", "CurrentHealth"})]
+    [NamedArrayAttribute(new string[] { "gems", "maxHealth", "currentHealth"})]
     [SerializeField] private int[] playerPoints;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 
     [Header("UI")]
     [SerializeField] private TextMeshProUGUI gemText;
     [SerializeField] private Text healthAmount;
     public GameOverMenu gameOverMenu;
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 639fb924 (Delete files)
@@ -72,6 +116,25 @@ public class PlayerControllerDemo : MonoBehaviour
     int currentHealth;
     private float nextAttackTime = 0f;
 >>>>>>> parent of b93abbce (lvl3)
+
+=======
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+
+    [Header("UI")]
+    [SerializeField] private TextMeshProUGUI gemText;
+    [SerializeField] private Text healthAmount;
+    public GameOverMenu gameOverMenu;
+=======
+>>>>>>> parent of cf3b1701 (import lvl2)
+>>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
+
+    
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
     public Transform groundDetection;
     public Transform groundDetectionL;
@@ -80,8 +143,8 @@ public class PlayerControllerDemo : MonoBehaviour
     int currentHealth;
     private float nextAttackTime = 0f;
     private bool isGrounded;
->>>>>>> parent of 639fb924 (Delete files)
 
+>>>>>>> parent of 639fb924 (Delete files)
 
     // Start is called before the first frame update
     private void Start()
@@ -146,6 +209,26 @@ public class PlayerControllerDemo : MonoBehaviour
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+=======
+>>>>>>> parent of cf3b1701 (import lvl2)
+=======
+=======
+>>>>>>> parent of cf3b1701 (import lvl2)
     private void FixedUpdate()
     {
         if (Physics2D.Linecast(transform.position, playerDetect[1].position, layers[0]) ||
@@ -168,8 +251,28 @@ public class PlayerControllerDemo : MonoBehaviour
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of b93abbce (lvl3)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+>>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
+>>>>>>> parent of cf3b1701 (import lvl2)
+=======
+>>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
+>>>>>>> parent of cf3b1701 (import lvl2)
     private void OnTriggerEnter2D(Collider2D collision)
 =======
         private void OnTriggerEnter2D(Collider2D collision)
@@ -188,13 +291,43 @@ public class PlayerControllerDemo : MonoBehaviour
             Destroy(collision.gameObject);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
             playerVar[2] = 120f;
 =======
             jumpForce = 90f;
 >>>>>>> parent of b93abbce (lvl3)
 =======
+            playerVar[2] = 120f;
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+            playerVar[2] = 120f;
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
             jumpForce = 120f;
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+            playerVar[2] = 120f;
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+            playerVar[2] = 120f;
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+            jumpForce = 90f;
+=======
+            playerVar[2] = 120f;
+>>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
+>>>>>>> parent of cf3b1701 (import lvl2)
+=======
+            jumpForce = 90f;
+=======
+            playerVar[2] = 120f;
+>>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
+>>>>>>> parent of cf3b1701 (import lvl2)
             GetComponent<SpriteRenderer>().color = Color.yellow;
             StartCoroutine(ResetPower());
         }
@@ -268,7 +401,7 @@ public class PlayerControllerDemo : MonoBehaviour
             transform.localScale = new Vector2(1, 1);
         }
         //Jumping
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.Space) && coll.IsTouchingLayers(ground))
         {
             Jump();
         }
@@ -297,7 +430,7 @@ public class PlayerControllerDemo : MonoBehaviour
 
         else if(state == State.falling)
         {
-            if (isGrounded)
+            if (coll.IsTouchingLayers(ground))
             {
                 state = State.idle;
             }
@@ -356,10 +489,24 @@ public class PlayerControllerDemo : MonoBehaviour
 
     public void DamagePlayer(int damage)
     {
+<<<<<<< HEAD
+<<<<<<< HEAD
+        playerAudio[2].Play();
+        playerPoints[2] -= damage;
+        healthAmount.text = playerPoints[2].ToString();
+        anim.SetInteger("state", 4);
+        if (playerPoints[2] <= 0)
+=======
+=======
+>>>>>>> parent of 639fb924 (Delete files)
         currentHealth -= damage;
         healthAmount.text = currentHealth.ToString();
         animator.SetInteger("state", 4);
         if (currentHealth <= 0)
+<<<<<<< HEAD
+>>>>>>> parent of b93abbce (lvl3)
+=======
+>>>>>>> parent of 639fb924 (Delete files)
         {
             PlayerDie();
         }
@@ -370,6 +517,28 @@ public class PlayerControllerDemo : MonoBehaviour
         Debug.Log("Player Died");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+=======
+>>>>>>> parent of cf3b1701 (import lvl2)
+        animator.SetBool("isDead", true);
+
+        //GetComponent<Collider2D>().enabled = false;
+        Destroy(this);
+=======
+<<<<<<< HEAD
+>>>>>>> parent of cf3b1701 (import lvl2)
+=======
+>>>>>>> parent of cf3b1701 (import lvl2)
         anim.SetBool("isDead", true);
         GetComponent<Collider2D>().enabled = false;
         string gemsText = playerPoints[0].ToString();
@@ -377,6 +546,10 @@ public class PlayerControllerDemo : MonoBehaviour
         Time.timeScale = 0f;
         gameOverMenu.GameOver();
         Destroy(gameObject);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
         animator.SetBool("isDead", true);
 
@@ -384,7 +557,16 @@ public class PlayerControllerDemo : MonoBehaviour
         Destroy(this);
 >>>>>>> parent of b93abbce (lvl3)
 =======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
         animator.SetBool("isDead", true);
+=======
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+        anim.SetBool("isDead", true);
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
         GetComponent<Collider2D>().enabled = false;
         string gemsText = gems.ToString();
         gameOverMenu.Setup(gemsText);
@@ -392,9 +574,21 @@ public class PlayerControllerDemo : MonoBehaviour
         gameOverMenu.GameOver();
         LevelManager.instance.Respawn();
         Destroy(gameObject);
+<<<<<<< HEAD
+<<<<<<< HEAD
         
         
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+>>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
+>>>>>>> parent of cf3b1701 (import lvl2)
+=======
+>>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
+>>>>>>> parent of cf3b1701 (import lvl2)
     }
 
     private void Climb()
