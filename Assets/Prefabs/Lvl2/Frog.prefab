@@ -261,6 +261,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1135ad09c2178440b4aceb4fe405334, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 1055090321}
+  rb: {fileID: 1083088361373872267}
   leftCap: -6.52
   rightCap: 10.42
   jumpLength: 2

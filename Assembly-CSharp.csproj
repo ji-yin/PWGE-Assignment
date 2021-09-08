@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
@@ -842,6 +843,8 @@
 </Project>
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of b93abbce (lvl3)
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
@@ -1790,6 +1793,7 @@
   </Target>
   -->
 </Project>
+<<<<<<< HEAD
 =======
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -2734,3 +2738,5 @@
 </Project>
 >>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
 >>>>>>> parent of 16265ab2 (import lvl3)
+=======
+>>>>>>> parent of b93abbce (lvl3)

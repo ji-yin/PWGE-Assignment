@@ -240,13 +240,17 @@ MonoBehaviour:
   inRange: 0
   enemyDamage: 10
   playerDamage: 1
+  hotZone: {fileID: 8372578377343998326}
+  triggerArea: {fileID: 8372578377779404092}
   hitBox: {fileID: 8372578378494585764}
   attackRange: 0.5
   playerLayers:
     serializedVersion: 2
     m_Bits: 128
-  hotZone: {fileID: 8372578377343998326}
-  triggerArea: {fileID: 8372578377779404092}
+  maxHealth: 100
+  cameraShakeIntensity: 5
+  cameraShakeTime: 0.1
+  isHurt: 0
   jumpHitBox: {fileID: 8372578378419125481}
   jumpLength: 3
   jumpHeight: 2

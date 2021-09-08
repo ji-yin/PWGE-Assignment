@@ -10,19 +10,21 @@ public class PlayerControllerDemo : MonoBehaviour
     //Start() variables
     private Rigidbody2D rb;
     private Animator anim;
-    private bool isGrounded;
+    private Collider2D coll;
 
     //FSM
     private enum State {idle, running, jumping, falling, hurt, death, attack, climb}
     private State state = State.idle;
 
-    [Header("Ladder")]
+    //Ladder variables
     [HideInInspector] public bool canClimb = false;
     [HideInInspector] public bool bottomLadder = false;
     [HideInInspector] public bool topLadder = false;
     public Ladder ladder;
     private float naturalGravity;
+    [SerializeField] float climbSpeed = 3f;
 
+<<<<<<< HEAD
     [Header("InspectorVar")]
     [NamedArrayAttribute(new string[] { "speed", "cimbSpeed", "jumpForce", "hurtForce","attackRange","attackRate", "nextAttackTime" })]
     [SerializeField] private float[] playerVar;
@@ -39,26 +41,47 @@ public class PlayerControllerDemo : MonoBehaviour
     [SerializeField] private TextMeshProUGUI gemText;
     [SerializeField] private Text healthAmount;
     public GameOverMenu gameOverMenu;
+=======
+    //Inspector varibles
+    [SerializeField] private LayerMask ground;
+    [SerializeField] private float speed = 0.5f;
+    [SerializeField] private float jumpForce = 20f;
+    [SerializeField] private int gems = 0;
+    [SerializeField] private TextMeshProUGUI gemText;
+    [SerializeField] private float hurtForce = 5f;
+    [SerializeField] private AudioSource gem;
+    [SerializeField] private AudioSource footstep;
+    [SerializeField] private AudioSource hurt;
+    [SerializeField] private Animator animator;
+    [SerializeField] private Transform AttackPoint;
+    [SerializeField] private LayerMask enemyLayers;
+    [SerializeField] private float attackRange = 0.5f;
+    [SerializeField] private float attackRate = 2f;
+    [SerializeField] private int maxHealth = 100;
+    [SerializeField] private Text healthAmount;
+    int currentHealth;
+    private float nextAttackTime = 0f;
+>>>>>>> parent of b93abbce (lvl3)
 
-    
 
     // Start is called before the first frame update
     private void Start()
     { 
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        playerPoints[2] = playerPoints[1];
-        healthAmount.text = playerPoints[2].ToString();
+        coll = GetComponent<Collider2D>();
+        currentHealth = maxHealth;
+        healthAmount.text = currentHealth.ToString();
         naturalGravity = rb.gravityScale;
     }
 
     // Update is called once per frame
     private void Update()
     {
-        if (playerPoints[0] >= 10 && playerPoints[2] <= 90)
+        if (gems >= 10 && currentHealth <=90)
         {
-            playerPoints[2] += 10;
-            playerPoints[0] -= 10; 
+            currentHealth += 10;
+            gems -= 10; 
         }
 
         if (state == State.climb)
@@ -73,12 +96,12 @@ public class PlayerControllerDemo : MonoBehaviour
         AnimationState();
         anim.SetInteger("state", (int)state);//sets animation based on Enumerator state
 
-        if (Time.time >= playerVar[6])
+        if (Time.time >= nextAttackTime)
         {
             if (Input.GetKeyDown(KeyCode.H))
             {
                 Attack();
-                playerVar[6] = Time.time + 1f / playerVar[5];
+                nextAttackTime = Time.time + 1f / attackRate;
             }
 
 
@@ -86,10 +109,10 @@ public class PlayerControllerDemo : MonoBehaviour
 
         void Attack()
         {
-            anim.SetTrigger("Attack");
+            animator.SetTrigger("Attack");
 
             //Detect enemies in range of attack
-            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(playerDetect[0].position, playerVar[4], layers[1]);
+            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackPoint.position, attackRange, enemyLayers);
 
             foreach (Collider2D enemy in hitEnemies)
             {
@@ -99,6 +122,7 @@ public class PlayerControllerDemo : MonoBehaviour
 
     }
 
+<<<<<<< HEAD
     private void FixedUpdate()
     {
         if (Physics2D.Linecast(transform.position, playerDetect[1].position, layers[0]) ||
@@ -113,20 +137,26 @@ public class PlayerControllerDemo : MonoBehaviour
         }
     }
 
+=======
+>>>>>>> parent of b93abbce (lvl3)
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Collectable")
         {
-            playerAudio[0].Play();
+            gem.Play();
             Destroy(collision.gameObject);
-            playerPoints[0] += 1;
-            gemText.text = playerPoints[0].ToString();
+            gems += 1;
+            gemText.text = gems.ToString();
         }
 
         if(collision.tag == "PowerUp")
         {
             Destroy(collision.gameObject);
+<<<<<<< HEAD
             playerVar[2] = 120f;
+=======
+            jumpForce = 90f;
+>>>>>>> parent of b93abbce (lvl3)
             GetComponent<SpriteRenderer>().color = Color.yellow;
             StartCoroutine(ResetPower());
         }
@@ -145,30 +175,33 @@ public class PlayerControllerDemo : MonoBehaviour
             }
             else
             {
-                playerAudio[2].Play();
+                hurt.Play();
                 state = State.hurt;
                 HandleHealth();//Deals with health, updating ui, will reset level if health is <=0
 
                 if (other.gameObject.transform.position.x > transform.position.x)
                 {
                     //Enemy is to my right therefore i should damaged and move left
-                    rb.velocity = new Vector2(-playerVar[3], rb.velocity.y);
+                    rb.velocity = new Vector2(-hurtForce, rb.velocity.y);
                 }
                 else
                 {
                     //Enemy is to my left therefore i should damaged and move right
-                    rb.velocity = new Vector2(playerVar[3], rb.velocity.y);
+                    rb.velocity = new Vector2(hurtForce, rb.velocity.y);
                 }
+
             }
         }
+
+
     }
 
     private void HandleHealth()
     {
-        playerPoints[2] -= 1;
-        healthAmount.text = playerPoints[2].ToString();
-        if (playerPoints[2] <= 0)
-        {
+        currentHealth -= 1;
+        healthAmount.text = currentHealth.ToString();
+        if (currentHealth <= 0)
+        { 
             PlayerDie();
         }
     }
@@ -187,14 +220,14 @@ public class PlayerControllerDemo : MonoBehaviour
         //Moving left
         if (hDirection < 0)
         {
-            rb.velocity = new Vector2(-playerVar[0], rb.velocity.y);
+            rb.velocity = new Vector2(-speed, rb.velocity.y);
             transform.localScale = new Vector2(-1, 1);
 
         }
         //Moving Right
         else if (hDirection > 0)
         {
-            rb.velocity = new Vector2(playerVar[0], rb.velocity.y);
+            rb.velocity = new Vector2(speed, rb.velocity.y);
             transform.localScale = new Vector2(1, 1);
 
         }
@@ -207,7 +240,7 @@ public class PlayerControllerDemo : MonoBehaviour
 
     private void Jump()
     {
-        rb.velocity = new Vector2(rb.velocity.x, playerVar[2]);
+        rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         state = State.jumping;
     }
     private void AnimationState()
@@ -252,36 +285,44 @@ public class PlayerControllerDemo : MonoBehaviour
             state = State.idle;
         }
 
+   
     }
 
     private void FootStep()
     {
-        playerAudio[1].Play();
+        footstep.Play();
     }
 
     private IEnumerator ResetPower()
     {
         yield return new WaitForSeconds(5);
-        playerVar[2] = 60;
+        jumpForce = 60;
         GetComponent<SpriteRenderer>().color = Color.white;
     }
 
     private void OnDrawGizmosSelected()
     {
-        while (playerDetect[0] == null)
+        while (AttackPoint == null)
         {
             return;
         }
-        Gizmos.DrawWireSphere(playerDetect[0].position, playerVar[4]);
+        Gizmos.DrawWireSphere(AttackPoint.position, attackRange);
     }
 
     public void DamagePlayer(int damage)
     {
+<<<<<<< HEAD
         playerAudio[2].Play();
         playerPoints[2] -= damage;
         healthAmount.text = playerPoints[2].ToString();
         anim.SetInteger("state", 4);
         if (playerPoints[2] <= 0)
+=======
+        currentHealth -= damage;
+        healthAmount.text = currentHealth.ToString();
+        animator.SetInteger("state", 4);
+        if (currentHealth <= 0)
+>>>>>>> parent of b93abbce (lvl3)
         {
             PlayerDie();
         }
@@ -290,6 +331,7 @@ public class PlayerControllerDemo : MonoBehaviour
     void PlayerDie()
     {
         Debug.Log("Player Died");
+<<<<<<< HEAD
         anim.SetBool("isDead", true);
         GetComponent<Collider2D>().enabled = false;
         string gemsText = playerPoints[0].ToString();
@@ -297,6 +339,12 @@ public class PlayerControllerDemo : MonoBehaviour
         Time.timeScale = 0f;
         gameOverMenu.GameOver();
         Destroy(gameObject);
+=======
+        animator.SetBool("isDead", true);
+
+        //GetComponent<Collider2D>().enabled = false;
+        Destroy(this);
+>>>>>>> parent of b93abbce (lvl3)
     }
 
     private void Climb()
@@ -315,13 +363,13 @@ public class PlayerControllerDemo : MonoBehaviour
         //Climbing up
         if (vDirection> .1f && !topLadder)
         {
-            rb.velocity = new Vector2(0f, vDirection * playerVar[1]);
+            rb.velocity = new Vector2(0f, vDirection * climbSpeed);
             anim.speed = 1f;
         }
         //Climbing down
         else if (vDirection < -.1f && !bottomLadder)
         {
-            rb.velocity = new Vector2(0f, vDirection * playerVar[1]);
+            rb.velocity = new Vector2(0f, vDirection * climbSpeed);
             anim.speed = 1f;
         }
         //Still
