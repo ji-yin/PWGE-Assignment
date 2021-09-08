@@ -2,13 +2,10 @@ Using pre-set license
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 
  COMMAND LINE ARGUMENTS:
 /Applications/Unity/Unity.app/Contents/MacOS/Unity
 =======
-=======
->>>>>>> parent of 16265ab2 (import lvl3)
 =======
 >>>>>>> parent of 16265ab2 (import lvl3)
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
@@ -18,15 +15,12 @@ BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, I
  COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
 <<<<<<< HEAD
-<<<<<<< HEAD
 >>>>>>> parent of 16265ab2 (import lvl3)
 =======
 
  COMMAND LINE ARGUMENTS:
 /Applications/Unity/Unity.app/Contents/MacOS/Unity
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
->>>>>>> parent of 16265ab2 (import lvl3)
 =======
 >>>>>>> parent of 16265ab2 (import lvl3)
 -adb2
@@ -38,7 +32,6 @@ AssetImportWorker0
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 /Users/weiqianho/Documents/GitHub/PWGE-Assignment
@@ -47,8 +40,6 @@ Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< HEAD
 =======
-=======
->>>>>>> parent of 16265ab2 (import lvl3)
 =======
 >>>>>>> parent of 16265ab2 (import lvl3)
 D:/PWGE-Assignment
@@ -63,9 +54,6 @@ Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 2610.53 ms, found 3 plugins.
 =======
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 16265ab2 (import lvl3)
-=======
 >>>>>>> parent of 16265ab2 (import lvl3)
 =======
 >>>>>>> parent of 16265ab2 (import lvl3)
@@ -74,7 +62,6 @@ Successfully changed project path to: /Users/weiqianho/Documents/GitHub/PWGE-Ass
 /Users/weiqianho/Documents/GitHub/PWGE-Assignment
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 160.45 ms, found 3 plugins.
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -93,8 +80,6 @@ GfxDevice: creating device client; threaded=0
 =======
 =======
 >>>>>>> parent of 16265ab2 (import lvl3)
-=======
->>>>>>> parent of 16265ab2 (import lvl3)
 >>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
@@ -110,9 +95,6 @@ Direct3D:
     Driver:   27.21.14.6231
 =======
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 16265ab2 (import lvl3)
-=======
 >>>>>>> parent of 16265ab2 (import lvl3)
 =======
 >>>>>>> parent of 16265ab2 (import lvl3)
@@ -121,7 +103,6 @@ Direct3D:
 2021-09-08 16:48:14.687 Unity[4979:323448] 0: Intel(R) Iris(TM) Graphics 6000 (low power)
 2021-09-08 16:48:14.688 Unity[4979:323448] Using device Intel(R) Iris(TM) Graphics 6000 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6000
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -137,9 +118,6 @@ Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6000
 =======
 >>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
 >>>>>>> parent of 16265ab2 (import lvl3)
-=======
->>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
->>>>>>> parent of 16265ab2 (import lvl3)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
@@ -147,11 +125,8 @@ Initialize mono
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 <<<<<<< HEAD
-=======
->>>>>>> parent of 16265ab2 (import lvl3)
 =======
 >>>>>>> parent of 16265ab2 (import lvl3)
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
@@ -172,9 +147,6 @@ Registering precompiled user dll's ...
 Registered in 0.620641 seconds.
 =======
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 16265ab2 (import lvl3)
-=======
 >>>>>>> parent of 16265ab2 (import lvl3)
 =======
 >>>>>>> parent of 16265ab2 (import lvl3)
@@ -200,7 +172,6 @@ Refreshing native plugins compatible for Editor in 140.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  2.363 seconds
-<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
@@ -228,8 +199,6 @@ Mono: successfully reloaded assembly
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
 >>>>>>> parent of 16265ab2 (import lvl3)
-=======
->>>>>>> parent of 16265ab2 (import lvl3)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -239,9 +208,6 @@ Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 16265ab2 (import lvl3)
 =======
 >>>>>>> parent of 16265ab2 (import lvl3)
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
@@ -261,7 +227,6 @@ Received Import Request.
 Start importing Assets/Prefabs/Lvl2/False Knight.prefab using Guid(9a5e7c4cbf3d34d33b98a4346fa38114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea2b166ccdaf4aab04dfc9118902301') in 0.549771 seconds
   Import took 0.559723 seconds .
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
 Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
@@ -279,13 +244,10 @@ Received Import Request.
   artifactKey: Guid(8ed650261146249809ba0c478ef86cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/Lvl2/NamedArrayAttribute.cs using Guid(8ed650261146249809ba0c478ef86cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82052b0abb57bce00b5edc1d06222e7') in 0.144328 seconds
   Import took 0.159427 seconds .
-=======
->>>>>>> parent of 16265ab2 (import lvl3)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-<<<<<<< HEAD
 Registered in 0.016393 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
@@ -293,20 +255,10 @@ Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  2.087 seconds
-=======
-Registered in 0.009255 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.164 seconds
->>>>>>> parent of 16265ab2 (import lvl3)
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3485 Unused Serialized files (Serialized files now loaded: 0)
@@ -315,21 +267,10 @@ System memory in use after: 331.3 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4131.
 Total: 3.269445 ms (FindLiveObjects: 0.409734 ms CreateObjectMapping: 0.173935 ms MarkObjects: 2.656151 ms  DeleteObjects: 0.028244 ms)
-=======
-Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 338.8 MB.
-System memory in use after: 339.1 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4178.
-Total: 4.346555 ms (FindLiveObjects: 0.522490 ms CreateObjectMapping: 0.254845 ms MarkObjects: 3.536921 ms  DeleteObjects: 0.030287 ms)
->>>>>>> parent of 16265ab2 (import lvl3)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-<<<<<<< HEAD
 Registered in 0.009269 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
@@ -337,22 +278,12 @@ Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.823 seconds
-=======
-Registered in 0.009329 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.937 seconds
->>>>>>> parent of 16265ab2 (import lvl3)
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-<<<<<<< HEAD
 Unloading 3485 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 331.5 MB.
 System memory in use after: 331.8 MB.
@@ -398,19 +329,10 @@ System memory in use after: 332.1 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4138.
 Total: 4.886502 ms (FindLiveObjects: 0.713352 ms CreateObjectMapping: 0.567855 ms MarkObjects: 3.567451 ms  DeleteObjects: 0.035812 ms)
-=======
-Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 339.3 MB.
-System memory in use after: 339.6 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4181.
-Total: 3.894238 ms (FindLiveObjects: 0.489304 ms CreateObjectMapping: 0.219111 ms MarkObjects: 3.156732 ms  DeleteObjects: 0.027680 ms)
->>>>>>> parent of 16265ab2 (import lvl3)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-<<<<<<< HEAD
 Registered in 0.009885 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
@@ -418,20 +340,10 @@ Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.785 seconds
-=======
-Registered in 0.010670 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.031 seconds
->>>>>>> parent of 16265ab2 (import lvl3)
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
@@ -459,21 +371,10 @@ Start importing Assets/Sounds/Lvl2 using Guid(0b267cb9a1e8e4780a7d7c7d0fb06624) 
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
 >>>>>>> parent of 16265ab2 (import lvl3)
-=======
-Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 339.6 MB.
-System memory in use after: 339.9 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4184.
-Total: 6.053898 ms (FindLiveObjects: 0.626747 ms CreateObjectMapping: 0.386949 ms MarkObjects: 4.994721 ms  DeleteObjects: 0.043588 ms)
->>>>>>> parent of 16265ab2 (import lvl3)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Registered in 0.009255 seconds.
@@ -497,20 +398,10 @@ Mono: successfully reloaded assembly
 =======
 - Completed reload, in  2.164 seconds
 >>>>>>> parent of 16265ab2 (import lvl3)
-=======
-Registered in 0.009190 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.115 seconds
->>>>>>> parent of 16265ab2 (import lvl3)
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -536,21 +427,10 @@ Total: 4.410219 ms (FindLiveObjects: 0.561853 ms CreateObjectMapping: 0.350391 m
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
 >>>>>>> parent of 16265ab2 (import lvl3)
-=======
-Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 339.9 MB.
-System memory in use after: 340.2 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4187.
-Total: 4.320711 ms (FindLiveObjects: 0.623172 ms CreateObjectMapping: 0.236882 ms MarkObjects: 3.423886 ms  DeleteObjects: 0.033953 ms)
->>>>>>> parent of 16265ab2 (import lvl3)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -574,20 +454,10 @@ Mono: successfully reloaded assembly
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
 >>>>>>> parent of 16265ab2 (import lvl3)
-=======
-Registered in 0.006934 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.153 seconds
->>>>>>> parent of 16265ab2 (import lvl3)
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -610,21 +480,10 @@ System memory in use after: 332.9 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4147.
 Total: 3.446327 ms (FindLiveObjects: 0.503849 ms CreateObjectMapping: 0.206660 ms MarkObjects: 2.705766 ms  DeleteObjects: 0.028583 ms)
-=======
-Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 340.2 MB.
-System memory in use after: 340.4 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4190.
-Total: 4.166136 ms (FindLiveObjects: 0.684518 ms CreateObjectMapping: 0.262497 ms MarkObjects: 3.188845 ms  DeleteObjects: 0.028572 ms)
->>>>>>> parent of 16265ab2 (import lvl3)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-<<<<<<< HEAD
 Registered in 0.004189 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
@@ -632,20 +491,10 @@ Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.953 seconds
-=======
-Registered in 0.007705 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.130 seconds
->>>>>>> parent of 16265ab2 (import lvl3)
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
@@ -657,21 +506,10 @@ Total: 3.527895 ms (FindLiveObjects: 0.396084 ms CreateObjectMapping: 0.193763 m
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
 >>>>>>> parent of 16265ab2 (import lvl3)
-=======
-Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 340.4 MB.
-System memory in use after: 340.7 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4193.
-Total: 3.781688 ms (FindLiveObjects: 0.432678 ms CreateObjectMapping: 0.197249 ms MarkObjects: 3.122573 ms  DeleteObjects: 0.027337 ms)
->>>>>>> parent of 16265ab2 (import lvl3)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -695,20 +533,10 @@ Mono: successfully reloaded assembly
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
 >>>>>>> parent of 16265ab2 (import lvl3)
-=======
-Registered in 0.023048 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.113 seconds
->>>>>>> parent of 16265ab2 (import lvl3)
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1852,17 +1680,5 @@ Total: 4.710015 ms (FindLiveObjects: 0.599935 ms CreateObjectMapping: 0.357819 m
 
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
->>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
->>>>>>> parent of 16265ab2 (import lvl3)
-=======
-Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 340.7 MB.
-System memory in use after: 341.0 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4196.
-Total: 3.830695 ms (FindLiveObjects: 0.430990 ms CreateObjectMapping: 0.177128 ms MarkObjects: 3.184987 ms  DeleteObjects: 0.036036 ms)
-
 >>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
 >>>>>>> parent of 16265ab2 (import lvl3)
