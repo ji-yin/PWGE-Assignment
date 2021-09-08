@@ -1,105 +1,9 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{8427AD66-5140-1149-7C2F-48A1BBA2DF3F}"
-EndProject
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{2311E60E-4FF3-C4E6-3C9F-A66EB84F319C}"
-EndProject
-=======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProject", "AstarPathfindingProject.csproj", "{762853DA-134D-6717-69EC-60A79668FE81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProjectEditor", "AstarPathfindingProjectEditor.csproj", "{EFA93D3C-FFD8-F496-9DE2-6616F696FAE2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{2311E60E-4FF3-C4E6-3C9F-A66EB84F319C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackageToolsEditor", "PackageToolsEditor.csproj", "{BD692CB4-B0C6-20A9-1F14-CF2B19542E16}"
-EndProject
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 639fb924 (Delete files)
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8427AD66-5140-1149-7C2F-48A1BBA2DF3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8427AD66-5140-1149-7C2F-48A1BBA2DF3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8427AD66-5140-1149-7C2F-48A1BBA2DF3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8427AD66-5140-1149-7C2F-48A1BBA2DF3F}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-		{762853DA-134D-6717-69EC-60A79668FE81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{762853DA-134D-6717-69EC-60A79668FE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{762853DA-134D-6717-69EC-60A79668FE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{762853DA-134D-6717-69EC-60A79668FE81}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EFA93D3C-FFD8-F496-9DE2-6616F696FAE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EFA93D3C-FFD8-F496-9DE2-6616F696FAE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EFA93D3C-FFD8-F496-9DE2-6616F696FAE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EFA93D3C-FFD8-F496-9DE2-6616F696FAE2}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 639fb924 (Delete files)
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-		{2311E60E-4FF3-C4E6-3C9F-A66EB84F319C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2311E60E-4FF3-C4E6-3C9F-A66EB84F319C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2311E60E-4FF3-C4E6-3C9F-A66EB84F319C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2311E60E-4FF3-C4E6-3C9F-A66EB84F319C}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-		{BD692CB4-B0C6-20A9-1F14-CF2B19542E16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BD692CB4-B0C6-20A9-1F14-CF2B19542E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BD692CB4-B0C6-20A9-1F14-CF2B19542E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BD692CB4-B0C6-20A9-1F14-CF2B19542E16}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 639fb924 (Delete files)
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-=======
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-EndGlobal
-=======
-=======
->>>>>>> parent of cf3b1701 (import lvl2)
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{8427AD66-5140-1149-7C2F-48A1BBA2DF3F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProject", "AstarPathfindingProject.csproj", "{762853DA-134D-6717-69EC-60A79668FE81}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProjectEditor", "AstarPathfindingProjectEditor.csproj", "{EFA93D3C-FFD8-F496-9DE2-6616F696FAE2}"
 EndProject
@@ -113,14 +17,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8427AD66-5140-1149-7C2F-48A1BBA2DF3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8427AD66-5140-1149-7C2F-48A1BBA2DF3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8427AD66-5140-1149-7C2F-48A1BBA2DF3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8427AD66-5140-1149-7C2F-48A1BBA2DF3F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{762853DA-134D-6717-69EC-60A79668FE81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{762853DA-134D-6717-69EC-60A79668FE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{762853DA-134D-6717-69EC-60A79668FE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{762853DA-134D-6717-69EC-60A79668FE81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8427AD66-5140-1149-7C2F-48A1BBA2DF3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8427AD66-5140-1149-7C2F-48A1BBA2DF3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8427AD66-5140-1149-7C2F-48A1BBA2DF3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8427AD66-5140-1149-7C2F-48A1BBA2DF3F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EFA93D3C-FFD8-F496-9DE2-6616F696FAE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EFA93D3C-FFD8-F496-9DE2-6616F696FAE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFA93D3C-FFD8-F496-9DE2-6616F696FAE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -137,8 +41,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 EndGlobal
-<<<<<<< HEAD
->>>>>>> parent of cf3b1701 (import lvl2)
-=======
->>>>>>> parent of cf3b1701 (import lvl2)
