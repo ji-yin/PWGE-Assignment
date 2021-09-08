@@ -1,9 +1,8 @@
 ﻿<Properties StartupConfiguration="{8427AD66-5140-1149-7C2F-48A1BBA2DF3F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Lvl2/Enemy/GruzMother/GruzMother.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Lvl2/Enemy/Frog&amp;Eagle/Eagle/Eagle.cs">
     <Files>
       <File FileName="Assets/Scripts/Lvl2/Enemy/Frog&amp;Eagle/Enemy.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Lvl2/Enemy/Frog&amp;Eagle/Eagle/Eagle.cs" Line="11" Column="10" />
-      <File FileName="Assets/Scripts/Lvl2/Enemy/GruzMother/GruzMother.cs" Line="21" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,10 +13,9 @@
                 <Node name="Lvl2" expanded="True">
                   <Node name="Enemy" expanded="True">
                     <Node name="Frog&amp;Eagle" expanded="True">
-                      <Node name="Eagle" expanded="True" />
-                    </Node>
-                    <Node name="GruzMother" expanded="True">
-                      <Node name="GruzMother.cs" selected="True" />
+                      <Node name="Eagle" expanded="True">
+                        <Node name="Eagle.cs" selected="True" />
+                      </Node>
                     </Node>
                   </Node>
                 </Node>

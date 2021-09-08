@@ -779,6 +779,7 @@ Received Import Request.
 Start importing Assets/Prefabs/Lvl2/WeatherManager.prefab using Guid(6aea89ab270784e1880f5ed8c703642f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0b7a18689ce54dff5bf80cdca0fd61') in 0.009277 seconds
   Import took 0.021107 seconds .
 
+<<<<<<< HEAD
 ========================================================================
 Received Import Request.
   Time since last request: 171.187002 seconds.
@@ -1033,3 +1034,5 @@ Registered in 0.620641 seconds.
 >>>>>>> parent of c13a0216 (import)
 =======
 >>>>>>> parent of 1e869776 (import lvl2)
+=======
+>>>>>>> parent of 7e3251e2 (import lvl2)
