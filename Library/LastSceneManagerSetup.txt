@@ -2,7 +2,7 @@
 sceneSetups: []
 =======
 sceneSetups:
-- path: Assets/Scenes/Lvl2.unity
+- path: Assets/Scenes/Lvl3.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
