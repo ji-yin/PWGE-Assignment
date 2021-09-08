@@ -24,6 +24,7 @@ public class PlayerControllerDemo : MonoBehaviour
     private float naturalGravity;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     [SerializeField] float climbSpeed = 3f;
 
 <<<<<<< HEAD
@@ -46,6 +47,10 @@ public class PlayerControllerDemo : MonoBehaviour
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+    [SerializeField] float climbSpeed = 3f;
+
+>>>>>>> parent of b93abbce (lvl3)
     //Inspector varibles
     [SerializeField] private LayerMask ground;
     [SerializeField] private float speed = 0.5f;
@@ -65,6 +70,7 @@ public class PlayerControllerDemo : MonoBehaviour
     [SerializeField] private Text healthAmount;
     int currentHealth;
     private float nextAttackTime = 0f;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> parent of cf3b1701 (import lvl2)
@@ -155,6 +161,9 @@ public class PlayerControllerDemo : MonoBehaviour
     private bool isGrounded;
 
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+
+>>>>>>> parent of b93abbce (lvl3)
 
     // Start is called before the first frame update
     private void Start()
@@ -217,6 +226,7 @@ public class PlayerControllerDemo : MonoBehaviour
 
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -289,6 +299,8 @@ public class PlayerControllerDemo : MonoBehaviour
 >>>>>>> parent of cf3b1701 (import lvl2)
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+>>>>>>> parent of b93abbce (lvl3)
     private void OnTriggerEnter2D(Collider2D collision)
 =======
         private void OnTriggerEnter2D(Collider2D collision)
@@ -305,6 +317,7 @@ public class PlayerControllerDemo : MonoBehaviour
         if(collision.tag == "PowerUp")
         {
             Destroy(collision.gameObject);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -348,6 +361,9 @@ public class PlayerControllerDemo : MonoBehaviour
 =======
             playerVar[2] = 120f;
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+            jumpForce = 90f;
+>>>>>>> parent of b93abbce (lvl3)
             GetComponent<SpriteRenderer>().color = Color.yellow;
             StartCoroutine(ResetPower());
         }
@@ -513,6 +529,7 @@ public class PlayerControllerDemo : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         playerAudio[2].Play();
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
@@ -525,14 +542,19 @@ public class PlayerControllerDemo : MonoBehaviour
 =======
 =======
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+>>>>>>> parent of b93abbce (lvl3)
         currentHealth -= damage;
         healthAmount.text = currentHealth.ToString();
         animator.SetInteger("state", 4);
         if (currentHealth <= 0)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+>>>>>>> parent of b93abbce (lvl3)
         {
             PlayerDie();
         }
@@ -550,6 +572,7 @@ public class PlayerControllerDemo : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
@@ -557,10 +580,13 @@ public class PlayerControllerDemo : MonoBehaviour
 =======
 =======
 >>>>>>> parent of cf3b1701 (import lvl2)
+=======
+>>>>>>> parent of b93abbce (lvl3)
         animator.SetBool("isDead", true);
 
         //GetComponent<Collider2D>().enabled = false;
         Destroy(this);
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> parent of cf3b1701 (import lvl2)
@@ -621,6 +647,8 @@ public class PlayerControllerDemo : MonoBehaviour
 >>>>>>> parent of cf3b1701 (import lvl2)
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+>>>>>>> parent of b93abbce (lvl3)
     }
 
     private void Climb()

@@ -15,6 +15,7 @@ public class EnemyAI : MonoBehaviour
     Path path;
     int currentWaypoint = 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/Scripts/Lvl2/Enemy/Frog&Eagle/Eagle/Eagle.cs
 =======
     bool reachedEndOfPath = false;
@@ -24,6 +25,13 @@ public class EnemyAI : MonoBehaviour
     //bool reachedEndOfPath = false;
 
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+<<<<<<<< HEAD:Assets/Scripts/Lvl2/EnemyAI.cs
+    bool reachedEndOfPath = false;
+
+========
+>>>>>>>> parent of b93abbce (lvl3):Assets/Scripts/Lvl2/Enemy/Frog&Eagle/Eagle/Eagle.cs
+>>>>>>> parent of b93abbce (lvl3)
     Seeker seeker;
     Rigidbody2D rb;
 
@@ -63,6 +71,7 @@ public class EnemyAI : MonoBehaviour
         if(currentWaypoint >= path.vectorPath.Count)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/Scripts/Lvl2/Enemy/Frog&Eagle/Eagle/Eagle.cs
             return;
         }
@@ -71,10 +80,15 @@ public class EnemyAI : MonoBehaviour
 =======
             //reachedEndOfPath = true;
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+<<<<<<<< HEAD:Assets/Scripts/Lvl2/EnemyAI.cs
+            reachedEndOfPath = true;
+>>>>>>> parent of b93abbce (lvl3)
             return;
         }
         else
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
             reachedEndOfPath = false;
         }
@@ -83,6 +97,14 @@ public class EnemyAI : MonoBehaviour
             //reachedEndOfPath = false;
         }
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+            reachedEndOfPath = false;
+        }
+========
+            return;
+        }
+>>>>>>>> parent of b93abbce (lvl3):Assets/Scripts/Lvl2/Enemy/Frog&Eagle/Eagle/Eagle.cs
+>>>>>>> parent of b93abbce (lvl3)
 
         Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
         Vector2 force = direction * speed * Time.deltaTime;

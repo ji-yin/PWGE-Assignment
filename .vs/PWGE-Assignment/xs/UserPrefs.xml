@@ -1,6 +1,7 @@
 ﻿<Properties StartupConfiguration="{8427AD66-5140-1149-7C2F-48A1BBA2DF3F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Lvl2/Enemy/Skeleton&amp;FK/Enemy_behaviour.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Lvl2/PauseMenu.cs">
     <Files>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <File FileName="Assets/Scripts/Lvl2/Enemy/Frog&amp;Eagle/Enemy.cs" Line="1" Column="1" />
@@ -21,6 +22,11 @@
 >>>>>>> parent of 6dc571ac (import lvl2)
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+      <File FileName="Assets/Scripts/Lvl2/GruzMother/GruzMother.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Lvl2/PauseMenu.cs" Line="84" Column="11" />
+      <File FileName="Assets/GameOverMenu.cs" Line="1" Column="1" />
+>>>>>>> parent of b93abbce (lvl3)
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -29,6 +35,7 @@
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
                 <Node name="Lvl2" expanded="True">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                   <Node name="Enemy" expanded="True" />
@@ -50,6 +57,9 @@
 >>>>>>> parent of 6dc571ac (import lvl2)
 =======
 >>>>>>> parent of 6dc571ac (import lvl2)
+=======
+                  <Node name="PauseMenu.cs" selected="True" />
+>>>>>>> parent of b93abbce (lvl3)
                 </Node>
                 <Node name="Main Character" expanded="True" />
               </Node>
@@ -61,7 +71,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f4086c48-e61d-4ac9-8d64-fe627c94f2cd" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="07f1b7ca-4818-45df-a31e-479313c52cbc" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
