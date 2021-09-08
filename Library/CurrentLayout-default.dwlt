@@ -41,6 +41,9 @@ MonoBehaviour:
   m_Title: Scene
   m_RootView: {fileID: 2}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of b93abbce (lvl3)
+=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
@@ -59,9 +62,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   m_EditorHideFlags: 0
   m_Script: {fileID: 12064, guid: 0000000000000000e000000000000000, type: 0}
+=======
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> parent of b93abbce (lvl3)
 =======
   m_EditorHideFlags: 1
   m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
@@ -82,11 +90,14 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 100
     height: 100
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 8192, y: 8192}
 =======
+=======
+>>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
     width: 1920
@@ -98,6 +109,9 @@ MonoBehaviour:
   m_UseBottomView: 1
   m_BottomViewHeight: 20
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of b93abbce (lvl3)
+=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
@@ -120,6 +134,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 337
     height: 302
   m_MinSize: {x: 100, y: 100}
@@ -132,6 +147,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of b93abbce (lvl3)
+=======
+>>>>>>> parent of b93abbce (lvl3)
     width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
@@ -141,6 +158,9 @@ MonoBehaviour:
   m_MainToolbar: {fileID: 23}
   m_LastLoadedLayoutName: 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of b93abbce (lvl3)
+=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
@@ -162,6 +182,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 438
     width: 1019
     height: 302
@@ -172,12 +193,17 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of b93abbce (lvl3)
+=======
+>>>>>>> parent of b93abbce (lvl3)
     y: 977
     width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of b93abbce (lvl3)
+=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
@@ -191,8 +217,12 @@ MonoBehaviour:
   m_Enabled: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
   m_EditorHideFlags: 1
+=======
+  m_EditorHideFlags: 0
+>>>>>>> parent of b93abbce (lvl3)
 =======
   m_EditorHideFlags: 0
 >>>>>>> parent of b93abbce (lvl3)
@@ -205,9 +235,12 @@ MonoBehaviour:
   m_Children:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 9}
   - {fileID: 3}
 =======
+=======
+>>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
   - {fileID: 6}
@@ -216,6 +249,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -249,6 +283,14 @@ MonoBehaviour:
   vertical: 1
   controlID: 231
 >>>>>>> parent of b93abbce (lvl3)
+=======
+    width: 1920
+    height: 947
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 18004, y: 14042}
+  vertical: 1
+  controlID: 231
+>>>>>>> parent of b93abbce (lvl3)
 --- !u!114 &6
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 MonoBehaviour:
@@ -267,6 +309,7 @@ MonoBehaviour:
   - {fileID: 14}
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 921
@@ -298,6 +341,10 @@ MonoBehaviour:
     x: 0
     y: 0
 >>>>>>> parent of b93abbce (lvl3)
+=======
+    x: 0
+    y: 0
+>>>>>>> parent of b93abbce (lvl3)
     width: 1920
     height: 947
   m_MinSize: {x: 679, y: 492}
@@ -305,6 +352,9 @@ MonoBehaviour:
   vertical: 0
   controlID: 232
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of b93abbce (lvl3)
+=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
@@ -331,6 +381,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 228
     height: 394
 =======
@@ -350,6 +401,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of b93abbce (lvl3)
+=======
+>>>>>>> parent of b93abbce (lvl3)
     width: 1409
     height: 947
   m_MinSize: {x: 403, y: 492}
@@ -357,6 +410,9 @@ MonoBehaviour:
   vertical: 1
   controlID: 143
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of b93abbce (lvl3)
+=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
@@ -378,6 +434,7 @@ MonoBehaviour:
   - {fileID: 10}
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -409,6 +466,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of b93abbce (lvl3)
+=======
+>>>>>>> parent of b93abbce (lvl3)
     x: 0
     y: 0
     width: 1409
@@ -418,6 +477,9 @@ MonoBehaviour:
   vertical: 0
   controlID: 94
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of b93abbce (lvl3)
+=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
@@ -436,6 +498,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Children:
   - {fileID: 7}
   - {fileID: 2}
@@ -446,10 +509,14 @@ MonoBehaviour:
 =======
   m_Children: []
 >>>>>>> parent of b93abbce (lvl3)
+=======
+  m_Children: []
+>>>>>>> parent of b93abbce (lvl3)
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -470,6 +537,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of b93abbce (lvl3)
+=======
+>>>>>>> parent of b93abbce (lvl3)
     width: 301
     height: 600
   m_MinSize: {x: 201, y: 221}
@@ -480,6 +549,9 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of b93abbce (lvl3)
+=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
@@ -501,6 +573,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 0
     width: 1206
@@ -520,6 +593,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of b93abbce (lvl3)
+=======
+>>>>>>> parent of b93abbce (lvl3)
     x: 301
     y: 0
     width: 1108
@@ -533,6 +608,9 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of b93abbce (lvl3)
+=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
@@ -558,6 +636,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 695
     width: 1206
     height: 20
@@ -573,6 +652,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of b93abbce (lvl3)
+=======
+>>>>>>> parent of b93abbce (lvl3)
     y: 600
     width: 1409
     height: 347
@@ -581,6 +662,9 @@ MonoBehaviour:
   vertical: 0
   controlID: 144
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of b93abbce (lvl3)
+=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
@@ -599,9 +683,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Children:
   - {fileID: 10}
   - {fileID: 5}
+=======
+  m_Children: []
+>>>>>>> parent of b93abbce (lvl3)
 =======
   m_Children: []
 >>>>>>> parent of b93abbce (lvl3)
@@ -612,6 +700,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -632,6 +721,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of b93abbce (lvl3)
+=======
+>>>>>>> parent of b93abbce (lvl3)
     width: 682
     height: 347
   m_MinSize: {x: 101, y: 121}
@@ -643,6 +734,9 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of b93abbce (lvl3)
+=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
@@ -659,6 +753,7 @@ MonoBehaviour:
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_Children:
@@ -687,6 +782,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 >>>>>>> parent of b93abbce (lvl3)
+=======
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+>>>>>>> parent of b93abbce (lvl3)
     x: 682
     y: 0
     width: 727
@@ -699,6 +799,9 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of b93abbce (lvl3)
+=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
@@ -715,7 +818,11 @@ MonoBehaviour:
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: 
+=======
+  m_Name: InspectorWindow
+>>>>>>> parent of b93abbce (lvl3)
 =======
   m_Name: InspectorWindow
 >>>>>>> parent of b93abbce (lvl3)
@@ -726,6 +833,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -748,6 +856,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of b93abbce (lvl3)
+=======
+>>>>>>> parent of b93abbce (lvl3)
     x: 1409
     y: 0
     width: 511
@@ -758,6 +868,9 @@ MonoBehaviour:
   m_Panes:
   - {fileID: 22}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of b93abbce (lvl3)
+=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
@@ -773,6 +886,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_EditorHideFlags: 1
@@ -921,11 +1035,16 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
 >>>>>>> parent of b93abbce (lvl3)
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> parent of b93abbce (lvl3)
   m_Name: 
   m_EditorClassIdentifier: 
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_Text: Inspector
@@ -1285,11 +1404,181 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
 >>>>>>> parent of b93abbce (lvl3)
+=======
+    m_Text: Animator
+    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 544
+    width: 511
+    height: 250
+  m_ViewDataDictionary: {fileID: 0}
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: 5800769345534426332, guid: d4f8a3b16aedfce4b89dd3207e7fc460, type: 2}
+    - {fileID: 1107726713548518706, guid: 50456c86517cc4fe09380fe2f79df0ac, type: 2}
+    - {fileID: -2417194558194924412, guid: 475f7b3012744d34087598447292f252, type: 2}
+    - {fileID: -8356698622771053686, guid: 49fb85a3c22c1f04593fa24fea45da35, type: 2}
+    - {fileID: 6870203200703792208, guid: 50e1979d55986574f8afa2e3f375ab47, type: 2}
+    - {fileID: 7057714017589692575, guid: 1fdc5d0530ab00f4c9a8e9baca2c7bee, type: 2}
+    - {fileID: 335764157020118086, guid: dcfa5e386d098445d925342bffcb8a97, type: 2}
+    - {fileID: -8633116202063563091, guid: 271dbb5ee21c68c4b97dfba44bce42ee, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 0.24160583
+      e01: 0
+      e02: 0
+      e03: 104.394165
+      e10: 0
+      e11: 0.24160583
+      e12: 0
+      e13: -1.9858551
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.32643
+      e01: 0
+      e02: 0
+      e03: -1.3215027
+      e10: 0
+      e11: 0.32643
+      e12: 0
+      e13: 59.47337
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.385
+      e01: 0
+      e02: 0
+      e03: 15
+      e10: 0
+      e11: 0.385
+      e12: 0
+      e13: 13.100006
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.22345679
+      e01: 0
+      e02: 0
+      e03: 108.99383
+      e10: 0
+      e11: 0.22345679
+      e12: 0
+      e13: 26.172844
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.34842107
+      e01: 0
+      e02: 0
+      e03: -2.4210663
+      e10: 0
+      e11: 0.34842107
+      e12: 0
+      e13: 65.43158
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.34842107
+      e01: 0
+      e02: 0
+      e03: -2.4210663
+      e10: 0
+      e11: 0.34842107
+      e12: 0
+      e13: 81.11053
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.34842107
+      e01: 0
+      e02: 0
+      e03: -2.4210663
+      e10: 0
+      e11: 0.34842107
+      e12: 0
+      e13: 95.88421
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.53157896
+      e01: 0
+      e02: 0
+      e03: -11.578949
+      e10: 0
+      e11: 0.53157896
+      e12: 0
+      e13: 75.5
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 1fdc5d0530ab00f4c9a8e9baca2c7bee,
+    type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 7057714017589692575, guid: 1fdc5d0530ab00f4c9a8e9baca2c7bee,
+      type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+>>>>>>> parent of b93abbce (lvl3)
   m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
 --- !u!114 &16
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of b93abbce (lvl3)
+=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
@@ -1315,11 +1604,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 2249
     y: 332.5
     width: 227
     height: 373
 =======
+=======
+>>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
     x: 0
@@ -1333,6 +1625,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       m_ExpandedIDs: 42fbffff
@@ -1349,6 +1642,9 @@ MonoBehaviour:
       m_LastClickedID: 21614
       m_ExpandedIDs: 1694ffff3cf9ffff04fbffff845300006e540000
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+      m_ExpandedIDs: 9291ffffd292ffffbe97fffff8bbffff14bfffffaebfffff38c0ffff30c5ffff96ccffff46d3ffff6cad000074ad000088ad0000dcad000048ae0000
+>>>>>>> parent of b93abbce (lvl3)
 =======
       m_ExpandedIDs: 9291ffffd292ffffbe97fffff8bbffff14bfffffaebfffff38c0ffff30c5ffff96ccffff46d3ffff6cad000074ad000088ad0000dcad000048ae0000
 >>>>>>> parent of b93abbce (lvl3)
@@ -1372,7 +1668,11 @@ MonoBehaviour:
         m_IsRenamingFilename: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         m_ClientGUIView: {fileID: 0}
+=======
+        m_ClientGUIView: {fileID: 9}
+>>>>>>> parent of b93abbce (lvl3)
 =======
         m_ClientGUIView: {fileID: 9}
 >>>>>>> parent of b93abbce (lvl3)
@@ -1387,8 +1687,13 @@ MonoBehaviour:
     m_CurrentSortingName: TransformSorting
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_WindowGUID: 4c969a2b90040154d917609493e03593
 --- !u!114 &15
+=======
+  m_WindowGUID: 8e5a828a206112f489aeeb23aa121a59
+--- !u!114 &17
+>>>>>>> parent of b93abbce (lvl3)
 =======
   m_WindowGUID: 8e5a828a206112f489aeeb23aa121a59
 --- !u!114 &17
@@ -1419,6 +1724,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 2477
     y: 332.5
     width: 691
@@ -1432,11 +1738,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of b93abbce (lvl3)
+=======
+>>>>>>> parent of b93abbce (lvl3)
     x: 301
     y: 73
     width: 1106
     height: 579
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of b93abbce (lvl3)
+=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
@@ -1455,6 +1766,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0}
@@ -1463,6 +1775,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 83.550964, y: -3.255209, z: -25.055927}
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+    m_Target: {x: -2.4610984, y: 1.1418285, z: -35.956276}
+    speed: 2
+    m_Value: {x: -2.4610984, y: 1.1418285, z: -35.956276}
+>>>>>>> parent of b93abbce (lvl3)
 =======
     m_Target: {x: -2.4610984, y: 1.1418285, z: -35.956276}
     speed: 2
@@ -1515,8 +1832,13 @@ MonoBehaviour:
       m_Pivot: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_Size: {x: 0, y: 0}
     m_ShowGrid: 1
+=======
+      m_Size: {x: 1, y: 1}
+    m_ShowGrid: 0
+>>>>>>> parent of b93abbce (lvl3)
 =======
       m_Size: {x: 1, y: 1}
     m_ShowGrid: 0
@@ -1535,6 +1857,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 10
     speed: 2
     m_Value: 10
@@ -1543,6 +1866,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 29.957998
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+    m_Target: 4.3914084
+    speed: 2
+    m_Value: 4.3914084
+>>>>>>> parent of b93abbce (lvl3)
 =======
     m_Target: 4.3914084
     speed: 2
@@ -1579,8 +1907,11 @@ MonoBehaviour:
   m_ViewIsLockedToObject: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &16
 =======
+=======
+>>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
 --- !u!114 &18
@@ -1633,6 +1964,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 507
     y: 94
     width: 1532
@@ -1646,11 +1978,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of b93abbce (lvl3)
+=======
+>>>>>>> parent of b93abbce (lvl3)
     x: 1409
     y: 73
     width: 510
     height: 926
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of b93abbce (lvl3)
+=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
@@ -1663,7 +2000,11 @@ MonoBehaviour:
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TargetSize: {x: 640, y: 480}
+=======
+  m_TargetSize: {x: 1920, y: 1080}
+>>>>>>> parent of b93abbce (lvl3)
 =======
   m_TargetSize: {x: 1920, y: 1080}
 >>>>>>> parent of b93abbce (lvl3)
@@ -1686,6 +2027,7 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -766
     m_HBaseRangeMax: 766
     m_VBaseRangeMin: -395
@@ -1693,11 +2035,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of b93abbce (lvl3)
+=======
+>>>>>>> parent of b93abbce (lvl3)
     m_HBaseRangeMin: -960
     m_HBaseRangeMax: 960
     m_VBaseRangeMin: -540
     m_VBaseRangeMax: 540
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of b93abbce (lvl3)
+=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
@@ -1720,6 +2067,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       y: 0
       width: 1532
       height: 790
@@ -1735,12 +2083,17 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of b93abbce (lvl3)
+=======
+>>>>>>> parent of b93abbce (lvl3)
       y: 21
       width: 510
       height: 905
     m_Scale: {x: 0.265625, y: 0.265625}
     m_Translation: {x: 255, y: 452.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of b93abbce (lvl3)
+=======
 >>>>>>> parent of b93abbce (lvl3)
 =======
 >>>>>>> parent of b93abbce (lvl3)
@@ -1750,6 +2103,7 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1769,6 +2123,15 @@ MonoBehaviour:
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 762, y: 417}
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+=======
+      x: -960
+      y: -1703.5294
+      width: 1920
+      height: 3407.0588
+    m_MinimalGUI: 1
+  m_defaultScale: 0.265625
+  m_LastWindowPixelSize: {x: 510, y: 926}
+>>>>>>> parent of b93abbce (lvl3)
 =======
       x: -960
       y: -1703.5294
