@@ -25,6 +25,7 @@ public class PlayerControllerDemo : MonoBehaviour
     [SerializeField] float climbSpeed = 3f;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     [Header("InspectorVar")]
     [NamedArrayAttribute(new string[] { "Speed", "CimbSpeed", "JumpForce", "HurtForce","AttackRange","AttackRate", "NextAttackTime" })]
     [SerializeField] private float[] playerVar;
@@ -42,13 +43,21 @@ public class PlayerControllerDemo : MonoBehaviour
     [SerializeField] private Text healthAmount;
     public GameOverMenu gameOverMenu;
 =======
+=======
+>>>>>>> parent of 639fb924 (Delete files)
     //Inspector varibles
     [SerializeField] private LayerMask ground;
     [SerializeField] private float speed = 0.5f;
     [SerializeField] private float jumpForce = 20f;
+<<<<<<< HEAD
     [SerializeField] private int gems = 0;
     [SerializeField] private TextMeshProUGUI gemText;
     [SerializeField] private float hurtForce = 5f;
+=======
+    [SerializeField] private TextMeshProUGUI gemText;
+    [SerializeField] private float hurtForce = 5f;
+    [SerializeField] int gems = 0;
+>>>>>>> parent of 639fb924 (Delete files)
     [SerializeField] private AudioSource gem;
     [SerializeField] private AudioSource footstep;
     [SerializeField] private AudioSource hurt;
@@ -59,9 +68,19 @@ public class PlayerControllerDemo : MonoBehaviour
     [SerializeField] private float attackRate = 2f;
     [SerializeField] private int maxHealth = 100;
     [SerializeField] private Text healthAmount;
+<<<<<<< HEAD
     int currentHealth;
     private float nextAttackTime = 0f;
 >>>>>>> parent of b93abbce (lvl3)
+=======
+    public Transform groundDetection;
+    public Transform groundDetectionL;
+    public Transform groundDetectionR;
+    public GameOverMenu gameOverMenu;
+    int currentHealth;
+    private float nextAttackTime = 0f;
+    private bool isGrounded;
+>>>>>>> parent of 639fb924 (Delete files)
 
 
     // Start is called before the first frame update
@@ -126,11 +145,19 @@ public class PlayerControllerDemo : MonoBehaviour
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     private void FixedUpdate()
     {
         if (Physics2D.Linecast(transform.position, playerDetect[1].position, layers[0]) ||
             Physics2D.Linecast(transform.position, playerDetect[2].position, layers[0]) ||
             Physics2D.Linecast(transform.position, playerDetect[3].position, layers[0]))
+=======
+    private void FixedUpdate()
+    {
+        if (Physics2D.Linecast(transform.position, groundDetection.position, ground) ||
+            Physics2D.Linecast(transform.position, groundDetectionL.position, ground) ||
+            Physics2D.Linecast(transform.position, groundDetectionR.position, ground))
+>>>>>>> parent of 639fb924 (Delete files)
         {
             isGrounded = true;
         }
@@ -140,9 +167,13 @@ public class PlayerControllerDemo : MonoBehaviour
         }
     }
 
+<<<<<<< HEAD
 =======
 >>>>>>> parent of b93abbce (lvl3)
     private void OnTriggerEnter2D(Collider2D collision)
+=======
+        private void OnTriggerEnter2D(Collider2D collision)
+>>>>>>> parent of 639fb924 (Delete files)
     {
         if (collision.tag == "Collectable")
         {
@@ -156,10 +187,14 @@ public class PlayerControllerDemo : MonoBehaviour
         {
             Destroy(collision.gameObject);
 <<<<<<< HEAD
+<<<<<<< HEAD
             playerVar[2] = 120f;
 =======
             jumpForce = 90f;
 >>>>>>> parent of b93abbce (lvl3)
+=======
+            jumpForce = 120f;
+>>>>>>> parent of 639fb924 (Delete files)
             GetComponent<SpriteRenderer>().color = Color.yellow;
             StartCoroutine(ResetPower());
         }
@@ -334,6 +369,7 @@ public class PlayerControllerDemo : MonoBehaviour
     {
         Debug.Log("Player Died");
 <<<<<<< HEAD
+<<<<<<< HEAD
         anim.SetBool("isDead", true);
         GetComponent<Collider2D>().enabled = false;
         string gemsText = playerPoints[0].ToString();
@@ -347,6 +383,18 @@ public class PlayerControllerDemo : MonoBehaviour
         //GetComponent<Collider2D>().enabled = false;
         Destroy(this);
 >>>>>>> parent of b93abbce (lvl3)
+=======
+        animator.SetBool("isDead", true);
+        GetComponent<Collider2D>().enabled = false;
+        string gemsText = gems.ToString();
+        gameOverMenu.Setup(gemsText);
+        Time.timeScale = 0f;
+        gameOverMenu.GameOver();
+        LevelManager.instance.Respawn();
+        Destroy(gameObject);
+        
+        
+>>>>>>> parent of 639fb924 (Delete files)
     }
 
     private void Climb()
