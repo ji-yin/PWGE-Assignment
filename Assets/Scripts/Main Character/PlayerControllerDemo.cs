@@ -28,6 +28,9 @@ public class PlayerControllerDemo : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
@@ -43,6 +46,7 @@ public class PlayerControllerDemo : MonoBehaviour
     [SerializeField] private Transform[] playerDetect;
     [NamedArrayAttribute(new string[] { "gems", "maxHealth", "currentHealth"})]
     [SerializeField] private int[] playerPoints;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -82,6 +86,8 @@ public class PlayerControllerDemo : MonoBehaviour
 >>>>>>> parent of b93abbce (lvl3)
 
 =======
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 
@@ -168,6 +174,9 @@ public class PlayerControllerDemo : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
@@ -196,8 +205,11 @@ public class PlayerControllerDemo : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of b93abbce (lvl3)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
@@ -222,6 +234,7 @@ public class PlayerControllerDemo : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             playerVar[2] = 120f;
 =======
             jumpForce = 90f;
@@ -235,6 +248,9 @@ public class PlayerControllerDemo : MonoBehaviour
 =======
             jumpForce = 120f;
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+            playerVar[2] = 120f;
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
             GetComponent<SpriteRenderer>().color = Color.yellow;
             StartCoroutine(ResetPower());
         }
@@ -426,6 +442,7 @@ public class PlayerControllerDemo : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
@@ -451,6 +468,9 @@ public class PlayerControllerDemo : MonoBehaviour
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
         animator.SetBool("isDead", true);
+=======
+        anim.SetBool("isDead", true);
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
         GetComponent<Collider2D>().enabled = false;
         string gemsText = gems.ToString();
         gameOverMenu.Setup(gemsText);
@@ -458,9 +478,12 @@ public class PlayerControllerDemo : MonoBehaviour
         gameOverMenu.GameOver();
         LevelManager.instance.Respawn();
         Destroy(gameObject);
+<<<<<<< HEAD
         
         
 >>>>>>> parent of 639fb924 (Delete files)
+=======
+>>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     }
 
     private void Climb()
