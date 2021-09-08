@@ -103,7 +103,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
 <<<<<<< HEAD
-<<<<<<< HEAD
     - target: {fileID: 8457113015089162785, guid: 0d00c081a9cf94e488217a1e4d99d1b0,
         type: 3}
       propertyPath: layers.Array.size
@@ -216,7 +215,5 @@ PrefabInstance:
       objectReference: {fileID: 0}
 =======
 >>>>>>> parent of b93abbce (lvl3)
-=======
->>>>>>> parent of 639fb924 (Delete files)
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d00c081a9cf94e488217a1e4d99d1b0, type: 3}

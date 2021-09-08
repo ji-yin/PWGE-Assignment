@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 ﻿{
-=======
-{
->>>>>>> parent of 639fb924 (Delete files)
   "version": "1.0",
   "components": [ 
     "Microsoft.VisualStudio.Workload.ManagedGame"

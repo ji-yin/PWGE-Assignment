@@ -85,11 +85,8 @@ NavMeshProjectSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
-<<<<<<< HEAD
     maxJobWorkers: 0
     preserveTilesOutsideBounds: 0
-=======
->>>>>>> parent of 639fb924 (Delete files)
     debug:
       m_Flags: 0
   m_SettingNames:
