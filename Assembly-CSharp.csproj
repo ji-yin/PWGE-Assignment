@@ -4,9 +4,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 16265ab2 (import lvl3)
 >>>>>>> parent of 2df8fb3f (revert)
+=======
+>>>>>>> parent of d31ece80 (revert)
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
@@ -67,6 +70,7 @@
   <ItemGroup>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\Lvl2\WeatherManager.cs" />
     <Compile Include="Assets\Scripts\Main Character\PlayerCollision.cs" />
     <Compile Include="Assets\Scripts\Lvl2\Key.cs" />
@@ -93,6 +97,8 @@
     <Compile Include="Assets\Scripts\Lvl 4\GreenDinoAI.cs" />
 >>>>>>> parent of 16265ab2 (import lvl3)
 =======
+=======
+>>>>>>> parent of d31ece80 (revert)
     <Compile Include="Assets\Scripts\Lvl2\Enemy\GruzMother\GruzMother.cs" />
     <Compile Include="Assets\Scripts\Lvl2\Enemy\GruzMother\GruzMother_AttackUpNDown.cs" />
     <Compile Include="Assets\Scripts\Lvl2\EnemyAI.cs" />
@@ -110,6 +116,7 @@
     <Compile Include="Assets\Scripts\Lvl2\Props\WeatherManager.cs" />
     <Compile Include="Assets\Scripts\Lvl2\GruzMother\GruzMother_AttackUpNDown.cs" />
     <Compile Include="Assets\Scripts\Main Character\PlayerController.cs" />
+<<<<<<< HEAD
 =======
     <Compile Include="Assets\Scripts\Lvl2\CinemachineShake.cs" />
     <Compile Include="Assets\Scripts\Lvl2\EnemyAI.cs" />
@@ -383,6 +390,8 @@
     <Compile Include="Assets\Scripts\Lvl2\Parallex.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
 >>>>>>> parent of 16265ab2 (import lvl3)
+=======
+>>>>>>> parent of d31ece80 (revert)
     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\WFX_Demo_New.cs" />
     <None Include="Assets\TextMesh Pro 1\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -1070,7 +1079,6 @@
   -->
 </Project>
 =======
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
@@ -2161,6 +2169,7 @@
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
+<<<<<<< HEAD
 =======
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -4070,3 +4079,5 @@
 >>>>>>> fb829392ce9ca0eb41e51b63b77e82d52f5c9077
 >>>>>>> parent of 16265ab2 (import lvl3)
 >>>>>>> parent of 8b0b4f73 (revert)
+=======
+>>>>>>> parent of d31ece80 (revert)
