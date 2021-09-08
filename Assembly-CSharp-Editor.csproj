@@ -57,11 +57,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" />
-<<<<<<< HEAD
-=======
-    <Compile Include="Assets/EffectExamples/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" />
-    <Compile Include="Assets/JMO Assets/WarFX/Editor/CFX_SpawnSystemEditor.cs" />
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll" />
@@ -803,21 +798,6 @@
       <Project>{8427AD66-5140-1149-7C2F-48A1BBA2DF3F}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-<<<<<<< HEAD
-=======
-    <ProjectReference Include="PackageToolsEditor.csproj">
-      <Project>{BD692CB4-B0C6-20A9-1F14-CF2B19542E16}</Project>
-      <Name>PackageToolsEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="AstarPathfindingProject.csproj">
-      <Project>{762853DA-134D-6717-69EC-60A79668FE81}</Project>
-      <Name>AstarPathfindingProject</Name>
-    </ProjectReference>
-    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
-      <Project>{EFA93D3C-FFD8-F496-9DE2-6616F696FAE2}</Project>
-      <Name>AstarPathfindingProjectEditor</Name>
-    </ProjectReference>
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

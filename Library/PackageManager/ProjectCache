@@ -6,17 +6,12 @@ m_ProjectFiles:
     m_ModificationDate:
       serializedVersion: 2
 <<<<<<< HEAD
-<<<<<<< HEAD
       ticks: 637659152150000000
     m_Hash: 2348359619
 =======
       ticks: 637666908491605966
     m_Hash: 2628012558
 >>>>>>> parent of 16265ab2 (import lvl3)
-=======
-      ticks: 637659152150000000
-    m_Hash: 2348359619
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
   m_LockFileStatus:
     m_FilePath: /Users/weiqianho/Documents/GitHub/PWGE-Assignment/Packages/packages-lock.json
     m_PathExists: 1
@@ -24,17 +19,12 @@ m_ProjectFiles:
     m_ModificationDate:
       serializedVersion: 2
 <<<<<<< HEAD
-<<<<<<< HEAD
       ticks: 637659152150000000
     m_Hash: 3646100755
 =======
       ticks: 637666908491615964
     m_Hash: 2511562964
 >>>>>>> parent of 16265ab2 (import lvl3)
-=======
-      ticks: 637659152150000000
-    m_Hash: 3646100755
->>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -102,6 +92,7 @@ m_PackageAssets:
         - 6.0.0-pre.2
         - 6.0.0-pre.3
         - 6.0.0-pre.4
+        - 6.0.0
         compatible:
         - 4.0.2
         - 4.1.0
@@ -737,6 +728,7 @@ m_PackageAssets:
         - 1.2.1
         - 1.2.2
         - 1.2.3
+        - 1.2.4
         compatible:
         - 1.0.2
         - 1.0.3
@@ -749,7 +741,8 @@ m_PackageAssets:
         - 1.2.1
         - 1.2.2
         - 1.2.3
-        verified: 1.2.3
+        - 1.2.4
+        verified: 1.2.4
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -3792,6 +3785,7 @@ m_PackageAssets:
         - 6.0.5
         - 7.0.0-pre.2
         - 7.0.0-pre.3
+        - 7.0.0
         compatible:
         - 5.0.5
         - 5.0.6
@@ -3969,6 +3963,7 @@ m_PackageAssets:
         - 6.0.0-pre.2
         - 6.0.0-pre.3
         - 6.0.0-pre.4
+        - 6.0.0
         compatible:
         - 4.0.2
         - 4.0.3
