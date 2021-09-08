@@ -1,20 +1,11 @@
 ﻿<Properties StartupConfiguration="{8427AD66-5140-1149-7C2F-48A1BBA2DF3F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Lvl2/Enemy/Skeleton&amp;FK/Enemy_behaviour.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Main Character/PlayerControllerDemo.cs">
     <Files>
-<<<<<<< HEAD
       <File FileName="Assets/Scripts/Lvl2/Enemy/Frog&amp;Eagle/Enemy.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Lvl2/Enemy/Frog&amp;Eagle/Eagle/Eagle.cs" Line="15" Column="19" />
       <File FileName="Assets/Scripts/Lvl2/Enemy/GruzMother/GruzMother.cs" Line="32" Column="30" />
       <File FileName="Assets/Scripts/Lvl2/EnemyAI.cs" Line="48" Column="4" />
       <File FileName="Assets/Scripts/Main Character/PlayerControllerDemo.cs" Line="599" Column="6" />
-=======
-      <File FileName="Assets/Scripts/Lvl2/Props/WeatherManager.cs" Line="30" Column="31" />
-      <File FileName="Assets/Scripts/Lvl2/Menu/PauseMenu.cs" Line="15" Column="40" />
-      <File FileName="Assets/Scripts/Lvl2/Enemy/Frog&amp;Eagle/Frog/Frog.cs" Line="8" Column="46" />
-      <File FileName="Assets/Scripts/Main Character/PlayerControllerDemo.cs" Line="177" Column="10" />
-      <File FileName="Assets/Scripts/Lvl2/Enemy/Skeleton&amp;FK/FK_behaviour.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Lvl2/Enemy/Skeleton&amp;FK/Enemy_behaviour.cs" Line="1" Column="1" />
->>>>>>> parent of 6dc571ac (import lvl2)
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,23 +14,11 @@
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
                 <Node name="Lvl2" expanded="True">
-<<<<<<< HEAD
                   <Node name="Enemy" expanded="True" />
                 </Node>
                 <Node name="Main Character" expanded="True">
                   <Node name="PlayerControllerDemo.cs" selected="True" />
-=======
-                  <Node name="Enemy" expanded="True">
-                    <Node name="Frog&amp;Eagle" expanded="True">
-                      <Node name="Frog" expanded="True" />
-                    </Node>
-                    <Node name="Skeleton&amp;FK" expanded="True">
-                      <Node name="Enemy_behaviour.cs" selected="True" />
-                    </Node>
-                  </Node>
->>>>>>> parent of 6dc571ac (import lvl2)
                 </Node>
-                <Node name="Main Character" expanded="True" />
               </Node>
             </Node>
           </Node>

@@ -73,15 +73,15 @@ public class PlayerControllerDemo : MonoBehaviour
 =======
 >>>>>>> parent of 1986e5ac (Merge branch 'master' of https://github.com/ji-yin/PWGE-Assignment)
     [Header("InspectorVar")]
-    [NamedArrayAttribute(new string[] { "Speed", "CimbSpeed", "JumpForce", "HurtForce","AttackRange","AttackRate", "NextAttackTime" })]
+    [NamedArrayAttribute(new string[] { "speed", "cimbSpeed", "jumpForce", "hurtForce","attackRange","attackRate", "nextAttackTime" })]
     [SerializeField] private float[] playerVar;
-    [NamedArrayAttribute(new string[] { "GroundLayer", "EnemyLayer"})]
+    [NamedArrayAttribute(new string[] { "groundLayer", "enemyLayer"})]
     [SerializeField] private LayerMask[] layers;
-    [NamedArrayAttribute(new string[] { "Gem", "Footstep", "Hurt" ,"Dead"})]
+    [NamedArrayAttribute(new string[] { "gem", "footstep", "hurt" ,"dead"})]
     [SerializeField] private AudioSource[] playerAudio;
-    [NamedArrayAttribute(new string[] { "AttackPoint", "GroundDetection", "GroundDetectionL", "GroundDetectionR"})]
+    [NamedArrayAttribute(new string[] { "attackPoint", "groundDetection", "groundDetectionL", "groundDetectionR"})]
     [SerializeField] private Transform[] playerDetect;
-    [NamedArrayAttribute(new string[] { "Gems", "MaxHealth", "CurrentHealth"})]
+    [NamedArrayAttribute(new string[] { "gems", "maxHealth", "currentHealth"})]
     [SerializeField] private int[] playerPoints;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -511,10 +511,7 @@ public class PlayerControllerDemo : MonoBehaviour
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
         playerAudio[2].Play();
-=======
->>>>>>> parent of 6dc571ac (import lvl2)
         playerPoints[2] -= damage;
         healthAmount.text = playerPoints[2].ToString();
         anim.SetInteger("state", 4);

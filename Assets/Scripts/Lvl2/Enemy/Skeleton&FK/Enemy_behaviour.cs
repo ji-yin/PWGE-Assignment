@@ -7,7 +7,7 @@ public class Enemy_behaviour : MonoBehaviour
     [Header("InspectorVar")]
     //AttackDistance = Minimum distance for attack
     //Timer = Timer for cooldown between attacks
-    [NamedArrayAttribute(new string[] { "AttackDistance", "MoveSpeed", "Timer", "AttackRange"})]
+    [NamedArrayAttribute(new string[] { "attackDistance", "moveSpeed", "timer", "attackRange"})]
     [SerializeField] protected float[] enemyVar;
     [NamedArrayAttribute(new string[] { "leftLimit", "rightLimit"})]
     [SerializeField] private Transform[] enemyLimit;
