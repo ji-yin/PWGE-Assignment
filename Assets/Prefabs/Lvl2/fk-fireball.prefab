@@ -134,6 +134,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d5abe14a21f3437390dade21a3816ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  granadeVar:
+  - 3
+  - 3.33
+  - 300
   delay: 3
   radius: 3.33
   force: 300

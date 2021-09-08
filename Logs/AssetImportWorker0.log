@@ -1,8 +1,8 @@
 Using pre-set license
-<<<<<<< HEAD
 
  COMMAND LINE ARGUMENTS:
 /Applications/Unity/Unity.app/Contents/MacOS/Unity
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -17,6 +17,8 @@ BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, I
 C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
 >>>>>>> parent of b93abbce (lvl3)
 >>>>>>> parent of c13a0216 (import)
+=======
+>>>>>>> parent of 1e869776 (import lvl2)
 -adb2
 -batchMode
 -noUpm
@@ -24,9 +26,12 @@ C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
 AssetImportWorker0
 -projectPath
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> parent of c13a0216 (import)
+=======
+>>>>>>> parent of 1e869776 (import lvl2)
 /Users/weiqianho/Documents/GitHub/PWGE-Assignment
 -logFile
 Logs/AssetImportWorker0.log
@@ -982,6 +987,7 @@ Received Import Request.
 Start importing Assets/Tilemaps/Tile Asset/tileset-sliced_8.asset using Guid(5178eae1fe490ca4882dfe26210328c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18df4e378999dae0af8a21ea066c78b3') in 0.005880 seconds
   Import took 0.017273 seconds .
 
+<<<<<<< HEAD
 =======
 D:/PWGE-Assignment
 -logFile
@@ -1025,3 +1031,5 @@ Registering precompiled user dll's ...
 Registered in 0.620641 seconds.
 >>>>>>> parent of b93abbce (lvl3)
 >>>>>>> parent of c13a0216 (import)
+=======
+>>>>>>> parent of 1e869776 (import lvl2)

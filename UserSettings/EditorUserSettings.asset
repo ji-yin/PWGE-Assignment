@@ -9,6 +9,7 @@ EditorUserSettings:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     RecentlyUsedScenePath-0:
       value: 22424703114646680e0b0227036c73061a45563f22213229
       flags: 0
@@ -81,6 +82,8 @@ EditorUserSettings:
       value: 22424703114646680e0b0227036c73061a44563f22213229
       flags: 0
 >>>>>>> parent of c13a0216 (import)
+=======
+>>>>>>> parent of 1e869776 (import lvl2)
     vcSharedLogLevel:
       value: 0d5e400f0650
       flags: 0
@@ -94,4 +97,4 @@ EditorUserSettings:
   m_VCProjectOverlayIcons: 1
   m_VCHierarchyOverlayIcons: 1
   m_VCOtherOverlayIcons: 1
-  m_VCAllowAsyncUpdate: 0
+  m_VCAllowAsyncUpdate: 1

@@ -291,7 +291,6 @@ GameObject:
   - component: {fileID: 3816270193039344430}
   - component: {fileID: 3816270193039344433}
   - component: {fileID: 3816270193039344428}
-  - component: {fileID: 1988487195252173837}
   - component: {fileID: 3915209815816790027}
   m_Layer: 12
   m_Name: Skeleton
@@ -380,35 +379,13 @@ MonoBehaviour:
   inRange: 0
   enemyDamage: 10
   playerDamage: 1
-  hotZone: {fileID: 3816270192634496805}
-  triggerArea: {fileID: 3816270192614286690}
   hitBox: {fileID: 3816270192056298026}
   attackRange: 0.5
   playerLayers:
     serializedVersion: 2
     m_Bits: 128
-  maxHealth: 100
-  cameraShakeIntensity: 5
-  cameraShakeTime: 0.1
-  isHurt: 0
---- !u!114 &1988487195252173837
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3816270193039344432}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 664e9cfc555038a45b8a622688f2a2e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 3816270193039344433}
-  maxHealth: 100
-  hitBox: {fileID: 3816270192056298027}
-  playerLayers:
-    serializedVersion: 2
-    m_Bits: 128
+  hotZone: {fileID: 3816270192634496805}
+  triggerArea: {fileID: 3816270192614286690}
 --- !u!82 &3915209815816790027
 AudioSource:
   m_ObjectHideFlags: 0
